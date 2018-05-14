@@ -1,0 +1,4 @@
+.navigation-container {
+    position: relative;
+    @include make-fluid-container(1360px);
+}

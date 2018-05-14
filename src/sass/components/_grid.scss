@@ -1,0 +1,69 @@
+
+.row {
+    @include make-row();
+}
+
+.container .container--band {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.container--band {
+    position: relative;
+
+    &:before, &:after {
+        background-color: inherit;
+        position: absolute;
+        width: 999px;
+        top: 0;
+        height: 100%;
+        display: block;
+        content: '';
+    }
+
+    & > *:last-child {
+        &, & > *:last-child {
+            margin-bottom: 0 !important;
+        }
+    }
+
+    &:before { right: 100%; }
+    &:after { left: 100%; }
+}
+
+.container {
+    @include make-container();
+
+    @each $name, $size in $m-sizes {
+        &--#{$name} {
+            padding-top: $size;
+            padding-bottom: $size;
+        }
+    }
+
+    &--primary {
+        background-color: color(primary);
+        color: color-contrast(color(primary), inherit);
+    }
+
+    &--danger {
+        background-color: color(danger);
+        color: color-contrast(color(primary), inherit);
+    }
+
+    &--success {
+        background-color: color(success);
+        color: color-contrast(color(primary), inherit);
+    }
+
+    &--info {
+        background-color: color(info);
+        color: color-contrast(color(info), inherit);
+    }
+
+    &--default {
+        background-color: #dddddd;
+        color: color-contrast(color(info), inherit);
+    }
+
+}

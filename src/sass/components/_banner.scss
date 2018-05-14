@@ -1,0 +1,15 @@
+.banner {
+    height: 100vh;
+    background: green;
+
+    @include media-min($navigation-breakpoint) {
+        height: calc(100vh - 90px);
+        margin-bottom: 90px;
+    }
+
+    @include media-min(lg) {
+        height: calc(100vh - 92px);
+        margin-bottom: 92px;
+    }
+
+}

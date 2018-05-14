@@ -1,0 +1,48 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-top: 0;
+}
+
+h1,
+.h1 {
+    font-size: 1.666666em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: color(primary, dark);
+}
+
+p,
+ul,
+ol,
+pre,
+table.table {
+    margin-bottom: 25px;
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}

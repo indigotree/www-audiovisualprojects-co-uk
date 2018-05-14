@@ -1,0 +1,11 @@
+.logo {
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+
+    @include media-min(md) {
+        display: block;
+    }
+
+}

@@ -1,0 +1,16 @@
+@function color-contrast($check, $color1: #000000, $color2: #FFFFFF, $tolerance: 50) {
+    @if(lightness($check) >= $tolerance) {
+        @return $color1;
+    } @else {
+        @return $color2;
+    }
+}
+
+@function encode-hex($string) {
+    @if type-of($string) == 'color' {
+        $hex: str-slice(ie-hex-str($string), 4);
+        $string:unquote("#{$hex}");
+    }
+    $string: '%23' + $string;
+    @return $string;
+}

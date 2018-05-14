@@ -1,0 +1,46 @@
+// Colours..
+$colors: (
+    primary: (
+        base: #25282a,
+        light: #96a3ae,
+        medium: #515c64,
+        dark: #233746
+    ),
+    success: (
+        base: #5cb85c
+    ),
+    info: (
+        base: #3D94CC
+    ),
+    warning: (
+        base: #f0ad4e
+    ),
+    danger: (
+        base: #F32836
+    ),
+    grey: (
+        base: #454546,
+        light: #ccc9c9,
+        dark: #111111
+    )
+);
+
+@function color($name, $variant: base) {
+    @return map-get(map-get($colors, $name), $variant);
+}
+
+// Fonts..
+$base-font-family: 'Raleway', sans-serif;
+$base-font-size: 18px;
+$base-font-color: color(grey, dark);
+$base-line-height: 1.78;
+
+// Grid..
+$navigation-breakpoint: md;
+$container: (
+    md: 940px,
+    lg: 1140px
+);
+
+// Misc sizes..
+$m-sizes: (zero: 0, xs: 1em, sm: 2em, md: 3em, lg: 4em);

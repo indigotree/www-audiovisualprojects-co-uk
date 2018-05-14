@@ -1,0 +1,23 @@
+.header {
+
+    @include media-min($navigation-breakpoint) {
+        position: absolute;
+        bottom: 0;
+        background: color(primary);
+        width: 100%;
+
+        &--fixed & {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: auto;
+        }
+
+        &--top & {
+            bottom: auto;
+            top: 0;
+        }
+    }
+
+}

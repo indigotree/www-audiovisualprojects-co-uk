@@ -1,5 +1,49 @@
-<header class="site-header" role="banner">
+<header class="header" id="header" role="banner">
 
-    <strong><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></strong>
-    
+    <button id="navigation-toggle" class="navigation-toggle">
+        <span class="sr-only">Toggle Navigation</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="navigation-toggle__icon" viewBox="0 0 24 24">
+            <path d="M24 6H0V2h24v4zm0 4H0v4h24v-4zm0 8H0v4h24v-4z"/>
+        </svg>
+    </button>
+
+    <div class="navigation-container">
+
+        <nav class="navigation">
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Solutions</a>
+                </li>
+                <li>
+                    <a href="#">Support</a>
+                </li>
+                <li>
+                    <a href="#">Professionals</a>
+                </li>
+                <li>
+                    <a href="#">Knowledge Hub</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="logo">
+            <a href="/">
+                <img src="https://placehold.it/120x52" alt="Logo">
+            </a>
+        </div>
+
+    </div>
+
 </header>

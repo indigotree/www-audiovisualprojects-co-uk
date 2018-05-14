@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+@include reset();
+
+html {
+    overflow: visible;
+}
+
+body {
+    overflow-x: hidden;
+    image-rendering: -webkit-optimize-contrast;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: $base-font-family;
+    font-size: $base-font-size / 1.12;
+    color: $base-font-color;
+    line-height: 1.56;
+
+    @include media-min(md) {
+        font-size: $base-font-size;
+        line-height: $base-line-height;
+    }
+}
+
+@each $name, $size in $m-sizes {
+    @each $position, $short in (top: 't', right: 'r', bottom: 'b', left: 'l') {
+        .m--#{$short}-#{$name} {
+            margin-#{$position}: #{$size};
+        }
+    }
+}
+
+.text {
+    &--left {
+        text-align: left;
+    }
+    &--center {
+        text-align: center;
+    }
+    &--right {
+        text-align: right;
+    }
+}
