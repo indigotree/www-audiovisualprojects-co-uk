@@ -16,10 +16,18 @@
             flex: 0 0 50%;
             max-width: 50%;
             margin: 0;
+            overflow: hidden;
+            position: relative;
         }
 
         img {
-            object-fit: cover;
+            @include media-min(sm) {
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 50%;
+                left: 50%;
+                max-width: none;
+            }
         }
 
     }
@@ -27,8 +35,7 @@
     &__right {
         margin-bottom: 1.2em;
         text-align: center;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 1em 15px;
 
         @include media-min(sm) {
             flex: 0 0 50%;
@@ -36,8 +43,12 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 0 3.4em;
+            padding: 4em 3.4em;
             margin: 0;
+        }
+
+        @include media-min(lg) {
+            padding: 8em 3.4em;
         }
 
     }

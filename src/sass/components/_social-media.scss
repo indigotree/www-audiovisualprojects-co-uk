@@ -9,9 +9,14 @@
         background: color(primary, light);
         border-radius: 50%;
         margin-right: 10px;
+        transition: transform .3s ease;
 
         &:last-child {
             margin: 0;
+        }
+
+        &:hover {
+            transform: scale(1.1);
         }
 
         svg {
