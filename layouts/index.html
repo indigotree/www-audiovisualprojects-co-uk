@@ -10,5 +10,113 @@
     {{ .Content }}
 </div>
 
+<div class="container--lg container--image" style="background-image: url(/images/tablet-interaction.jpg)">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="column--sm-6">
+
+                <div class="caption">
+
+                    <span class="caption__title">Complex in design, simple to use</span>
+        
+                    <span class="caption__description">Bespoke solutions<br>designed to be discrete<br>and easy to use</span>
+        
+                    <div class="caption__footer">
+                        <a href="/" class="button button--block button--default button--lg button--arrow-right m--b-sm">
+                            Find out how
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 27" class="arrow">
+                                <path fill-rule="evenodd"  d="M38.47 12.21L26.87.53a1.8 1.8 0 0 0-2.57 0c-.71.72-.71 1.87 0 2.58l8.5 8.57H1.82c-1 0-1.81.81-1.81 1.82 0 1 .81 1.82 1.81 1.82h31L24.3 23.9A1.83 1.83 0 0 0 25.58 27c.47 0 .93-.18 1.28-.53l11.6-11.68c.72-.71.72-1.87 0-2.58z" />
+                            </svg>
+                        </a>
+                    </div>
+        
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container container--band container--sm container--primary-darkest">
+    
+    <div class="row">
+
+        <div class="column--md-8">
+            <span class="text--uppercase text--primary-light">Audio Visual projects</span>
+            <span>Bespoke lighting design + AV automation</span>
+        </div>
+
+        <div class="column--md-4">
+            {{ partial "logo" . }}
+        </div>
+
+    </div>
+
+</div>
+
+{{ $content := "The bespoke solutions we design are discrete and easy to use. In fact, the simpler it is to use, the more technical it is behind the scenes. Our aim is to transform your space and deliver an automated system that will enhance all aspects of your everyday life." }}
+{{ partial "split" (dict "title" "Home Automation" "link_text" "Find out more" "link" "/" "image" "/images/top-down-meeting.jpg" "image_position" "left" "content" $content "Scope" . ) }}
+
+{{ $content := "The bespoke solutions we design are discrete and easy to use. In fact, the simpler it is to use, the more technical it is behind the scenes. Our aim is to transform your space and deliver an automated system that will enhance all aspects of your everyday life." }}
+{{ partial "split" (dict "title" "Lighting" "link_text" "Find out more" "link" "/" "image" "/images/top-down-meeting.jpg" "image_position" "right" "content" $content "Scope" . ) }}
+
+{{ $content := "The bespoke solutions we design are discrete and easy to use. In fact, the simpler it is to use, the more technical it is behind the scenes. Our aim is to transform your space and deliver an automated system that will enhance all aspects of your everyday life." }}
+{{ partial "split" (dict "title" "Audio Visual" "link_text" "Find out more" "link" "/" "image" "/images/top-down-meeting.jpg" "image_position" "left" "content" $content "Scope" . ) }}
+
+{{ $content := "The bespoke solutions we design are discrete and easy to use. In fact, the simpler it is to use, the more technical it is behind the scenes. Our aim is to transform your space and deliver an automated system that will enhance all aspects of your everyday life." }}
+{{ partial "split" (dict "title" "Security" "link_text" "Find out more" "link" "/" "image" "/images/top-down-meeting.jpg" "image_position" "right" "content" $content "Scope" . ) }}
+
+<div class="container container--band container--md text--center">
+
+    <h2 class="m--b-sm">Extraordinary work</h2>
+
+    <div class="row m--b-sm">
+
+        <div class="column--md-4">
+            <img src="https://placehold.it/768x768" alt="placeholder" />
+        </div>
+
+        <div class="column--md-4">
+            <img src="https://placehold.it/768x768" alt="placeholder" />
+        </div>
+
+        <div class="column--md-4">
+            <img src="https://placehold.it/768x768" alt="placeholder" />
+        </div>
+
+    </div>
+
+    <a href="#" class="button button--md button--primary-dark text--uppercase">View our projects</a>
+
+</div>
+
+<div class="container container--band container--md text--center">
+
+    <h2 class="m--b-sm">Extraordinary range</h2>
+
+    <div>
+        ICONS HERE!!
+    </div>
+
+</div>
+
+<div class="container container--primary-light container--band container--sm">
+
+    <blockquote class="band-quote">
+        "All your staff are a delightfull bunch and I will miss them when the project is finished"
+        <footer class="band-quote__footer">
+            <cite class="band-quote__cite">Mr & Mrs Smith, Chelsea</cite>
+        </footer>
+    </blockquote>
+
+    <a href="#" class="read-more">Read more</a>
+
+</div>
 
 {{ end }}

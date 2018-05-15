@@ -17,7 +17,7 @@
         width: 999px;
         top: 0;
         height: 100%;
-        display: block;
+        display: block !important;
         content: '';
     }
 
@@ -41,29 +41,26 @@
         }
     }
 
-    &--primary {
-        background-color: color(primary);
-        color: color-contrast(color(primary), inherit);
+    &--image {
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
     }
 
-    &--danger {
-        background-color: color(danger);
-        color: color-contrast(color(primary), inherit);
-    }
-
-    &--success {
-        background-color: color(success);
-        color: color-contrast(color(primary), inherit);
-    }
-
-    &--info {
-        background-color: color(info);
-        color: color-contrast(color(info), inherit);
-    }
-
-    &--default {
-        background-color: #dddddd;
-        color: color-contrast(color(info), inherit);
+    @each $name, $shades in $colors {
+        @each $shade, $color in $shades {
+            @if $shade == base {
+                &--#{$name} {
+                    background-color: $color;
+                    color: color-contrast($color, inherit);
+                }
+            } @else {
+                &--#{$name}-#{$shade} {
+                    background-color: $color;
+                    color: color-contrast($color, inherit);
+                }
+            }
+        }
     }
 
 }

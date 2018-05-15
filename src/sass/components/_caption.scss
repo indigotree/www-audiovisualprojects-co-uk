@@ -1,0 +1,32 @@
+.caption {
+    color: white;
+
+    &__title {
+        font-size: 2.34em;
+        display: block;
+        line-height: normal;
+        margin-bottom: .5em;
+
+        @include media-min(sm) {
+            font-size: 3.34em;
+        }
+
+    }
+
+    &__description {
+        font-size: 1.4em;
+        text-transform: uppercase;
+        line-height: 1.2em;
+        margin-bottom: 1.7em;
+        display: block;
+
+        @include media-min(sm) {
+            font-size: 1.68em;
+        }
+    }
+
+    &__footer {
+
+    }
+
+}

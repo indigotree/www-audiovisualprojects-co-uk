@@ -1,0 +1,31 @@
+.contact-details {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+        margin-bottom: .2em;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1em;
+
+            &:hover,
+            &:focus {
+                text-decoration: underline;
+            }
+        }
+
+    }
+
+    &__email {
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &:hover,
+        &:focus {
+            overflow: visible;
+        }
+    }
+}

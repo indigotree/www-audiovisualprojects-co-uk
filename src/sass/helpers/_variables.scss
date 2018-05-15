@@ -4,7 +4,8 @@ $colors: (
         base: #25282a,
         light: #96a3ae,
         medium: #515c64,
-        dark: #233746
+        dark: #233746,
+        darkest: #202325
     ),
     success: (
         base: #5cb85c
@@ -17,6 +18,9 @@ $colors: (
     ),
     danger: (
         base: #F32836
+    ),
+    default: (
+        base: white
     ),
     grey: (
         base: #454546,
@@ -43,4 +47,4 @@ $container: (
 );
 
 // Misc sizes..
-$m-sizes: (zero: 0, xs: 1em, sm: 2em, md: 3em, lg: 4em);
+$m-sizes: (zero: 0, xs: 1em, sm: 2em, md: 3em, lg: 6em);

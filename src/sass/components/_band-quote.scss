@@ -1,0 +1,17 @@
+.band-quote {
+    color: white;
+    font-weight: 500;
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 1em;
+    line-height: normal;
+
+    &__footer {
+        padding-top: .6em;
+        font-size: .6em;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+}

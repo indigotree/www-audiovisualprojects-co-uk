@@ -22,6 +22,20 @@ h1,
     color: color(primary, dark);
 }
 
+h2,
+.h2 {
+    font-size: 1.666666em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: color(primary, dark);
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
 p,
 ul,
 ol,
@@ -34,6 +48,11 @@ img,
 video {
     max-width: 100%;
     height: auto !important;
+}
+
+strong,
+b {
+    font-weight: bold;
 }
 
 .sr-only {

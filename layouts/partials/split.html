@@ -1,0 +1,25 @@
+<div class="split split--{{ .image_position | default "left" }}">
+
+    {{ if .image }}
+        <div class="split__left">
+            <img src="{{ .image | absURL }}" alt="{{ .image_alt | default .title }}" />
+        </div>
+    {{ end }}
+
+    <div class="split__right">
+
+        {{ with .title }}<h2 class="split__title">{{ . }}</h2>{{ end }}
+
+        <div class="split__body">
+            {{ .content | markdownify }}
+        </div>
+
+        {{ if and .link .link_text }}
+            <div class="split__footer">
+                <a href="{{ .link | absURL }}" class="button button--primary-dark text--uppercase">{{ .link_text }}</a>
+            </div>
+        {{ end }}
+
+    </div>
+
+</div>

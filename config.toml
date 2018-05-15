@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-gb"
-title = "{TITLE}"
+title = "Audio Visual Projects"
 
 enableRobotsTXT = true
 disableAliases = true

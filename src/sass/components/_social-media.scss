@@ -1,0 +1,22 @@
+.social-media {
+    display: flex;
+
+    a {
+        display: block;
+        width: 37px;
+        height: 37px;
+        padding: 8px;
+        background: color(primary, light);
+        border-radius: 50%;
+        margin-right: 10px;
+
+        &:last-child {
+            margin: 0;
+        }
+
+        svg {
+            fill: color(primary)
+        }
+    }
+
+}

@@ -1,0 +1,71 @@
+.button {
+    cursor: pointer;
+    display: inline-block;
+    padding: .56em 1.2em;
+    border: 1px solid color(grey, dark);
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+
+    &--block {
+        width: 100%;
+        display: block;
+    }
+
+    &--lg {
+        padding: .56em .8em;
+        font-size: 1.389em;
+    }
+
+    &--md {
+        padding: .56em .8em;
+        font-size: 1.15em;
+    }
+
+    &--arrow-right {
+        padding-right: 3.8em;
+        position: relative;
+
+        .arrow {
+            position: absolute;
+            right: 1em;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            fill: color(primary, light);
+        }
+    }
+
+    @each $name, $shades in $colors {
+        @each $shade, $color in $shades {
+            @if $shade == base {
+                &--#{$name} {
+                    border-color: $color;
+                    color: $color;
+
+                    &:hover,
+                    &:focus {
+                        border-color: darken($color, 7%);
+                        color: $color;
+                    }
+                }
+            } @else {
+                &--#{$name}-#{$shade} {
+                    border-color: $color;
+                    color: $color;
+
+                    &:hover,
+                    &:focus {
+                        border-color: darken($color, 5%);
+                        color: $color;
+                    }
+                }
+            }
+        }
+    }
+
+}

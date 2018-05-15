@@ -1,0 +1,29 @@
+.footer-navigation {
+    display: inline;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        display: inline;
+    }
+
+    li {
+        display: inline;
+
+        &:before {
+            content: ' | ';
+        }
+
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+
+}
