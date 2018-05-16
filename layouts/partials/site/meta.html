@@ -2,5 +2,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+{{ with .Title }}<meta property="og:title" content="{{ . }}" />{{ end }}
 {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ with .Permalink }}<meta property="og:url" content="{{ . | absURL }}" />{{ end }}
+{{ with .Site.Title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
+{{ with .Params.featured_image }}<meta property="og:image" content="{{ . | absURL }}" />{{ end }}
 {{ .Hugo.Generator }}

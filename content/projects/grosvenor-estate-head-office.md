@@ -5,6 +5,8 @@ location: "Mayfair, London"
 featured_image: "https://placehold.it/768x768"
 banner_title: "Grosvenor Estate Head Office"
 banner_meta: "Mayfair, London"
+description: ""
+yoast_keyword: ""
 ---
 
 ## Project Overview
