@@ -788,6 +788,7 @@ b {
   @media screen and (min-width: 992px) {
     .header .logo {
       left: auto;
+      top: 20px;
       right: 15px;
       display: block; } }
 

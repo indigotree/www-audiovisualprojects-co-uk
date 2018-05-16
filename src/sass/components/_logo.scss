@@ -9,6 +9,7 @@
 
         @include media-min(md) {
             left: auto;
+            top: 20px;
             right: 15px;
             display: block;
         }
