@@ -1,10 +1,11 @@
 .item {
     text-decoration: none;
-    padding: 20px;
+    padding: 1.2em;
     display: block;
     background: lighten(color(primary, light), 35%);
     cursor: pointer;
     transition: background .3s ease;
+    margin-bottom: 1.5em;
 
     &:hover,
     &:focus {
