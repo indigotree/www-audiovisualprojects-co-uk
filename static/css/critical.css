@@ -780,13 +780,15 @@ b {
   max-width: 1360px; }
 
 .header .logo {
-  display: none;
   position: absolute;
-  right: 15px;
-  top: 20px;
-  width: 120px; }
+  left: 10px;
+  top: 10px;
+  width: 120px;
+  z-index: 10; }
   @media screen and (min-width: 992px) {
     .header .logo {
+      left: auto;
+      right: 15px;
       display: block; } }
 
 .footer .logo {
