@@ -1,6 +1,29 @@
 {{ $images := .banner_images | default ( slice .Scope.Site.Data.banner.default_image ) }}
+{{ $title := .banner_title }}
+{{ $meta := .banner_meta }}
 <div class="banner carousel" id="carousel">
     {{ range $index, $media := $images }}
-        <div class="carousel__media" style="background-image: url({{ $media }})"></div>
+        <div class="carousel__media" style="background-image: url({{ $media }})">
+
+            {{ if or $title $meta }}
+                <div class="carousel__caption">
+                    
+                    {{ if $title }}
+                        <span class="carousel__title">
+                            {{ $title }}
+                        </span>
+                    {{ end }}
+
+                    {{ if $meta }}
+                        <span class="carousel__meta">
+                            {{ $meta }}
+                        </span>
+                    {{ end }}
+
+                </div>
+
+            {{ end }}
+
+        </div>
     {{ end }}
 </div>

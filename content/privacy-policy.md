@@ -1,6 +1,6 @@
 ---
-title: "Support"
-banner_title: "Support"
+title: "Privacy Policy"
+banner_title: "Privacy Policy"
 banner_meta: ""
 ---
 

@@ -64,4 +64,32 @@
 
     }
 
+    &__caption {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        max-width: 500px;
+    }
+
+    &__title {
+        color: white;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: block;
+        line-height: normal;
+        margin-bottom: .2em;
+    }
+
+    &__meta {
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.4em;
+        font-weight: 300;
+        display: block;
+        line-height: normal;
+    }
+
 }

@@ -1,6 +1,6 @@
 ---
-title: "Support"
-banner_title: "Support"
+title: "Cookies"
+banner_title: "Cookies"
 banner_meta: ""
 ---
 

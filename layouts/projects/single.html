@@ -1,6 +1,8 @@
 {{ define "main" }}
 
-{{ partial "carousel" ( dict "banner_images" .Params.banner_images "Scope" . ) }}
+{{ $title := .Params.banner_title | default .Title }}
+{{ $meta := .Params.banner_meta | default .Params.location }}
+{{ partial "carousel" ( dict "banner_images" .Params.banner_images "banner_title" $title "banner_meta" $meta "Scope" . ) }}
 
 <div class="container container--band container--md text--center">
     {{ .Content }}

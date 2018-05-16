@@ -1,6 +1,6 @@
 ---
-title: "Support"
-banner_title: "Support"
+title: "Terms of Use"
+banner_title: "Terms of Use"
 banner_meta: ""
 ---
 

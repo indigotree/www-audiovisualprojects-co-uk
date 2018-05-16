@@ -1,6 +1,6 @@
 ---
-title: "Support"
-banner_title: "Support"
+title: "Partners"
+banner_title: "Partners"
 banner_meta: ""
 ---
 

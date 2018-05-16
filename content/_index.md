@@ -1,5 +1,7 @@
 ---
 banner_images: ["https://placehold.it/1920x1080", "https://placehold.it/1920x1080", "https://placehold.it/1920x1080"]
+banner_title: ""
+banner_meta: ""
 ---
 
 # Making life extraordinary
