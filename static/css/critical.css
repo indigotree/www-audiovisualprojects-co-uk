@@ -810,7 +810,8 @@ b {
       margin-right: 50px; } }
 
 .banner {
-  height: 100vh; }
+  height: 100vh;
+  overflow: hidden; }
   @media screen and (min-width: 992px) {
     .banner {
       height: calc(100vh - 90px);
