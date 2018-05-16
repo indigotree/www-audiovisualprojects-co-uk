@@ -1,0 +1,13 @@
+.item-list {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    > div {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}

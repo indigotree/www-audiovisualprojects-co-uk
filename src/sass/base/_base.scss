@@ -34,6 +34,11 @@ body {
 
 .text {
 
+    &--lead {
+        font-size: 1.89em;
+        line-height: 1.25em;
+    }
+
     &--medium {
         font-weight: 500;
     }

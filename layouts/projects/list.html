@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+{{ partial "carousel" ( dict "banner_images" .Params.banner_images "Scope" . ) }}
+
+<div class="container container--md">
+
+    {{ if .Title }}
+        <h1 class="text--center">{{ .Title }}</h1>
+    {{ end }}
+
+    {{ if .Content }}
+        <div class="text--center m--b-sm">
+            {{ .Content }}
+        </div>
+    {{ end }}
+
+    <div class="item-list">
+
+        {{ range (.Paginator 9).Pages }}
+
+            <div>
+
+                <a href="{{ .Permalink | absURL }}" class="item item--project">
+
+                    <div class="item__thumbnail">
+                        <img src="{{ .Params.featured_image }}" alt="{{ .Params.featured_image_alt | default .Title }}" />
+                    </div>
+
+                    <h3 class="item__title">{{ .Title }}</h3>
+
+                    <span class="item__meta">{{ .Params.location }}</span>
+
+                </a>
+
+            </div>
+
+        {{ end }}
+
+    </div>
+
+</div>
+
+{{ end }}

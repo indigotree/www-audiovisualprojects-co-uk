@@ -5,6 +5,8 @@
     padding: 12px 13px;
     border: 0;
     background: rgba(white, .3);
+    z-index: 20;
+    cursor: pointer;
 
     @include media-min($navigation-breakpoint) {
         display: none;
@@ -14,6 +16,10 @@
         height: 24px;
         width: 24px;
         fill: rgba(white, .8);
+
+        .banner--no-banner & {
+            fill: black;
+        }
     }
 
 }

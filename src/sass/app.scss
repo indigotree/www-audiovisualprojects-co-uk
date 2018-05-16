@@ -2,9 +2,11 @@
 @import "helpers/variables";
 @import "helpers/functions";
 @import "helpers/mixins";
+@import "helpers/animations";
 
 // Vendor.
 @import "vendor/css-reset";
+@import "vendor/slick";
 @import "vendor/origin-beam-grid/grid";
 
 // Base.
@@ -31,4 +33,8 @@
 @import "components/read-more";
 @import "components/caption";
 @import "components/split";
+@import "components/carousel";
+@import "components/item-list";
+@import "components/item";
+@import "components/image-hover";
 

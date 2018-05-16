@@ -15,7 +15,7 @@
         {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
 
     </head>
-    <body>
+    <body class="{{ if not .IsHome }}header--top{{ end }}">
 
         {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
 

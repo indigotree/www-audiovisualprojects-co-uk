@@ -5,6 +5,7 @@
     border: 1px solid color(grey, dark);
     text-decoration: none;
     font-weight: 500;
+    transition: background .3s ease;
 
     &:hover,
     &:focus {
@@ -17,12 +18,12 @@
     }
 
     &--lg {
-        padding: .56em .8em;
+        padding: .56em 1em;
         font-size: 1.389em;
     }
 
     &--md {
-        padding: .56em .8em;
+        padding: .56em 1em;
         font-size: 1.15em;
     }
 
@@ -36,8 +37,13 @@
             top: 50%;
             transform: translateY(-50%);
             width: 40px;
-            fill: color(primary, light);
+            fill: rgba(white, .7);
         }
+
+        &:hover .arrow {
+            fill: color(primary)
+        }
+
     }
 
     @each $name, $shades in $colors {
@@ -49,8 +55,8 @@
 
                     &:hover,
                     &:focus {
-                        border-color: darken($color, 7%);
-                        color: $color;
+                        background: $color;
+                        color: color-contrast($color, color(primary));
                     }
                 }
             } @else {
@@ -60,8 +66,8 @@
 
                     &:hover,
                     &:focus {
-                        border-color: darken($color, 5%);
-                        color: $color;
+                        background: $color;
+                        color: color-contrast($color, color(primary));
                     }
                 }
             }

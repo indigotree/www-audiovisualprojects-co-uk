@@ -1,3 +1,16 @@
+<div class="container container--primary-light container--band container--sm">
+
+    <blockquote class="band-quote">
+        "{{ .Params.quote | default .Site.Data.testimonial.quote }}"
+        <footer class="band-quote__footer">
+            <cite class="band-quote__cite">{{ .Params.cite | default .Site.Data.testimonial.cite }}</cite>
+        </footer>
+    </blockquote>
+
+    <a href="{{ .Params.read_more_link | default .Site.Data.testimonial.read_more_link }}" class="read-more">Read more</a>
+
+</div>
+
 <footer class="footer" role="contentinfo">
 
     <div class="container container--band container--md container--primary footer__main">
@@ -18,7 +31,7 @@
 
             <div class="column--md-7">
 
-                <a href="/" class="button button--default button--lg button--arrow-right m--b-sm">
+                <a href="/contact/" class="button button--default button--lg button--arrow-right m--b-sm">
                     Look forward to meeting soon...
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 27" class="arrow">
                         <path fill-rule="evenodd"  d="M38.47 12.21L26.87.53a1.8 1.8 0 0 0-2.57 0c-.71.72-.71 1.87 0 2.58l8.5 8.57H1.82c-1 0-1.81.81-1.81 1.82 0 1 .81 1.82 1.81 1.82h31L24.3 23.9A1.83 1.83 0 0 0 25.58 27c.47 0 .93-.18 1.28-.53l11.6-11.68c.72-.71.72-1.87 0-2.58z" />
@@ -28,11 +41,18 @@
                 <div class="row">
 
                     <div class="column--sm-6">
-                        {{ partial "contact-details" . }}
+                        {{ $telephone := .Site.Data.social.telephone | default "01582 712969" }}
+                        {{ $telephone_formatted := .Site.Data.social.telephone_formatted | default "01582712969" }}
+                        {{ $email := .Site.Data.social.email | default "sales@audiovisualprojects.co.uk" }}
+                        {{ partial "contact-details" ( dict "telephone" $telephone "telephone_formatted" $telephone_formatted "email" $email "Scope" . ) }}
                     </div>
 
                     <div class="column--sm-6">
-                        {{ partial "social-media" . }}
+                        {{ $youtube := .Site.Data.social.youtube }}
+                        {{ $twitter := .Site.Data.social.twitter }}
+                        {{ $linkedin := .Site.Data.social.linkedin }}
+                        {{ $instagram := .Site.Data.social.instagram }}
+                        {{ partial "social-media" ( dict "youtube" $youtube "twitter" $twitter "linkedin" $linkedin "instagram" $instagram "Scope" . ) }}
                     </div>
 
                 </div>

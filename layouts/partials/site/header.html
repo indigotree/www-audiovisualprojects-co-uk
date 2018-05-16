@@ -11,30 +11,15 @@
 
         <nav class="navigation">
             <ul>
-                <li>
-                    <a href="/">Home</a>
+                <li class="{{ if .IsHome }}navigation--active{{ end }}">
+                    <a href="{{ .Site.BaseURL }}" title="Home">Home</a>
                 </li>
-                <li>
-                    <a href="#">Projects</a>
-                </li>
-                <li>
-                    <a href="#">Solutions</a>
-                </li>
-                <li>
-                    <a href="#">Support</a>
-                </li>
-                <li>
-                    <a href="#">Professionals</a>
-                </li>
-                <li>
-                    <a href="#">Knowledge Hub</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                    <li class="{{ if findRE .URL $currentPage.URL }}navigation--active{{ end }}">
+                        <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                    </li>
+                {{ end }}
             </ul>
         </nav>
 

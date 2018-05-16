@@ -1,0 +1,6 @@
+{{ $images := .banner_images | default ( slice .Scope.Site.Data.banner.default_image ) }}
+<div class="banner carousel" id="carousel">
+    {{ range $index, $media := $images }}
+        <div class="carousel__media" style="background-image: url({{ $media }})"></div>
+    {{ end }}
+</div>

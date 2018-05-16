@@ -13,4 +13,14 @@
         document.body.classList[window.pageYOffset >= sticky ? 'add' : 'remove']('header--fixed')
     }
 
+    $(function() {
+        $('#carousel').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+    });
+
 })()

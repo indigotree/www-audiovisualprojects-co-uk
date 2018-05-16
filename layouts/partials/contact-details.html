@@ -1,8 +1,17 @@
-<ul class="contact-details">
-    <li class="contact-details__telephone">
-        <a href="tel:01582712969">01582 712969</a>
-    </li>
-    <li class="contact-details__email">
-        <a href="mailto:sales@audiovisualprojects.co.uk">sales@audiovisualprojects.co.uk</a>
-    </li>
-</ul>
+{{ if or ( and .telephone .telephone_formatted) .email }}
+    <ul class="contact-details">
+
+        {{ if and .telephone .telephone_formatted }}
+            <li class="contact-details__telephone">
+                <a href="tel:{{ .telephone_formatted }}">{{ .telephone }}</a>
+            </li>
+        {{ end }}
+
+        {{ if .email }}
+            <li class="contact-details__email">
+                <a href="mailto:{{ .email }}">{{ .email }}</a>
+            </li>
+        {{ end }}
+
+    </ul>
+{{ end }}

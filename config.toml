@@ -31,3 +31,41 @@ baseName = "_headers"
 isPlainText = true
 notAlternative = true
 
+
+[menu]
+
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        weight = 20
+        url = "/projects/"
+
+    [[menu.main]]
+        name = "Solutions"
+        weight = 30
+        url = "/solutions/"
+
+    [[menu.main]]
+        name = "Support"
+        weight = 40
+        url = "/support/"
+
+    [[menu.main]]
+        name = "Professionals"
+        weight = 50
+        url = "/professionals/"
+
+    [[menu.main]]
+        name = "Knowledge Hub"
+        weight = 60
+        url = "/knowledge-hub/"
+
+    [[menu.main]]
+        name = "About"
+        weight = 70
+        url = "/about/"
+
+    [[menu.main]]
+        name = "Contact"
+        weight = 80
+        url = "/contact/"

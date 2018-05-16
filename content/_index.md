@@ -1,3 +1,7 @@
+---
+banner_images: ["https://placehold.it/1920x1080", "https://placehold.it/1920x1080", "https://placehold.it/1920x1080"]
+---
+
 # Making life extraordinary
 
 We invite you to explore the endless possibilities of lighting design and home automation and see how everyday life can be transformed into something extraordinary. Take control of your home or workspace and create the perfect environment with ease and simplicity.

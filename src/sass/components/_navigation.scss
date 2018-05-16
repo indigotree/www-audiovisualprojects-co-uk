@@ -8,6 +8,7 @@
     position: absolute;
     left: 0;
     top: 0;
+    z-index: 20;
 
     &--open & {
         transform: translateX(0);
@@ -59,6 +60,10 @@
                 font-size: 17px;
             }
 
+        }
+
+        &.navigation--active > a {
+            font-weight: bold;
         }
 
     }

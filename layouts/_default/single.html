@@ -1,8 +1,14 @@
 {{ define "main" }}
 
-    <article>
+{{ partial "carousel" ( dict "banner_images" .Params.banner_images "Scope" . ) }}
+
+<div class="container container--band container--md text--center">
+
+    {{ if .Title }}
         <h1>{{ .Title }}</h1>
-        {{ .Content }}
-    </article>
+    {{ end }}
+
+    {{ .Content }}
+</div>
 
 {{ end }}

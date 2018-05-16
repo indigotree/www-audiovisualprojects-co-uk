@@ -1,0 +1,67 @@
+.carousel {
+
+    &__media {
+        height: 100vh;
+        background-position: center center;
+        background-size: cover;
+
+        @include media-min(md) {
+            height: calc(100vh - 90px);
+        }
+
+    }
+
+    .slick-arrow {
+        position: absolute;
+        z-index: 10;
+        bottom: 5em;
+        text-indent: -9999px;
+        background-image: url(/images/right-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 73px;
+        width: 73px;
+        background-color: transparent;
+        background-size: 53px 53px;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+
+        &:hover,
+        &:focus {
+            outline: none;
+        }
+
+        @include media-min(md) {
+            bottom: 8em;
+        }
+    }
+
+    .slick-prev {
+        left: 2em;
+        transform: rotateZ(180deg);
+
+        @include media-min(md) {
+            left: 5em;
+        }
+
+        @include media-min(lg) {
+            left: 20%;
+        }
+
+    }
+
+    .slick-next {
+        right: 2em;
+
+        @include media-min(md) {
+            right: 5em;
+        }
+
+        @include media-min(lg) {
+            right: 20%;
+        }
+
+    }
+
+}
