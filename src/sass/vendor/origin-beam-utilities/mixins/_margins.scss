@@ -1,0 +1,9 @@
+@mixin margins($sizes: $m-sizes) {
+    @each $name, $size in $sizes {
+        @each $position, $short in (top: 't', right: 'r', bottom: 'b', left: 'l') {
+            .m--#{$short}-#{$name} {
+                margin-#{$position}: #{$size};
+            }
+        }
+    }
+}

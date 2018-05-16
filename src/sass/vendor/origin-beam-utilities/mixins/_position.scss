@@ -1,0 +1,40 @@
+// Absolute
+@mixin absolute($args...) {
+    position: absolute;
+    @include position($args...);
+}
+
+// Relative
+@mixin relative($args...) {
+    position: relative;
+    @include position($args...);
+}
+
+// Fixed
+@mixin fixed($args...) {
+    position: fixed;
+    @include position($args...);
+}
+
+// Positioning
+@mixin position($top: null, $right: null, $bottom: null, $left: null) {
+
+    @if $right == null and $bottom == null and $left == null {
+        $right: $top !default;
+        $bottom: $top !default;
+        $left: $top !default;
+    }
+
+    @if $bottom == null and $left == null {
+        $bottom: $top !default;
+    }
+
+    @if $left == null {
+        $left: $right !default;
+    }
+
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}

@@ -1,0 +1,15 @@
+{
+    "name": "origin-beam-utilities",
+    "description": "Utilities",
+    "version": "1.0.4",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/origin-wp/origin-beam-utilities"
+    },
+    "homepage": "https://www.indigotree.co.uk",
+    "author": "David Hewitt <david.hewitt@indigotree.co.uk> (https://www.indigotree.co.uk/)",
+    "licence": "MIT",
+    "dependencies": {
+        
+    }
+}
