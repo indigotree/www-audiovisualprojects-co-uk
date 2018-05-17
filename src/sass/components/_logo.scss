@@ -5,7 +5,7 @@
         left: 10px;
         top: 10px;
         width: 120px;
-        z-index: 10;
+        z-index: 2;
 
         @include media-min(md) {
             left: auto;
