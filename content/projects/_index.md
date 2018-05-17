@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-banner_images: ["https://placehold.it/1920x1080"]
+banner_images: ["https://placeimg.com/1920/1080/tech"]
 banner_title: "Projects"
 banner_meta: ""
 ---
