@@ -10,6 +10,7 @@
     top: 0;
     z-index: 20;
     overflow-y: auto;
+    box-shadow: inset -4px 0 10px rgba(black, 0.3);
 
     &--open {
         overflow-y: hidden;
@@ -24,6 +25,7 @@
     }
 
     @include media-min($navigation-breakpoint) {
+        box-shadow: none;
         transform: none;
         position: static;
         top: auto;
@@ -39,7 +41,7 @@
     }
 
     li {
-        border-bottom: 1px solid color(primary, medium);
+        border-bottom: 1px solid rgba(color(primary, medium), 0.4);
 
         @include media-min($navigation-breakpoint) {
             display: inline-block;

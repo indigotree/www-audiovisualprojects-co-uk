@@ -709,7 +709,9 @@ b {
   left: 0;
   top: 0;
   z-index: 20;
-  overflow-y: auto; }
+  overflow-y: auto;
+  -webkit-box-shadow: inset -4px 0 10px rgba(0, 0, 0, 0.3);
+          box-shadow: inset -4px 0 10px rgba(0, 0, 0, 0.3); }
   .navigation--open {
     overflow-y: hidden; }
     @media screen and (min-width: 992px) {
@@ -720,6 +722,8 @@ b {
             transform: translateX(0); }
   @media screen and (min-width: 992px) {
     .navigation {
+      -webkit-box-shadow: none;
+              box-shadow: none;
       -webkit-transform: none;
               transform: none;
       position: static;
@@ -732,7 +736,7 @@ b {
     padding: 0;
     margin: 0; }
   .navigation li {
-    border-bottom: 1px solid #515c64; }
+    border-bottom: 1px solid rgba(81, 92, 100, 0.4); }
     @media screen and (min-width: 992px) {
       .navigation li {
         display: inline-block;
