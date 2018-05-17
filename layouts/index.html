@@ -14,11 +14,7 @@
 
             <div class="column--sm-6">
 
-                {{ $title := "Complex in design, simple to use" }}
-                {{ $description := "Bespoke solutions<br>designed to be discrete<br>and easy to use" }}
-                {{ $link_text := "Find out how" }}
-                {{ $link := "/" }}
-                {{ partial "caption" ( dict "title" $title "description" $description "link_text" $link_text "link" $link "Scope" . ) }}
+                {{ partial "caption" ( dict "title" .Site.Data.caption.title "description" .Site.Data.caption.description "link_text" .Site.Data.caption.link_text "link" .Site.Data.caption.link "Scope" . ) }}
 
             </div>
 
@@ -45,17 +41,11 @@
 
 </div>
 
-{{ $content := "The bespoke solutions we design are discrete and easy to use. In fact, the simpler it is to use, the more technical it is behind the scenes. Our aim is to transform your space and deliver an automated system that will enhance all aspects of your everyday life." }}
-{{ partial "split" (dict "title" "Home Automation" "link_text" "Find out more" "link" "/" "image" "/images/top-down-meeting.jpg" "image_position" "left" "content" $content "Scope" . ) }}
+{{ range $key, $split := .Site.Data.splits.splits }}
 
-{{ $content := "The bespoke solutions we design are discrete and easy to use. In fact, the simpler it is to use, the more technical it is behind the scenes. Our aim is to transform your space and deliver an automated system that will enhance all aspects of your everyday life." }}
-{{ partial "split" (dict "title" "Lighting" "link_text" "Find out more" "link" "/" "image" "https://placehold.it/1000x1000" "image_position" "right" "content" $content "Scope" . ) }}
+    {{ partial "split" (dict "title" $split.title "link_text" $split.link_text "link" $split.link "image" $split.image "image_position" $split.image_position "content" $split.content "Scope" . ) }}
 
-{{ $content := "The bespoke solutions we design are discrete and easy to use. In fact, the simpler it is to use, the more technical it is behind the scenes. Our aim is to transform your space and deliver an automated system that will enhance all aspects of your everyday life." }}
-{{ partial "split" (dict "title" "Audio Visual" "link_text" "Find out more" "link" "/" "image" "https://placehold.it/1000x1000" "image_position" "left" "content" $content "Scope" . ) }}
-
-{{ $content := "The bespoke solutions we design are discrete and easy to use. In fact, the simpler it is to use, the more technical it is behind the scenes. Our aim is to transform your space and deliver an automated system that will enhance all aspects of your everyday life." }}
-{{ partial "split" (dict "title" "Security" "link_text" "Find out more" "link" "/" "image" "https://placehold.it/1000x1000" "image_position" "right" "content" $content "Scope" . ) }}
+{{ end }}
 
 <div class="container container--band container--lg text--center">
 

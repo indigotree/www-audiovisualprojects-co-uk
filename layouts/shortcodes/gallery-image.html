@@ -1,0 +1,7 @@
+{{ if and (.Get "image") (.Get "thumbnail") }}
+    <div class="gallery__media">
+        <a data-fancybox="{{ with .Parent }}{{ .Get "id" }}{{ end }}" href="{{ .Get "image" }}">
+            <img src="{{ .Get "thumbnail" }}" alt="{{ .Get "alt" | default "Gallery Image" }}">
+        </a>
+    </div>
+{{ end }}

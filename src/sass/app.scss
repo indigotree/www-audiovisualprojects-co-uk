@@ -7,6 +7,7 @@
 // Vendor.
 @import "vendor/css-reset";
 @import "vendor/slick";
+@import "vendor/fancybox/fancybox";
 @import "vendor/origin-beam-grid/grid";
 
 // Components.
@@ -26,3 +27,4 @@
 @import "components/item";
 @import "components/image-hover";
 @import "components/pagination";
+@import "components/gallery";

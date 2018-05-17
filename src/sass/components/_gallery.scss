@@ -1,0 +1,22 @@
+.gallery {
+    padding-top: 3em;
+
+    @include media-min(sm) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    &__media {
+        display: block;
+        margin-bottom: 15px;
+
+        @include media-min(sm) {
+            flex: 1 1 33.333%;
+            padding: 0 15px;
+        }
+
+    }
+
+}
