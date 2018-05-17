@@ -126,7 +126,8 @@ table {
   border-spacing: 0; }
 
 html {
-  overflow: visible; }
+  overflow: visible;
+  overflow-x: hidden; }
 
 body {
   overflow-x: hidden;
