@@ -5,6 +5,8 @@
     height: 100vh;
     width: 40px;
     z-index: 5;
+    opacity: 0;
+    transition: opacity .3s ease;
 
     @include media-min($navigation-breakpoint) {
         display: none;
@@ -13,6 +15,8 @@
     .navigation--open & {
         right: 0;
         width: auto;
+        background: rgba(black, 0.5);
+        opacity: 1;
     }
 
 }

@@ -852,7 +852,7 @@ b {
 
 .carousel .slick-arrow {
   position: absolute;
-  z-index: 10;
+  z-index: 2;
   bottom: 5em;
   text-indent: -9999px;
   background-image: url(/images/right-arrow.svg);

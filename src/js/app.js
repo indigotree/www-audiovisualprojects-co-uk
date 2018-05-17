@@ -42,7 +42,7 @@
     });
 
     var panner = document.querySelector('.navigation-panner');
-    new Hammer(panner).on('panleft', toggleNavigationClose).on('panright', toggleNavigationOpen);
+    new Hammer(panner).on('panleft tap', toggleNavigationClose).on('panright', toggleNavigationOpen);
 
     function toggleNavigationClose() {
         if (document.body.classList.contains('navigation--open')) {
