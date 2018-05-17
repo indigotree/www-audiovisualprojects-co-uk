@@ -6,7 +6,7 @@
     width: 40px;
     z-index: 5;
     opacity: 0;
-    transition: opacity .3s ease;
+    transition: opacity 1s ease;
 
     @include media-min($navigation-breakpoint) {
         display: none;
