@@ -8,6 +8,13 @@
             {{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}
         {{ end }}</title>
 
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+        <link rel="dns-prefetch" href="https://code.jquery.com">
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+        <link rel="dns-prefetch" href="https://hammerjs.github.io">
+
+        <link rel="manifest" href="{{ "manifest.json" | absURL }}">
+
         {{ range .AlternativeOutputFormats }}
             <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
         {{ end }}

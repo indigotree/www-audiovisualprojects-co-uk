@@ -1,0 +1,9 @@
+{
+    "name": "Audio Visual Projects",
+    "short_name": "Audio",
+    "display": "minimal-ui",
+    "orientation": "portrait",
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "theme_color": "#25282a"
+  }
