@@ -41,4 +41,17 @@
         });
     });
 
+    var panner = document.querySelector('.navigation-panner');
+    new Hammer(panner).on('panleft', toggleNavigationClose).on('panright', toggleNavigationOpen);
+
+    function toggleNavigationClose() {
+        if (document.body.classList.contains('navigation--open')) {
+            document.body.classList.remove('navigation--open');
+        }
+    }
+
+    function toggleNavigationOpen() {
+        document.body.classList.add('navigation--open');
+    }
+
 })()

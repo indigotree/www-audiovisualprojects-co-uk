@@ -707,7 +707,13 @@ b {
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 20; }
+  z-index: 20;
+  overflow-y: auto; }
+  .navigation--open {
+    overflow-y: hidden; }
+    @media screen and (min-width: 992px) {
+      .navigation--open {
+        overflow-y: auto; } }
   .navigation--open .navigation {
     -webkit-transform: translateX(0);
             transform: translateX(0); }

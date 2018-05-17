@@ -9,6 +9,15 @@
     left: 0;
     top: 0;
     z-index: 20;
+    overflow-y: auto;
+
+    &--open {
+        overflow-y: hidden;
+
+        @include media-min($navigation-breakpoint) {
+            overflow-y: auto;
+        }
+    }
 
     &--open & {
         transform: translateX(0);
