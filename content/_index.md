@@ -1,5 +1,5 @@
 ---
-banner_images: ["https://placehold.it/1920x1080", "https://placehold.it/1920x1080", "https://placehold.it/1920x1080"]
+banner_images: ["https://placeimg.com/1920/1080/tech", "https://placeimg.com/1920/1080/any", "https://placeimg.com/1920/1080/nature"]
 banner_title: ""
 banner_meta: ""
 ---
