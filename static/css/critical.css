@@ -705,7 +705,7 @@ b {
   transition: -webkit-transform .5s ease;
   transition: transform .5s ease;
   transition: transform .5s ease, -webkit-transform .5s ease;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   z-index: 20;
@@ -760,7 +760,7 @@ b {
       font-weight: bold; }
 
 .navigation-toggle {
-  position: absolute;
+  position: fixed;
   top: 10px;
   right: 10px;
   padding: 12px 13px;
