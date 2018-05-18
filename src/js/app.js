@@ -2,7 +2,8 @@
 
     // Navigation Toggle
     //
-    $('#navigation-toggle').on('click', function () {
+    $('#navigation-toggle').on('click', function (event) {
+        event.stopImmediatePropagation();
         $('body').toggleClass('navigation--open');
     });
 
@@ -42,7 +43,7 @@
     
     // Fancybox 
     //
-    $.fancybox.defaults.hash = false;
+    $.fancybox.defaults.hash = false; // Interferes with turbolinks
     function fancyboxInit() {
         $("[data-fancybox]").fancybox({
             beforeShow: function (instance, slide) {
