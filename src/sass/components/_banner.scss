@@ -1,6 +1,7 @@
 .banner {
     height: 100vh;
     overflow: hidden;
+    background-color: color(primary);
 
     @include media-min($navigation-breakpoint) {
         height: calc(100vh - 90px);
