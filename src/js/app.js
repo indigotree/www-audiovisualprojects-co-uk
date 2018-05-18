@@ -3,7 +3,7 @@
     // Navigation Toggle
     //
     $('#navigation-toggle').on('click', function () {
-        $('body').addClass('navigation--open')
+        $('body').toggleClass('navigation--open');
     });
 
     // Sticky Header
@@ -39,5 +39,26 @@
     function toggleNavigationOpen() {
         document.body.classList.add('navigation--open');
     }
+    
+    // Fancybox 
+    //
+    function fancyboxInit() {
+        $("[data-fancybox]").fancybox({
+            beforeShow: function (instance, slide) {
+                jQuery('.fancybox-container').attr('data-turbolinks', false);
+            }
+        });
+    }
+
+    window.addEventListener('turbolinks:load', fancyboxInit);
+    window.addEventListener('load', fancyboxInit);
+    
+
+    // Lazy Background Images 
+    //
+    $('[data-src]').each(function () {
+        var url = $(this).data('src');
+        $(this).css({'background-image': 'url(' + url + ')'});
+    })
 
 })()

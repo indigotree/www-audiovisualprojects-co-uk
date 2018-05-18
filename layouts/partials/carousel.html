@@ -1,29 +1,39 @@
 {{ $images := .banner_images | default ( slice .Scope.Site.Data.banner.default_image ) }}
 {{ $title := .banner_title }}
 {{ $meta := .banner_meta }}
+{{ $scope := .Scope }}
 <div class="banner carousel" id="carousel">
     {{ range $index, $media := $images }}
-        <div class="carousel__media" style="background-image: url({{ $media }})">
+        
+        {{ with $scope.Site.GetPage "page" "uploads/index.md" }}
 
-            {{ if or $title $meta }}
-                <div class="carousel__caption">
-                    
-                    {{ if $title }}
-                        <span class="carousel__title">
-                            {{ $title }}
-                        </span>
-                    {{ end }}
+            {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" $media) }}
+            {{ $cropped := $match.Resize "150x q30" }}
 
-                    {{ if $meta }}
-                        <span class="carousel__meta">
-                            {{ $meta }}
-                        </span>
-                    {{ end }}
+            <div class="carousel__media" style="background-image: url({{ $cropped.RelPermalink }})" data-src="{{ $media | absURL }}">
 
-                </div>
+                {{ if or $title $meta }}
+                    <div class="carousel__caption">
+                        
+                        {{ if $title }}
+                            <span class="carousel__title">
+                                {{ $title }}
+                            </span>
+                        {{ end }}
 
-            {{ end }}
+                        {{ if $meta }}
+                            <span class="carousel__meta">
+                                {{ $meta }}
+                            </span>
+                        {{ end }}
 
-        </div>
+                    </div>
+
+                {{ end }}
+
+            </div>
+
+        {{ end }}
+
     {{ end }}
 </div>

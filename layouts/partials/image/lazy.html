@@ -1,0 +1,17 @@
+{{ $src := .Src }}
+{{ $alt := .Alt }}
+
+{{ with .Scope.Site.GetPage "page" "uploads/index.md" }}
+    {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" $src) }}
+    {{ $cropped := $match.Resize "150x q15" }}
+
+    <img
+        src="{{ $cropped.RelPermalink }}"
+        data-src="{{ $src }}"
+        class="lazyload"
+        width="{{ $match.Width }}"
+        height="{{ $match.Height }}"
+        {{ with $alt }}alt="{{ . }}"{{ end }}
+    >
+
+{{ end }}

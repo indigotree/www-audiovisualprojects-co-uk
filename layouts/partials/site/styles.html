@@ -1,6 +1,5 @@
 <style>{{ readFile "static/css/critical.css" | safeCSS }}</style>
 
-
 <script async>
     function asyncCss(href) {
         var css = document.createElement('link');
@@ -10,5 +9,4 @@
         first.parentNode.insertBefore(css, first);
     }
     asyncCss('{{ "css/app.css" | absURL }}');
-    asyncCss('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 </script>

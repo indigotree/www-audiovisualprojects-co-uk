@@ -1,0 +1,7 @@
+{{ if .IsNamedParams }}
+    <p>{{ partial "image/lazy.html" (dict "Src" (.Get "src") "Alt" (.Get "alt") "Width" 300 "Scope" .) }}</p>
+    <noscript><img data-src="{{ .Get "src" }}" alt="{{ .Get "alt" }}"></noscript>
+{{ else }}
+    <p>{{ partial "image/lazy.html" (dict "Src" (.Get 0) "Width" 300 "Scope" .) }}</p>
+    <noscript><img data-src="{{ .Get 0 }}" alt></noscript>
+{{ end }}

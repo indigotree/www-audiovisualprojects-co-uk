@@ -5,6 +5,10 @@ title = "Audio Visual Projects"
 enableRobotsTXT = true
 disableAliases = true
 
+[imaging]
+resampleFilter = "Lanczos"
+anchor = "center"
+
 [params]
 disallow_search_engines = false # set robots.txt to disallow everything
 

@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-banner_images: ["https://placeimg.com/1920/1080/tech"]
+banner_images: ["/uploads/tech.jpg"]
 banner_title: "Projects"
 banner_meta: ""
 ---

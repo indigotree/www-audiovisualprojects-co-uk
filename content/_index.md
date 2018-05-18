@@ -1,5 +1,5 @@
 ---
-banner_images: ["https://placeimg.com/1920/1080/tech", "https://placeimg.com/1920/1080/any", "https://placeimg.com/1920/1080/nature"]
+banner_images: ["/uploads/tech.jpg", "/uploads/tech.jpg", "/uploads/tech.jpg"]
 banner_title: ""
 banner_meta: ""
 ---

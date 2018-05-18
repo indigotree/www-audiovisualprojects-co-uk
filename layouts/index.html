@@ -6,15 +6,24 @@
     {{ .Content }}
 </div>
 
-<div class="container--lg container--image" style="background-image: url({{ .Site.Data.caption.image }})">
+{{ $scope := . }}
 
-    <div class="container">
+{{ with $scope.Site.GetPage "page" "uploads/index.md" }}
 
-        <div class="row">
+    {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" .Site.Data.caption.image) }}
+    {{ $cropped := $match.Resize "150x q15" }}
 
-            <div class="column--sm-6">
+    <div class="container--lg container--image" style="background-image: url({{ $cropped.RelPermalink }})" data-src="{{ .Site.Data.caption.image | absURL }}">
 
-                {{ partial "caption" ( dict "title" .Site.Data.caption.title "description" .Site.Data.caption.description "link_text" .Site.Data.caption.link_text "link" .Site.Data.caption.link "Scope" . ) }}
+        <div class="container">
+
+            <div class="row">
+
+                <div class="column--sm-6">
+
+                    {{ partial "caption" ( dict "title" $scope.Site.Data.caption.title "description" $scope.Site.Data.caption.description "link_text" $scope.Site.Data.caption.link_text "link" $scope.Site.Data.caption.link "Scope" $scope ) }}
+
+                </div>
 
             </div>
 
@@ -22,7 +31,7 @@
 
     </div>
 
-</div>
+{{ end }}
 
 <div class="container container--band container--md container--primary-darkest">
     
@@ -43,7 +52,7 @@
 
 {{ range $key, $split := .Site.Data.splits.splits }}
 
-    {{ partial "split" (dict "title" $split.title "link_text" $split.link_text "link" $split.link "image" $split.image "image_position" $split.image_position "content" $split.content "Scope" . ) }}
+    {{ partial "split" (dict "title" $split.title "link_text" $split.link_text "link" $split.link "image" $split.image "image_position" $split.image_position "content" $split.content "Scope" $scope ) }}
 
 {{ end }}
 
@@ -57,7 +66,7 @@
 
             <div class="column--sm-4 m--b-xs">
                 <a href="{{ .Permalink | absURL }}" class="image-hover">
-                    <img src="{{ .Params.featured_image | absURL }}" alt="{{ .Params.featured_image_alt | default .Title }}" />
+                    {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Width" 300 "Scope" $scope) }}
                 </a>
             </div>
 
