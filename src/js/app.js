@@ -42,6 +42,7 @@
     
     // Fancybox 
     //
+    $.fancybox.defaults.hash = false;
     function fancyboxInit() {
         $("[data-fancybox]").fancybox({
             beforeShow: function (instance, slide) {
@@ -51,7 +52,7 @@
     }
 
     window.addEventListener('turbolinks:load', fancyboxInit);
-    window.addEventListener('load', fancyboxInit);
+    //window.addEventListener('load', fancyboxInit);
     
 
     // Lazy Background Images 
