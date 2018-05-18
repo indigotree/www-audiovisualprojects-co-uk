@@ -1,12 +1,47 @@
 {{ define "main" }}
-    
-    {{ range .Paginator.Pages }}
-        <article>
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            {{ .Content }}
-        </article>
+
+{{ $scope := . }}
+
+{{ partial "carousel" ( dict "banner_images" .Params.banner_images "banner_title" .Params.banner_title "banner_meta" .Params.banner_meta "Scope" . ) }}
+
+<div class="container container--md">
+
+    {{ if .Title }}
+        <h1 class="text--center">{{ .Title }}</h1>
     {{ end }}
 
+    {{ if .Content }}
+        <div class="text--center m--b-sm">
+            {{ .Content }}
+        </div>
+    {{ end }}
+
+    <div class="item-list">
+
+        {{ range (.Paginator 9).Pages }}
+
+            <div>
+
+                <a href="{{ .Permalink | absURL }}" class="item item--project">
+
+                    <div class="item__thumbnail">
+                        {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Width" 300 "Scope" $scope) }}
+                    </div>
+
+                    <h3 class="item__title">{{ .Title }}</h3>
+
+                    <span class="item__meta">{{ .Params.location }}</span>
+
+                </a>
+
+            </div>
+
+        {{ end }}
+
+    </div>
+
     {{ template "_internal/pagination.html" . }}
+
+</div>
 
 {{ end }}
