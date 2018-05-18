@@ -13,7 +13,7 @@
     {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" .Site.Data.caption.image) }}
     {{ $cropped := $match.Resize "150x q15" }}
 
-    <div class="container--lg container--image" style="background-image: url({{ $cropped.RelPermalink }})" data-src="{{ .Site.Data.caption.image | absURL }}">
+    <div class="container--lg container--image" style="background-image: url({{ .Site.Data.caption.image | absURL }}), url({{ $cropped.RelPermalink }})">
 
         <div class="container">
 

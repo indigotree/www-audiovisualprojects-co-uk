@@ -636,7 +636,8 @@ b {
   .container--image {
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center; }
+    background-position: center center;
+    background-color: #25282a; }
   .container--primary {
     background-color: #25282a;
     color: #FFFFFF; }

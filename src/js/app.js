@@ -54,13 +54,5 @@
 
     window.addEventListener('turbolinks:load', fancyboxInit);
     //window.addEventListener('load', fancyboxInit);
-    
-
-    // Lazy Background Images 
-    //
-    $('[data-src]').each(function () {
-        var url = $(this).data('src');
-        $(this).css({'background-image': 'url(' + url + ')'});
-    })
 
 })()
