@@ -1,10 +1,10 @@
 ---
 banner_images: ["/uploads/tech.jpg"]
-title: "Grosvenor Estate Head Office"
-location: "Mayfair, London"
+title: "Berkhamstead office"
+location: "Berkhamstead, Hertfordshire"
 featured_image: "/uploads/living-room.jpg"
-banner_title: "Grosvenor Estate Head Office"
-banner_meta: "Mayfair, London"
+banner_title: "Berkhamstead office"
+banner_meta: "Berkhamstead, Hertfordshire"
 description: ""
 yoast_keyword: ""
 ---

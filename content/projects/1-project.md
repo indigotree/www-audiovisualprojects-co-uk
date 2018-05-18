@@ -1,10 +1,10 @@
 ---
 banner_images: ["/uploads/tech.jpg"]
-title: "Grosvenor Estate Head Office"
-location: "Mayfair, London"
+title: "Location One"
+location: "Parklane, London"
 featured_image: "/uploads/building.jpg"
-banner_title: "Grosvenor Estate Head Office"
-banner_meta: "Mayfair, London"
+banner_title: "Location One"
+banner_meta: "Parklane, London"
 description: ""
 yoast_keyword: ""
 ---

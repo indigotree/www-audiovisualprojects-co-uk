@@ -60,14 +60,24 @@
 
     <h2 class="m--b-sm">Extraordinary work</h2>
 
-    <div class="row m--b-sm">
+    <div class="item-list">
 
         {{ range first 3 (where .Pages "Section" "projects") }}
 
-            <div class="column--sm-4 m--b-xs">
-                <a href="{{ .Permalink | absURL }}" class="image-hover">
-                    {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Scope" $scope) }}
+            <div>
+
+                <a href="{{ .Permalink | absURL }}" class="item item--project">
+
+                    <div class="item__thumbnail">
+                        {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Width" 300 "Scope" $scope) }}
+                    </div>
+
+                    <h3 class="item__title">{{ .Title }}</h3>
+
+                    <span class="item__meta">{{ .Params.location }}</span>
+
                 </a>
+
             </div>
 
         {{ end }}
