@@ -1,8 +1,8 @@
 ---
-banner_images: ["/uploads/waiting-room.jpg"]
+banner_images: ["/uploads/tech.jpg"]
 title: "Grosvenor Estate Head Office"
 location: "Mayfair, London"
-featured_image: "/uploads/mayfair.jpg"
+featured_image: "/uploads/building.jpg"
 banner_title: "Grosvenor Estate Head Office"
 banner_meta: "Mayfair, London"
 description: ""

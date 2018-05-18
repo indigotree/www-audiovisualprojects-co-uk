@@ -66,7 +66,7 @@
 
             <div class="column--sm-4 m--b-xs">
                 <a href="{{ .Permalink | absURL }}" class="image-hover">
-                    {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Width" 300 "Scope" $scope) }}
+                    {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Scope" $scope) }}
                 </a>
             </div>
 

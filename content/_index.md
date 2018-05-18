@@ -1,5 +1,5 @@
 ---
-banner_images: ["/uploads/tech.jpg", "/uploads/tech.jpg", "/uploads/tech.jpg"]
+banner_images: ["/uploads/banner.jpg", "/uploads/tech.jpg", "/uploads/banner.jpg"]
 banner_title: ""
 banner_meta: ""
 ---
