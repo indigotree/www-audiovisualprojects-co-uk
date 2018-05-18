@@ -1,4 +1,14 @@
 <style>{{ readFile "static/css/critical.css" | safeCSS }}</style>
-<noscript id="deferred-styles">
-    <link rel="stylesheet" href="{{ "css/app.css" | absURL }}">
-</noscript>
+
+
+<script async>
+    function asyncCss(href) {
+        var css = document.createElement('link');
+        css.rel = 'stylesheet';
+        css.href = href;
+        var first = document.getElementsByTagName('link')[0];
+        first.parentNode.insertBefore(css, first);
+    }
+    asyncCss('{{ "css/app.css" | absURL }}');
+    asyncCss('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+</script>

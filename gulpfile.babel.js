@@ -32,6 +32,14 @@ gulp.task('server:with-drafts', ['build-preview'], () => {
 gulp.task('init-watch', () => {
     suppressHugoErrors = true;
     browserSync.init({
+        snippetOptions: {
+            rule: {
+              match: /<\/head>/i,
+              fn: function (snippet, match) {
+                return snippet + match;
+              }
+            }
+          },
         server: {
             baseDir: 'public'
         },

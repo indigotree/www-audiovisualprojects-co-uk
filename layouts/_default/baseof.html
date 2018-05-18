@@ -21,6 +21,7 @@
             <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
         {{ end }}
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.1.1/turbolinks.js"></script>
         {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
 
     </head>
