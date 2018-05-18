@@ -1,7 +1,7 @@
 {{ if and (.Get "image") (.Get "thumbnail") }}
     <div class="gallery__media">
         <a data-fancybox="{{ with .Parent }}{{ .Get "id" }}{{ end }}" href="{{ .Get "image" }}" data-turbolinks="false">
-            {{ partial "image/lazy.html" (dict "Src" (.Get "thumbnail") "Alt" (.Get "alt" | default "Gallery Image") "Width" 300 "Scope" .) }}
+            {{ partial "image/lazy.html" (dict "Src" (.Get "thumbnail") "Alt" (.Get "alt" | default "Gallery Image") "Scope" .) }}
         </a>
     </div>
 {{ end }}

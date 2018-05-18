@@ -2,7 +2,7 @@
 
     {{ if .image }}
         <div class="split__left">
-            {{ partial "image/lazy" (dict "Src" .image "Alt" (.image_alt | default .title) "Width" 300 "Scope" .Scope) }}
+            {{ partial "image/lazy" (dict "Src" .image "Alt" (.image_alt | default .title) "Scope" .Scope) }}
         </div>
     {{ end }}
 

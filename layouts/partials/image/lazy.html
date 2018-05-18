@@ -3,10 +3,10 @@
 
 {{ with .Scope.Site.GetPage "page" "uploads/index.md" }}
     {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" $src) }}
-    {{ $cropped := $match.Resize "150x q15" }}
+    {{ $low := $match.Resize "150x q15" }}
 
     <img
-        src="{{ $cropped.RelPermalink }}"
+        src="{{ $low.RelPermalink }}"
         data-src="{{ $src }}"
         class="lazyload"
         width="{{ $match.Width }}"
