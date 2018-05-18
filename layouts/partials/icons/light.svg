@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 36.78 44.24">
+  <defs>
+    <linearGradient id="light" data-name="New Gradient Swatch 1" x1="1.82" y1="38.19" x2="9.87" y2="38.19" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#263746"/>
+      <stop offset="1" stop-color="#99a4ae"/>
+    </linearGradient>
+    <linearGradient id="light-2" x1="26.28" y1="38.19" x2="34.32" y2="38.19" xlink:href="#light"/>
+    <linearGradient id="light-3" y1="29.58" x2="7.29" y2="29.58" xlink:href="#light"/>
+    <linearGradient id="light-4" x1="29.49" y1="29.58" x2="36.78" y2="29.58" xlink:href="#light"/>
+    <linearGradient id="light-5" x1="17.59" y1="40.6" x2="19.21" y2="40.6" xlink:href="#light"/>
+    <linearGradient id="light-6" x1="5.19" y1="17.38" x2="31.61" y2="17.38" xlink:href="#light"/>
+  </defs>
+  <path d="M9.67 34.44a.81.81 0 0 0-1.14-.09l-6.47 6.48A.81.81 0 1 0 3.2 42l6.47-6.5a.81.81 0 0 0 0-1.05zm0 0" fill="url(#light)"/>
+  <path d="M34.09 40.76l-6.48-6.29a.83.83 0 0 0-1.05 0 .77.77 0 0 0-.09 1.11l6.48 6.29a.82.82 0 0 0 1.13 0 .77.77 0 0 0 0-1.11zm0 0" fill="url(#light-2)"/>
+  <path d="M6.48 28.77H.81a.81.81 0 1 0 0 1.62h5.67a.81.81 0 0 0 0-1.62zm0 0" fill="url(#light-3)"/>
+  <path d="M36 28.77h-5.7a.81.81 0 0 0 0 1.62H36a.81.81 0 1 0 0-1.62zm0 0" fill="url(#light-4)"/>
+  <path d="M18.4 37a.81.81 0 0 0-.81.81v5.67a.81.81 0 1 0 1.62 0v-5.71a.81.81 0 0 0-.81-.77zm0 0" fill="url(#light-5)"/>
+  <path d="M30.84 21h-1.4a11 11 0 0 0-5.85-9.73V7.83a.77.77 0 0 0-.77-.77h-2.14V.77a.77.77 0 0 0-.77-.77h-3a.77.77 0 0 0-.77.77v6.29H14a.77.77 0 0 0-.77.77v3.41A11 11 0 0 0 7.36 21H6a.77.77 0 0 0-.77.77v3.42a.77.77 0 0 0 .77.77h4.7V27a7.74 7.74 0 1 0 15.47 0v-1.1h4.7a.77.77 0 0 0 .77-.77v-3.39a.77.77 0 0 0-.8-.74zM17.65 1.54h1.49v5.52h-1.49V1.54zm-2.9 7.06H22v2a11.05 11.05 0 0 0-7.3 0v-2zM24.6 27a6.2 6.2 0 0 1-12.4 0v-1.1h12.4zm5.47-2.64H6.73v-1.85h15.46a.77.77 0 0 0 0-1.54H8.9a9.5 9.5 0 0 1 19 0v.76a.77.77 0 0 0 .77.77h1.4v1.88z" fill="url(#light-6)"/>
+</svg>

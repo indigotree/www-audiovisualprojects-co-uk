@@ -9,10 +9,15 @@
 
         @include media-min(md) {
             left: auto;
-            top: 20px;
+            top: 23px;
             right: 15px;
             display: block;
         }
+    }
+
+    .main & {
+        max-width: 200px;
+        margin: 0 auto;
     }
 
     .footer & {

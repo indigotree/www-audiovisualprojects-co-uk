@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 42.41 43.87">
+  <defs>
+    <linearGradient id="multi-dwelling-unit" data-name="New Gradient Swatch 1" x1="7.12" y1="10.34" x2="17.74" y2="10.34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#263746"/>
+      <stop offset="1" stop-color="#99a4ae"/>
+    </linearGradient>
+    <linearGradient id="multi-dwelling-unit-2" x1="7.12" y1="26.86" x2="17.74" y2="26.86" xlink:href="#multi-dwelling-unit"/>
+    <linearGradient id="multi-dwelling-unit-3" y1="21.94" x2="26.15" y2="21.94" xlink:href="#multi-dwelling-unit"/>
+    <linearGradient id="multi-dwelling-unit-4" x1="27.79" y1="32.17" x2="42.41" y2="32.17" xlink:href="#multi-dwelling-unit"/>
+  </defs>
+  <path d="M8.25 15.65h8.36a1.12 1.12 0 0 0 1.13-1.11V6.2A1.12 1.12 0 0 0 16.61 5H8.25a1.12 1.12 0 0 0-1.13 1.14V12a.68.68 0 0 0 1.35 0V6.35h7.91v7.88H8.47v-.37a.68.68 0 0 0-1.35 0v.59a1.12 1.12 0 0 0 1.13 1.2z" fill="url(#multi-dwelling-unit)"/>
+  <path d="M8.25 32.17h8.36a1.12 1.12 0 0 0 1.13-1.11V25.2a.68.68 0 0 0-1.35 0v5.65H8.47v-7.88h7.91v.37a.68.68 0 0 0 1.35 0v-.59a1.12 1.12 0 0 0-1.13-1.11H8.25a1.12 1.12 0 0 0-1.13 1.11v8.32a1.12 1.12 0 0 0 1.13 1.1z" fill="url(#multi-dwelling-unit-2)"/>
+  <path d="M25.42 42.41h-2V.73a.73.73 0 0 0-.75-.73H2.19a.73.73 0 0 0-.73.73v41.68H.73a.73.73 0 1 0 0 1.46h24.69a.73.73 0 1 0 0-1.46zm-10.06 0H9.51v-5.85h5.85zm6.58 0h-5.12v-6.58a.73.73 0 0 0-.73-.73H8.77a.73.73 0 0 0-.73.73v6.58H2.92V1.46h19z" fill="url(#multi-dwelling-unit-3)"/>
+  <path d="M41.68 42.41h-5.85v-7.35a7.31 7.31 0 1 0-1.46 0v7.35h-5.55a.73.73 0 1 0 0 1.46h12.86a.73.73 0 1 0 0-1.46zM32.39 29l2 2v2.57a5.85 5.85 0 1 1 1.46 0V31l2-2a.73.73 0 0 0-1-1l-1.75 1.68L33.42 28a.73.73 0 0 0-1 1z" fill="url(#multi-dwelling-unit-4)"/>
+</svg>
