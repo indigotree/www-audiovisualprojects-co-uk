@@ -1,14 +1,14 @@
 ---
-banner_images: ["/uploads/banner.jpg", "/uploads/tech.jpg", "/uploads/banner.jpg"]
+banner_images: ["/uploads/grosvenor-estate-london-103.jpg", "/uploads/grosvenor-estate-london-122.jpg", "/uploads/private-residence-hertfordshire-129.jpg", "/uploads/private-residence-hertfordshire-13.jpg"]
 banner_title: ""
 banner_meta: ""
 ---
 
 # Making life extraordinary
 
-We invite you to explore the endless possibilities of lighting design and home automation and see how everyday life can be transformed into something extraordinary. Take control of your home or workspace and create the perfect environment with ease and simplicity.
+We invite you to explore the endless possibilities of bespoke technology and see how everyday life can be transformed into something extraordinary. 
+Imagine a world where everything in your home or workspace is controlled seamlessly from one simple device.
 
-Imagine a world where everything in your home is controlled seamlessly from one simple control device. 
-AVP specialise in transforming everyday technology into extraordinary experiences by seamlessly integrating lighting, climate control, sound, home entertainment and security into one easy-to-use control device. 
+AVP specialise in transforming technology into state-of-the-art, extraordinary experiences by designing and integrating lighting, audio, home entertainment, climate control and security into one easy-to-use control device.
 
-We specialise in both residential and commercial installations. Our projects range from stately homes in the UK to private luxury villas in Provence and boutique hotels in Switzerland. We’ve completed over 100 luxury basement projects and installed state of the art AV solutions in conference facilities and auditoriums for large corporations.
+We specialise in both residential and commercial installations. Our projects range from prime residences and well-known Head Offices in the UK to private villas in Provence and boutique hotels in Switzerland. We’ve transformed over 100 basement projects and installed state of the art AV solutions in a plethora of conference facilities and auditoriums for large corporations.

@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+{{ $scope := . }}
+
+{{ partial "carousel" ( dict "banner_images" .Params.banner_images "banner_title" .Params.banner_title "banner_meta" .Params.banner_meta "Scope" . ) }}
+
+<div class="container container--md">
+
+    {{ if .Title }}
+        <h1 class="text--center">{{ .Title }}</h1>
+    {{ end }}
+
+    {{ if .Content }}
+        <div class="text--center m--b-sm">
+            {{ .Content }}
+        </div>
+    {{ end }}
+
+</div>
+
+<div class="m--b-lg">
+
+    {{ range $index, $element := (.Paginator 9).Pages }}
+
+        {{ $.Scratch.Set "position" "left" }}
+
+        {{ if modBool $index 2 }}
+            {{ $.Scratch.Set "position" "right" }}
+        {{ end }}
+
+        {{ partial "split" (dict "title" .Title "link_text" "Find out more" "link" .Permalink "image" .Params.featured_image "image_position" ($.Scratch.Get "position") "content" .Params.description "meta" .Params.position "Scope" $scope ) }}
+
+    {{ end }}
+
+    {{ template "_internal/pagination.html" . }}
+
+</div>
+
+{{ end }}

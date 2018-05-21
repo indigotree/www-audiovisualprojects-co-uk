@@ -3,14 +3,15 @@
     padding: 1.2em;
     display: block;
     background: lighten(color(primary, light), 35%);
-    cursor: pointer;
     transition: background .3s ease;
     margin-bottom: 1.5em;
+    cursor: pointer;
 
     &:hover,
     &:focus {
         background: lighten(color(primary, light), 30%);
         text-decoration: none;
+        cursor: pointer;
     }
 
     &__thumbnail {

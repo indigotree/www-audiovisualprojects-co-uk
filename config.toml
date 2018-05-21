@@ -67,7 +67,7 @@ notAlternative = true
     [[menu.main]]
         name = "About"
         weight = 70
-        url = "/about/"
+        url = "/team/"
 
     [[menu.main]]
         name = "Contact"

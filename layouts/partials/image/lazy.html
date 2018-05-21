@@ -1,16 +1,17 @@
 {{ $src := .Src }}
 {{ $alt := .Alt }}
+{{ $size := .Size }}
 
 {{ with .Scope.Site.GetPage "page" "uploads/index.md" }}
     {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" $src) }}
-    {{ $low := $match.Resize "150x q15" }}
+    {{ $low := $match.Fill "150x q15" }}
 
     <img
         src="{{ $low.RelPermalink }}"
-        data-src="{{ $src }}"
+        data-src="{{ if $size }}{{ ($match.Fill $size).RelPermalink }}{{ else }}{{ $src }}{{ end }}"
         class="lazyload"
-        width="{{ $match.Width }}"
-        height="{{ $match.Height }}"
+        width="{{ if $size }}{{ ($match.Fill $size).Width }}{{ else }}{{ $match.Width }}{{ end }}"
+        height="{{ if $size }}{{ ($match.Fill $size).Height }}{{ else }}{{ $match.Height }}{{ end }}"
         {{ with $alt }}alt="{{ . }}"{{ end }}
     >
 

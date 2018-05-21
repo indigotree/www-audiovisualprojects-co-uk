@@ -1,14 +1,16 @@
-<div class="split split--{{ .image_position | default "left" }}">
+<div class="split split--{{ .image_position | default "left" }} {{if .meta }}split--has-meta{{ end }}">
 
     {{ if .image }}
         <div class="split__left">
-            {{ partial "image/lazy" (dict "Src" .image "Alt" (.image_alt | default .title) "Scope" .Scope) }}
+            {{ partial "image/lazy" (dict "Src" .image "Alt" (.image_alt | default .title) "Size" "1000x1000" "Scope" .Scope) }}
         </div>
     {{ end }}
 
     <div class="split__right">
 
         {{ with .title }}<h2 class="split__title">{{ . }}</h2>{{ end }}
+
+        {{ with .meta }}<span class="split__meta">{{ . }}</span>{{ end }}
 
         <div class="split__body">
             {{ .content | markdownify }}

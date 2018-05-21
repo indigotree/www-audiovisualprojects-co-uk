@@ -9,8 +9,9 @@
 
             {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" $media) }}
             {{ $cropped := $match.Resize "150x q30" }}
-
-            <div class="carousel__media" style="background-image: url({{ $media | absURL }}), url({{ $cropped.RelPermalink }})">
+            {{ $full := $match.Fill "1920x1080 q80" }}
+            
+            <div class="carousel__media" style="background-image: url({{ $full.RelPermalink }}), url({{ $cropped.RelPermalink }})">
 
                 {{ if or $title $meta }}
                     <div class="carousel__caption">
