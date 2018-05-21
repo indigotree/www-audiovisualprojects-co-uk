@@ -1,10 +1,15 @@
 ---
 title: "Dominic Myott"
 banner_images: ["/uploads/dominic-myott.jpg"]
+banner_meta: ""
 description: "I’ve been a specialist lighting designer for over 25 years and have had the pleasure of working on many varied projects during this time."
 featured_image: "/uploads/dominic-myott.jpg"
 position: "Director, AVP Group"
 ---
+
+# Dominic Myott
+
+Director, AVP Group
 
 I’ve been a specialist lighting designer for over 25 years and have had the pleasure of working on many varied projects during this time. What can be achieved with the right lighting scheme is nothing short of extraordinary. Since LED systems were developed, technology has moved at pace; lighting is now energy-efficient and requires zero-maintenance without compromising on aesthetic appeal. Lighting is a major part of any interior design project, a space can be completely transformed by a well-considered scheme which captures the desired mood and atmosphere.
 
