@@ -1,13 +1,28 @@
 ---
 title: "Contact Us"
+banner_images: ["/uploads/Control4_Lifestyle_About.jpg"]
 banner_title: "Contact Us"
 banner_meta: ""
 description: ""
 yoast_keyword: ""
+layout: contact
 ---
 
-orem ipsum dolor sit amet, consectetur adipiscing elit. In posuere eget orci congue vestibulum. Suspendisse venenatis, elit vel blandit tempus, ante nulla fringilla erat, quis sodales neque nulla at nisi. Maecenas pulvinar vestibulum lectus a pharetra. Etiam malesuada rutrum ex. Nullam ut finibus urna. Duis eu posuere mi.
+## Contact Us
 
-Vestibulum vitae lorem et ligula faucibus commodo nec vitae nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+If you would like to find out more about AV Projects or would like us to provide a quotation, proposal and design for a specific installation, please use the contact details below.
 
-Praesent ullamcorper mi vel finibus rutrum. Vestibulum in egestas ipsum. Phasellus volutpat ligula sed elit accumsan, lobortis venenatis mi mattis. Nunc dapibus libero quis sem pharetra, non ullamcorper nisi rhoncus. Fusce enim justo, hendrerit fermentum ex nec, efficitur aliquet nunc. Nunc volutpat, libero ut facilisis lobortis, elit justo pretium mauris, sit amet ornare enim augue vitae libero. Integer aliquet ante libero, sed commodo tortor dapibus vel.
+**Address**:
+Audio Visual Projects,
+Unit B,
+Batford Mill Ind Est,
+Lower Luton Road, 
+Harpenden,
+Herts, 
+AL5 5BZ
+
+**Telephone**: [01582 712969](tel:01582712969)
+
+**Fax**: [01582 461215](tel:01582461215)
+
+**Email**: [sales@audiovisualprojects.co.uk](mailto:sales@audiovisualprojects.co.uk)

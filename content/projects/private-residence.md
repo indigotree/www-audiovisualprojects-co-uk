@@ -1,5 +1,5 @@
 ---
-banner_images: ["/uploads/tech.jpg"]
+banner_images: ["/uploads/private-residence-hertfordshire-13.jpg"]
 title: "Private Residence"
 location: "Hertfordshire"
 featured_image: "/uploads/private-residence-hertfordshire-13.jpg"

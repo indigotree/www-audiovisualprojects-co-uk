@@ -1,5 +1,6 @@
 ---
 title: "Dominic Myott"
+banner_images: ["/uploads/dominic-myott.jpg"]
 description: "I’ve been a specialist lighting designer for over 25 years and have had the pleasure of working on many varied projects during this time."
 featured_image: "/uploads/dominic-myott.jpg"
 position: "Director, AVP Group"

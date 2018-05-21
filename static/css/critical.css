@@ -203,6 +203,9 @@ body {
 .m--l-lg {
   margin-left: 6em; }
 
+.hide {
+  display: none; }
+
 .text--lead {
   font-size: 1.89em;
   line-height: 1.25em; }
@@ -298,6 +301,12 @@ h3,
   font-weight: 500;
   margin-bottom: 15px;
   color: #233746; }
+
+a {
+  color: #233746;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer; }
 
 a:hover,
 a:focus {

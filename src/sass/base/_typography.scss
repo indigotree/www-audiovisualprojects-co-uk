@@ -40,6 +40,13 @@ h3,
     color: color(primary, dark);
 }
 
+a {
+    color: color(primary, dark);
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 a:hover,
 a:focus {
     text-decoration: underline;

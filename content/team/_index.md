@@ -5,6 +5,8 @@ banner_title: "Your Team"
 banner_meta: ""
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere eget orci congue vestibulum. Suspendisse venenatis, elit vel blandit tempus, ante nulla fringilla erat, quis sodales neque nulla at nisi. Maecenas pulvinar vestibulum lectus a pharetra. Etiam malesuada rutrum ex. Nullam ut finibus urna. Duis eu posuere mi.
+AV Projects is a specialist in the design and installation of both Home Theatre and Home Automation systems. As part of our service we also offer lighting control solutions, multi-room control for both audio and video, integration with security systems and a full bespoke cabinet making service.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere eget orci congue vestibulum. Suspendisse venenatis, elit vel blandit tempus, ante nulla fringilla erat, quis sodales neque nulla at nisi. Maecenas pulvinar vestibulum lectus a pharetra. Etiam malesuada rutrum ex. Nullam ut finibus urna. Duis eu posuere mi.
+Our solutions are ideal for exclusive residential dwellings, whether as part of the initial build or installed at a later date. We are happy to work directly with our clients, or alternatively we often find that we are brought in to a project as the AV specialist by architects, interior designers, building developers, electrical specialists and project managers.
+
+The ultimate aim is to deliver a fully integrated solution which is designed to meet our clients' individual needs and unique tastes, blending perfectly with the character of the property and working seamlessly to deliver the level of control and automation which they seek.

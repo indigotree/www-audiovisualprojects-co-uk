@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+    {{ partial "carousel" ( dict "banner_images" .Params.banner_images "banner_title" .Params.banner_title "banner_meta" .Params.banner_meta "Scope" . ) }}
+
+    <div class="container container--band container--md">
+
+        <div class="row">
+
+            <div class="column--md-6">
+                {{ .Content }}
+            </div>
+
+            <div class="column--md-6">
+
+                <form name="contact" netlify-honeypot="bot-field" data-netlify="true" method="POST" action="thank-you">
+
+                    <div class="hide">
+                        <input type="text" name="bot-field" id="bot-field" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fullname">Fullname</label>
+                        <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Joe Blogs" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="example@example.com" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telephone">Telephone</label>
+                        <input type="text" class="form-control" name="telephone" id="telephone" placeholder="07345346353" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Let us know how we can help"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="button button--lg button--primary button--block">Submit</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+        
+    </div>
+
+{{ end }}
