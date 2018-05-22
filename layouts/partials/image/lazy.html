@@ -4,7 +4,7 @@
 
 {{ with .Scope.Site.GetPage "page" "uploads/index.md" }}
     {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" $src) }}
-    {{ $low := $match.Fill "150x q15" }}
+    {{ $low := $match.Resize "150x q15" }}
 
     <img
         src="{{ $low.RelPermalink }}"

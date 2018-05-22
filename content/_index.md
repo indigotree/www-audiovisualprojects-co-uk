@@ -1,5 +1,5 @@
 ---
-banner_images: ["/uploads/grosvenor-estate-london-103.jpg", "/uploads/grosvenor-estate-london-122.jpg", "/uploads/private-residence-hertfordshire-129.jpg", "/uploads/private-residence-hertfordshire-13.jpg"]
+banner_images: ["/uploads/grosvenor-estate-london-103.jpg", "/uploads/grosvenor-estate-london-122.jpg", "/uploads/private-residence-essex-129.jpg", "/uploads/private-residence-essex-13.jpg"]
 banner_title: ""
 banner_meta: ""
 ---
