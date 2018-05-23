@@ -883,7 +883,7 @@ b {
 
 .carousel__media {
   height: 100vh;
-  background-position: center center;
+  background-position: bottom center;
   background-size: cover; }
   @media screen and (min-width: 992px) {
     .carousel__media {

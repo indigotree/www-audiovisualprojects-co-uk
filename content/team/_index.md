@@ -1,6 +1,6 @@
 ---
 title: "Your AVP Team"
-banner_images: ["/uploads/tech.jpg"]
+banner_images: ["/uploads/Control4_Lifestyle_About.jpg"]
 banner_title: "Your Team"
 banner_meta: ""
 ---

@@ -14,7 +14,9 @@
     }
 
     &--has-meta &__left img {
-        transform: translate(-50%, -40%);
+        @include media-min(sm) {
+            transform: translate(-50%, -40%);
+        }
     }
 
     &__meta {

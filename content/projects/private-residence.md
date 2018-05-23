@@ -1,5 +1,5 @@
 ---
-banner_images: ["/uploads/private-residence-essex-13.jpg"]
+banner_images: ["/uploads/private-residence-112.jpg"]
 title: "Private Residence"
 location: "Essex"
 featured_image: "/uploads/private-residence-essex-13.jpg"
@@ -25,4 +25,6 @@ The plant room is the nerve centre of the house, where the cabling is neatly sto
     {{< gallery-image image="/uploads/private-residence-102.jpg" >}}
     {{< gallery-image image="/uploads/private-residence-23.jpg" >}}
     {{< gallery-image image="/uploads/private-residence-129.jpg" >}}
+    {{< gallery-image image="/uploads/private-residence-90.jpg" >}}
+    {{< gallery-image image="/uploads/private-residence-101.jpg" >}}
 {{< /gallery >}}

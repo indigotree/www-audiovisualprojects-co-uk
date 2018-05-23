@@ -2,7 +2,7 @@
 
     &__media {
         height: 100vh;
-        background-position: center center;
+        background-position: bottom center;
         background-size: cover;
 
         @include media-min(md) {

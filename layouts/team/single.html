@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+{{ $title := .Params.banner_title | default .Title }}
+{{ $meta := .Params.banner_meta | default .Params.location }}
+{{ partial "carousel" ( dict "banner_images" .Params.banner_images "banner_title" $title "banner_meta" $meta "Scope" . ) }}
+
+<div class="container container--band container--md text--center">
+    {{ .Content }}
+
+    <div class="text--center">
+        <a href="/team/" class="button button--md button--primary-dark text--uppercase">Back to About Page</a>
+    </div>
+
+</div>
+
+{{ end }}
+
+
