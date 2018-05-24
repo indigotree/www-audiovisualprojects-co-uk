@@ -854,6 +854,15 @@ b {
       width: 166px;
       margin-right: 50px; } }
 
+.logo-icon__a {
+  fill: #5c6670; }
+
+.logo-icon__v {
+  fill: #99a4ae; }
+
+.logo-icon__p {
+  fill: #263746; }
+
 .banner {
   height: 100vh;
   overflow: hidden;
@@ -888,6 +897,22 @@ b {
   @media screen and (min-width: 992px) {
     .carousel__media {
       height: calc(100vh - 90px); } }
+
+.carousel__watermark {
+  position: absolute;
+  width: 250px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 10; }
+  @media screen and (min-width: 768px) {
+    .carousel__watermark {
+      width: 400px; } }
+  .carousel__watermark .logo-icon {
+    fill: rgba(255, 255, 255, 0.5); }
+    .carousel__watermark .logo-icon > path {
+      fill: rgba(255, 255, 255, 0.5); }
 
 .carousel .slick-arrow {
   position: absolute;

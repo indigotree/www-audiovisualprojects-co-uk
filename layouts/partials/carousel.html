@@ -13,6 +13,12 @@
             
             <div class="carousel__media" style="background-image: url({{ $full.RelPermalink }}), url({{ $cropped.RelPermalink }})">
 
+                {{ if $scope.IsHome  }}
+                    <div class="carousel__watermark">
+                        {{ partial "icons/logo.svg" $scope }}
+                    </div>
+                {{ end }}
+
                 {{ if or $title $meta }}
                     <div class="carousel__caption">
                         

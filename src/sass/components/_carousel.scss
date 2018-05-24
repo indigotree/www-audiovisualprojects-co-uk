@@ -11,6 +11,27 @@
 
     }
 
+    &__watermark {
+        position: absolute;
+        width: 250px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+
+        @include media-min(sm) {
+            width: 400px;
+        }
+
+        .logo-icon {
+            fill: rgba(#fff, .5);
+
+            > path {
+                fill: rgba(#fff, .5);
+            }
+        }
+    }
+
     .slick-arrow {
         position: absolute;
         z-index: 2;
