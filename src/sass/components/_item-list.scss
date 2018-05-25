@@ -8,6 +8,7 @@
     > div {
         padding-left: 15px;
         padding-right: 15px;
+        flex: 1;
 
         @include media-min(sm) {
             flex: 0 0 50%;
