@@ -8,7 +8,7 @@ yoast_keyword: ""
 layout: contact
 ---
 
-## Contact Us
+# Contact Us
 
 If you would like to find out more about AV Projects or would like us to provide a quotation, proposal and design for a specific installation, please use the contact details below.
 

@@ -16,7 +16,7 @@ description: ""
 yoast_keyword: ""
 ---
 
-## Grosvenor Estate Head Office, Grosvenor Street, W1 
+# Grosvenor Estate Head Office, Grosvenor Street, W1 
 
 70 Grosvenor Street is the head office of Grosvenor Estate, ​representing​ the business activities of the Grosvenor Family, headed by the Duke of Westminster.
 

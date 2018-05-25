@@ -28,7 +28,7 @@ description: ""
 yoast_keyword: ""
 ---
 
-## Private Residence Berkshire
+# Private Residence Berkshire
 
 Avp were commissioned to fully automate this private Berkshire residence which was built to the highest standards of specification and finish. Working closely with the architects and client from planning stage, we were able to maximise the opportunity to deliver a fantastic, bespoke range of solutions for modern living. The house has top of the range security options which provide great coverage both inside and out. Remote monitoring allows the user to connect to any space in the house from anywhere in the world and a sophisticated video door entry system enables a clear view of who’s at the gate from any touch panel in the house. This customised security features integrate seamlessly with the home automation scheme.
 
