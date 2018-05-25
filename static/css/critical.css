@@ -874,6 +874,8 @@ table {
   top: 10px;
   width: 120px;
   z-index: 2; }
+  .header .logo svg {
+    height: 53px; }
   @media screen and (min-width: 992px) {
     .header .logo {
       left: auto;
@@ -884,12 +886,16 @@ table {
 .main .logo {
   max-width: 200px;
   margin: 0 auto; }
+  .main .logo svg {
+    height: 87px; }
 
 .footer .logo {
   width: 120px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 15px; }
+  .footer .logo svg {
+    height: 73px; }
   @media screen and (min-width: 768px) {
     .footer .logo {
       width: 166px;

@@ -7,6 +7,10 @@
         width: 120px;
         z-index: 2;
 
+        svg {
+            height: 53px;
+        }
+
         @include media-min(md) {
             left: auto;
             top: 23px;
@@ -18,6 +22,10 @@
     .main & {
         max-width: 200px;
         margin: 0 auto;
+
+        svg {
+            height: 87px;
+        }
     }
 
     .footer & {
@@ -25,6 +33,10 @@
         display: inline-block;
         vertical-align: middle;
         margin-right: 15px;
+
+        svg {
+            height: 73px;
+        }
 
         @include media-min(sm) {
             width: 166px;
