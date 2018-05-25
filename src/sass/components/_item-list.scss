@@ -8,15 +8,14 @@
     > div {
         padding-left: 15px;
         padding-right: 15px;
-        flex: 1;
 
         @include media-min(sm) {
-            flex: 0 0 50%;
+            flex: 1 1 50%;
             max-width: 50%;
         }
 
         @include media-min(md) {
-            flex: 0 0 33.333%;
+            flex: 1 1 33.333%;
             max-width: 33.333%;
         }
         
