@@ -7,7 +7,9 @@
         </footer>
     </blockquote>
 
-    <a href="{{ .Params.read_more_link | default .Site.Data.testimonial.read_more_link }}" class="read-more">Read more</a>
+    {{ if or .Params.read_more_link .Site.Data.testimonial.read_more_link }}
+        <a href="{{ .Params.read_more_link | default .Site.Data.testimonial.read_more_link }}" class="read-more">Read more</a>
+    {{ end }}
 
 </div>
 

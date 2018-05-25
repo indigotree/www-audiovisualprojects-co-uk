@@ -1,0 +1,56 @@
+<svg viewBox="0 0 177 146" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41">
+  <g fill-rule="nonzero">
+    <path d="M66.01 77.53a30.76 30.76 0 0 0-8.87 22.3 30.83 30.83 0 0 0 9.1 21.32 30.82 30.82 0 0 0 21.31 9.1h.59a30.8 30.8 0 0 0 22.12-9.28 30.8 30.8 0 0 0 8.87-22.3 30.81 30.81 0 0 0-9.1-21.32 30.77 30.77 0 0 0-21.3-9.1h-.6c-8.38 0-16.24 3.3-22.12 9.28zm21.63 47.7a26.21 26.21 0 0 1-25.5-25.49 25.82 25.82 0 0 1 7.45-18.7 25.78 25.78 0 0 1 19.04-7.78 26.2 26.2 0 0 1 25.5 25.5 25.79 25.79 0 0 1-7.44 18.7 25.77 25.77 0 0 1-18.54 7.78h-.51z" fill="url(#high-end-sound-1)"/>
+    <path d="M66.8 99.25a21.36 21.36 0 0 0 21.34 21.34 21.36 21.36 0 0 0 21.34-21.34 21.36 21.36 0 0 0-21.34-21.34A21.36 21.36 0 0 0 66.8 99.25zm5 0c0-9 7.33-16.34 16.34-16.34 9 0 16.33 7.34 16.33 16.34s-7.33 16.33-16.33 16.33A16.35 16.35 0 0 1 71.8 99.25z" fill="url(#high-end-sound-2)"/>
+    <path d="M73.64 20.55a20.2 20.2 0 0 0 29 28.08 20.2 20.2 0 0 0-29-28.08zm14 29.2a15.19 15.19 0 0 1-10.4-25.71 15.05 15.05 0 0 1 11.4-4.61 15.19 15.19 0 0 1 10.4 25.72 15.03 15.03 0 0 1-10.9 4.62l-.5-.01z" fill="url(#high-end-sound-3)"/>
+    <path d="M76.13 34.6c0 6.61 5.39 12 12 12 6.63 0 12.02-5.39 12.02-12 0-6.63-5.4-12.02-12.01-12.02-6.62 0-12.01 5.4-12.01 12.01zm5 0a7 7 0 1 1 14.02 0 7 7 0 0 1-14.01 0z" fill="url(#high-end-sound-4)"/>
+    <path d="M122.82 30.49v105.76a4.22 4.22 0 0 1-4.21 4.22H57.67a4.22 4.22 0 0 1-4.22-4.22V124.2a2.5 2.5 0 1 0-5 0v12.05a9.22 9.22 0 0 0 9.22 9.22h60.94a9.23 9.23 0 0 0 9.22-9.22V30.5a2.5 2.5 0 0 0-5.01 0z" fill="url(#high-end-sound-5)"/>
+    <path d="M57.67.46a9.23 9.23 0 0 0-9.22 9.22V112.3a2.5 2.5 0 1 0 5 0V9.68c0-2.33 1.9-4.2 4.22-4.2h60.94c2.32 0 4.2 1.87 4.2 4.2v8.92a2.5 2.5 0 1 0 5.02 0V9.68A9.23 9.23 0 0 0 118.6.46H57.67z" fill="url(#high-end-sound-6)"/>
+    <path d="M149.18 34.07a7.67 7.67 0 0 0 0 10.82 39.74 39.74 0 0 1 0 56.15 7.67 7.67 0 0 0 5.42 13.07 7.6 7.6 0 0 0 5.4-2.25 54.63 54.63 0 0 0 16.1-38.9c0-14.7-5.72-28.52-16.1-38.89a7.62 7.62 0 0 0-10.83 0zm3.55 74.25a2.65 2.65 0 0 1 0-3.74 44.76 44.76 0 0 0 0-63.23 2.65 2.65 0 0 1 3.74-3.74 49.64 49.64 0 0 1 14.62 35.36c0 13.37-5.2 25.92-14.62 35.36-.5.5-1.17.77-1.87.77-.7 0-1.38-.27-1.87-.77z" fill="url(#high-end-sound-7)"/>
+    <path d="M135.72 44.2a7.67 7.67 0 0 0 0 10.82c9.9 9.9 9.9 26 0 35.9a7.67 7.67 0 0 0 10.83 10.82 40.43 40.43 0 0 0 11.9-28.77c0-10.89-4.23-21.1-11.9-28.78a7.63 7.63 0 0 0-10.83 0zm3.55 54a2.64 2.64 0 0 1 0-3.74 30.44 30.44 0 0 0 0-42.98 2.64 2.64 0 1 1 3.74-3.75 35.45 35.45 0 0 1 10.43 25.24c0 9.54-3.7 18.5-10.43 25.23-.5.5-1.16.77-1.87.77-.71 0-1.38-.27-1.87-.77z" fill="url(#high-end-sound-8)"/>
+    <path d="M16.26 34.07A54.63 54.63 0 0 0 .18 72.97c0 14.7 5.7 28.52 16.08 38.9a7.6 7.6 0 0 0 10.82 0 7.66 7.66 0 0 0 0-10.83 39.75 39.75 0 0 1 0-56.15 7.65 7.65 0 0 0-10.82-10.82zm3.54 74.25A49.7 49.7 0 0 1 5.18 72.97c0-13.38 5.2-25.93 14.62-35.36a2.62 2.62 0 0 1 3.75 0 2.65 2.65 0 0 1 0 3.74 44.75 44.75 0 0 0 0 63.23 2.65 2.65 0 0 1-3.75 3.75z" fill="url(#high-end-sound-9)"/>
+    <path d="M29.73 44.2a40.41 40.41 0 0 0-11.9 28.77c0 10.88 4.22 21.1 11.9 28.77a7.6 7.6 0 0 0 5.4 2.24 7.66 7.66 0 0 0 5.41-13.07c-9.89-9.89-9.89-26 0-35.9A7.66 7.66 0 0 0 29.74 44.2zm3.54 54a35.46 35.46 0 0 1-10.44-25.23c0-9.55 3.7-18.51 10.44-25.24a2.65 2.65 0 0 1 3.75 3.75 30.41 30.41 0 0 0 0 42.98 2.65 2.65 0 1 1-3.75 3.74z" fill="url(#high-end-sound-10)"/>
+  </g>
+  <defs>
+    <linearGradient id="high-end-sound-1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(57.14 99.25) scale(62.0009)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="high-end-sound-2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(66.8 99.25) scale(42.676)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="high-end-sound-3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(67.95 34.6) scale(40.3621)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="high-end-sound-4" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(76.13 34.6) scale(24.0148)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="high-end-sound-5" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(48.45 86.73) scale(79.3776)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="high-end-sound-6" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(48.45 57.63) scale(79.3794)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="high-end-sound-7" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(146.95 72.97) scale(29.1498)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="high-end-sound-8" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(133.49 72.97) scale(24.9633)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="high-end-sound-9" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(.18 72.97) scale(29.1489)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="high-end-sound-10" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(17.82 72.97) scale(24.963)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+  </defs>
+</svg>

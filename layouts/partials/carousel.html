@@ -2,6 +2,7 @@
 {{ $title := .banner_title }}
 {{ $meta := .banner_meta }}
 {{ $scope := .Scope }}
+{{ $fullSize := .banner_size | default "1920x1080 q80" }}
 <div class="banner carousel" id="carousel">
     {{ range $index, $media := $images }}
         
@@ -9,13 +10,13 @@
 
             {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" $media) }}
             {{ $cropped := $match.Resize "150x q30" }}
-            {{ $full := $match.Fill "1920x1080 q80" }}
+            {{ $full := $match.Fill $fullSize }}
             
-            <div class="carousel__media" style="background-image: url({{ $full.RelPermalink }}), url({{ $cropped.RelPermalink }})">
+            <div class="carousel__media carousel--zoom" style="background-image: url({{ $full.RelPermalink }}), url({{ $cropped.RelPermalink }})">
 
                 {{ if $scope.IsHome  }}
                     <div class="carousel__watermark">
-                        {{ partial "icons/logo.svg" $scope }}
+                        {{ partial "logo.svg" $scope }}
                     </div>
                 {{ end }}
 

@@ -14,25 +14,11 @@
 
     <div class="range m--b-sm">
 
-        <div class="range-icon">
-            {{ partial "icons/device.svg" . }}
-            <span class="range-icon__title">Wifi, Networking &amp; Communications</span>
-        </div>
+        {{ range $key, $icon := .Params.icons }}
 
-        <div class="range-icon">
-            {{ partial "icons/house.svg" . }}
-            <span class="range-icon__title">Home Automation</span>
-        </div>
+            {{ partial "icon" ( dict "icon" $icon.icon "title" $icon.title "Scope" . ) }}
 
-        <div class="range-icon">
-            {{ partial "icons/light.svg" . }}
-            <span class="range-icon__title">Lighting</span>
-        </div>
-
-        <div class="range-icon">
-            {{ partial "icons/security.svg" . }}
-            <span class="range-icon__title">Security &amp; access</span>
-        </div>
+        {{ end }}
 
     </div>
 

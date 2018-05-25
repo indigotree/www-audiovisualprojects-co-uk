@@ -2,7 +2,7 @@
 
 {{ $title := .Params.banner_title | default .Title }}
 {{ $meta := .Params.banner_meta | default .Params.location }}
-{{ partial "carousel" ( dict "banner_images" .Params.banner_images "banner_title" $title "banner_meta" $meta "Scope" . ) }}
+{{ partial "carousel" ( dict "banner_images" .Params.banner_images "banner_title" $title "banner_meta" $meta "banner_size" "1920x1080 top q80" "Scope" . ) }}
 
 <div class="container container--band container--md text--center">
     {{ .Content }}

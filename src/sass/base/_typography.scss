@@ -88,3 +88,53 @@ b {
     clip: rect(0,0,0,0);
     border: 0;
 }
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ul, ol {
+    text-align: left;
+}
+
+table {
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+
+    thead {
+        th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            line-height: 1.4;
+            vertical-align: top;
+            font-weight: bold;
+        }
+    }
+
+    tbody {
+
+        tr {
+
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                line-height: 1.4;
+                vertical-align: top;
+            }
+
+            &:nth-of-type(odd) {
+                background-color: #f9f9f9;
+            }
+        }
+    }
+
+    
+}

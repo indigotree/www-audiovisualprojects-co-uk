@@ -2,13 +2,18 @@
 
     &__media {
         height: 100vh;
-        background-position: bottom center;
+        background-position: center center;
         background-size: cover;
+        transition: transform .3s ease;
 
         @include media-min(md) {
             height: calc(100vh - 90px);
         }
 
+    }
+
+    &--zoom {
+        animation: zoom 13s ease-out 0s forwards;
     }
 
     &__watermark {

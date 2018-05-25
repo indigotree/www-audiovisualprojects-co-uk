@@ -1,0 +1,26 @@
+<svg viewBox="0 0 178 184" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41">
+  <g fill-rule="nonzero">
+    <path d="M35.12 21.51a4.67 4.67 0 0 0-4.72 4.62v24.44a2.8 2.8 0 0 0 2.82 2.76 2.8 2.8 0 0 0 2.82-2.76V27.04h32.98v2.43c0 .06.03.1.03.17 0 .06-.03.1-.03.16v30.44H36.04v-1.56a2.8 2.8 0 0 0-2.82-2.77 2.8 2.8 0 0 0-2.82 2.77v2.47a4.67 4.67 0 0 0 4.72 4.62h34.82c2.6 0 4.72-2.08 4.72-4.62V29.8c0-.05-.04-.1-.04-.16s.04-.11.04-.17v-3.34a4.68 4.68 0 0 0-4.72-4.62H35.12z" fill="url(#multi-dwelling-unit-1)"/>
+    <path d="M35.12 90.35a4.68 4.68 0 0 0-4.72 4.63v31.33c0 .06.03.11.04.17 0 .06-.04.1-.04.17v3.33a4.67 4.67 0 0 0 4.72 4.62h34.82c2.6 0 4.72-2.07 4.72-4.62v-24.43a2.8 2.8 0 0 0-2.82-2.77 2.8 2.8 0 0 0-2.82 2.77v23.53H36.04v-2.43c0-.06-.03-.1-.03-.17 0-.06.03-.11.03-.17V95.88h32.98v1.55a2.8 2.8 0 0 0 2.82 2.77 2.8 2.8 0 0 0 2.82-2.77v-2.46a4.68 4.68 0 0 0-4.72-4.62H35.12z" fill="url(#multi-dwelling-unit-2)"/>
+    <path d="M9.88.56a3.05 3.05 0 0 0-3.05 3.05v173.66H3.78a3.05 3.05 0 0 0 0 6.1h102.87a3.05 3.05 0 0 0 0-6.1h-8.42V3.6A3.05 3.05 0 0 0 95.18.56H9.88zm3.04 6.1h79.21v170.6H70.81v-27.41a3.04 3.04 0 0 0-3.05-3.05H37.3a3.05 3.05 0 0 0-3.05 3.05v27.42H12.92V6.66zM40.35 152.9h24.37v24.37H40.35V152.9z" fill="url(#multi-dwelling-unit-3)"/>
+    <path d="M116.5 116.34a30.47 30.47 0 0 0 27.42 30.31v30.62h-23.1a3.05 3.05 0 0 0 0 6.1h53.58a3.05 3.05 0 0 0 0-6.1h-24.37v-30.62a30.47 30.47 0 1 0-33.52-30.3zm6.1 0a24.37 24.37 0 1 1 27.43 24.16V129.8l8.24-8.25a3.05 3.05 0 0 0-4.3-4.31l-7 6.99-6.98-7a3.04 3.04 0 1 0-4.31 4.32l8.25 8.25v10.71a24.37 24.37 0 0 1-21.33-24.16z" fill="url(#multi-dwelling-unit-4)"/>
+  </g>
+  <defs>
+    <linearGradient id="multi-dwelling-unit-1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(30.4 43.64) scale(44.2556)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="multi-dwelling-unit-2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(30.4 112.48) scale(44.2556)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="multi-dwelling-unit-3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(.74 91.96) scale(108.962)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="multi-dwelling-unit-4" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(116.5 134.62) scale(60.9334)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+  </defs>
+</svg>

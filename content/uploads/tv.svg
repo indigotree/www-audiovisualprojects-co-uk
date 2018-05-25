@@ -1,0 +1,31 @@
+<svg viewBox="0 0 181 131" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41">
+  <g fill-rule="nonzero">
+    <path d="M150.83.92a2.56 2.56 0 0 0 0 5.12h24.33v100.88H34.82a2.55 2.55 0 1 0 0 5.1h39.33l-1.07 5.13H63.04a4.02 4.02 0 0 0-4.02 4.01v5.65c0 2.22 1.8 4.02 4.02 4.02h54.84c2.22 0 4.02-1.8 4.02-4.02v-5.65c0-2.21-1.8-4.01-4.02-4.01h-10.03l-1.07-5.12h69.3a4.2 4.2 0 0 0 4.2-4.2V5.13a4.2 4.2 0 0 0-4.2-4.2h-25.25zm-71.46 111.1h22.18l1.07 5.13H78.3l1.07-5.12zm-15.24 10.24h52.66v3.47H64.13v-3.47z" fill="url(#tv-1)"/>
+    <path d="M4.85.92a4.2 4.2 0 0 0-4.2 4.2v102.7a4.2 4.2 0 0 0 4.2 4.2h17.73a2.56 2.56 0 1 0 0-5.1H5.75V6.04h132.8a2.56 2.56 0 0 0 0-5.12H4.86z" fill="url(#tv-2)"/>
+    <path d="M14.3 11.15a3.43 3.43 0 0 0-3.42 3.43v83.79c0 1.9 1.54 3.43 3.43 3.43h152.3c1.9 0 3.44-1.54 3.44-3.43v-83.8c0-1.88-1.54-3.42-3.44-3.42H14.3zm1.69 5.1h148.94V96.7H16V16.25z" fill="url(#tv-3)"/>
+    <path d="M57.19 54.43A33.3 33.3 0 0 0 90.46 87.7a33.31 33.31 0 0 0 33.28-33.27 33.31 33.31 0 0 0-33.28-33.27A33.3 33.3 0 0 0 57.2 54.43zm5.11 0a28.19 28.19 0 0 1 28.16-28.16 28.2 28.2 0 0 1 28.16 28.16 28.2 28.2 0 0 1-28.16 28.16A28.19 28.19 0 0 1 62.3 54.43z" fill="url(#tv-4)"/>
+    <path d="M78.17 38.57v31.72a3.73 3.73 0 0 0 5.8 3.15l24.58-15.86a3.73 3.73 0 0 0 1.71-3.15c0-1.28-.63-2.46-1.71-3.16L83.97 35.41a3.74 3.74 0 0 0-5.8 3.16zm5.11 2.49l20.73 13.37L83.28 67.8V41.06z" fill="url(#tv-5)"/>
+  </g>
+  <defs>
+    <linearGradient id="tv-1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32.26 65.88) scale(148.011)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="tv-2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(.65 56.48) scale(140.467)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="tv-3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(10.88 56.47) scale(159.169)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="tv-4" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(57.19 54.43) scale(66.548)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="tv-5" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(78.18 54.43) scale(32.0878)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+  </defs>
+</svg>

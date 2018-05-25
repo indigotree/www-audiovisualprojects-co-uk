@@ -14,8 +14,7 @@ If you would like to find out more about AV Projects or would like us to provide
 
 **Address**:<br>
 Audio Visual Projects,<br>
-Unit B,<br>
-Batford Mill Ind Est,<br>
+Unit B, Batford Mill Ind Est,<br>
 Lower Luton Road,<br>
 Harpenden,<br>
 Herts,<br>

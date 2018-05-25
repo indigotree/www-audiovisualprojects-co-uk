@@ -1,0 +1,16 @@
+<svg viewBox="0 0 176 179" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41">
+  <g fill-rule="nonzero">
+    <path d="M27.13 11.19c-3 0-5.46 2.45-5.46 5.46v143.22h-6.05V134.9a2.53 2.53 0 1 0-5.06 0v24.98H5.42a5.09 5.09 0 0 0-5.09 5.07v8.07c0 2.8 2.28 5.07 5.09 5.07h165.16c2.8 0 5.08-2.27 5.08-5.07v-8.07c0-2.8-2.28-5.07-5.08-5.07h-5.15V38.34a2.54 2.54 0 1 0-5.06 0v121.53h-6.04V16.65c0-3-2.45-5.46-5.47-5.46H27.13zm-.4 5.46c0-.22.18-.4.4-.4h121.73c.22 0 .4.18.4.4V83H26.74V16.65zm63.8 77.5v-6.08h58.73v71.8H26.74v-71.8h58.72v6.07a2.54 2.54 0 0 0 5.07 0zM5.4 173.01l.02-8.08 165.17.01v8.08L5.4 173.02z" fill="url(#_Linear1)"/>
+    <path d="M15.34.07a4.79 4.79 0 0 0-4.78 4.79v118a2.53 2.53 0 1 0 5.06 0V5.16h144.75V26.3a2.53 2.53 0 1 0 5.06 0V4.86a4.78 4.78 0 0 0-4.78-4.79H15.34z" fill="url(#_Linear2)"/>
+  </g>
+  <defs>
+    <linearGradient id="_Linear1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(.33 94.64) scale(175.324)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="_Linear2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(10.56 62.74) scale(154.88)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+  </defs>
+</svg>

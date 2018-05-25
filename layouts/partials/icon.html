@@ -1,0 +1,6 @@
+{{ if .icon }}
+    <div class="range-icon">
+        {{ readFile .icon | safeHTML }}
+        {{ with .title }}<span class="range-icon__title">{{ . }}</span>{{ end }}
+    </div>
+{{ end }}

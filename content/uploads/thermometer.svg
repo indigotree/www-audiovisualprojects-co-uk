@@ -1,0 +1,46 @@
+<svg viewBox="0 0 89 179" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41">
+  <g fill-rule="nonzero">
+    <path d="M11.36 20v3.23a2.54 2.54 0 1 0 5.08 0v-3.24c0-8.03 6.53-14.56 14.56-14.56 8.03 0 14.57 6.53 14.57 14.56v100.69c0 3.66 1.4 7.13 3.92 9.77a25.43 25.43 0 0 1 6.94 20.5 2.54 2.54 0 0 0 2.25 2.8l.29.02c1.28 0 2.37-.97 2.51-2.27a30.52 30.52 0 0 0-8.32-24.55 9.04 9.04 0 0 1-2.51-6.27V19.99A19.67 19.67 0 0 0 31 .35 19.66 19.66 0 0 0 11.36 20z" fill="url(#thermometer-1)"/>
+    <path d="M11.36 35.3v85.38c0 2.34-.9 4.57-2.53 6.28a30.54 30.54 0 0 0-8.49 20.75 30.76 30.76 0 0 0 30.64 31.09 30.79 30.79 0 0 0 26.3-14.84 2.54 2.54 0 0 0-4.35-2.63 25.68 25.68 0 0 1-22.55 12.38 25.67 25.67 0 0 1-24.96-25.93 25.44 25.44 0 0 1 7.08-17.3 14.15 14.15 0 0 0 3.94-9.8V35.28a2.54 2.54 0 0 0-5.08 0z" fill="url(#thermometer-2)"/>
+    <path d="M19.5 41.67v79c0 4.45-1.7 8.68-4.8 11.9a22.43 22.43 0 0 0-6.23 15.25 22.62 22.62 0 0 0 21.99 22.84h.56c6 0 11.67-2.34 15.91-6.6a22.34 22.34 0 0 0 6.6-15.93c0-5.83-2.2-11.36-6.24-15.57a17.1 17.1 0 0 1-4.77-11.88V41.67a11.52 11.52 0 0 0-23.02 0zm11.08 123.92a17.52 17.52 0 0 1-17.03-17.7 17.4 17.4 0 0 1 4.83-11.8c4-4.18 6.2-9.66 6.2-15.42v-79a6.44 6.44 0 0 1 12.86 0v79c0 5.77 2.2 11.24 6.18 15.4a17.36 17.36 0 0 1 4.84 12.06c0 4.67-1.82 9.05-5.11 12.34-3.3 3.3-7.7 5.12-12.38 5.12h-.4z" fill="url(#thermometer-3)"/>
+    <path d="M62.76 11.33a6.18 6.18 0 0 0 0 12.35h19.22a6.18 6.18 0 0 0 0-12.35H62.76zm-1.1 6.17c0-.6.5-1.1 1.1-1.1h19.22a1.1 1.1 0 0 1 0 2.2H62.76c-.6 0-1.1-.5-1.1-1.1z" fill="url(#thermometer-4)"/>
+    <path d="M62.76 54.74a6.18 6.18 0 0 0 0 12.34h19.22a6.18 6.18 0 0 0 0-12.34H62.76zm-1.1 6.17c0-.6.5-1.1 1.1-1.1h19.22a1.1 1.1 0 0 1 0 2.2H62.76c-.6 0-1.1-.5-1.1-1.1z" fill="url(#thermometer-5)"/>
+    <path d="M62.76 98.15a6.18 6.18 0 0 0 0 12.35h19.22a6.18 6.18 0 0 0 0-12.35H62.76zm-1.1 6.17c0-.6.5-1.1 1.1-1.1h19.22a1.1 1.1 0 0 1 0 2.2H62.76c-.6 0-1.1-.5-1.1-1.1z" fill="url(#thermometer-6)"/>
+    <path d="M62.76 33.03a6.18 6.18 0 0 0 0 12.35h11.22a6.18 6.18 0 0 0 0-12.35H62.76zm-1.1 6.18c0-.6.5-1.1 1.1-1.1h11.22c.6 0 1.1.5 1.1 1.1 0 .6-.5 1.09-1.1 1.09H62.76c-.6 0-1.1-.49-1.1-1.1z" fill="url(#thermometer-7)"/>
+    <path d="M62.76 76.44a6.18 6.18 0 0 0 0 12.35h11.22a6.19 6.19 0 0 0 0-12.35H62.76zm-1.1 6.18c0-.61.5-1.1 1.1-1.1h11.22c.6 0 1.1.49 1.1 1.1 0 .6-.5 1.09-1.1 1.09H62.76c-.6 0-1.1-.5-1.1-1.1z" fill="url(#thermometer-8)"/>
+  </g>
+  <defs>
+    <linearGradient id="thermometer-1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.36 77.06) scale(50.3073)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="thermometer-2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(.34 105.77) scale(57.2995)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="thermometer-3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(8.47 100.41) scale(45.0715)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="thermometer-4" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(56.59 17.5) scale(31.5625)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="thermometer-5" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(56.59 60.91) scale(31.5625)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="thermometer-6" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(56.59 104.32) scale(31.5625)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="thermometer-7" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(56.59 39.2) scale(23.5644)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+    <linearGradient id="thermometer-8" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(56.59 82.61) scale(23.5644)">
+      <stop offset="0" stop-color="#30353a"/>
+      <stop offset="1" stop-color="#9fa3a6"/>
+    </linearGradient>
+  </defs>
+</svg>

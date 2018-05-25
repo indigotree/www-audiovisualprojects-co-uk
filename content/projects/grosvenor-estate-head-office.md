@@ -1,5 +1,12 @@
 ---
 banner_images: ["/uploads/waiting-room.jpg"]
+icons: 
+  - title: "Automation"
+    icon: "/uploads/house.svg"
+  - title: "Lighing"
+    icon: "/uploads/light.svg"
+  - title: "Wifi, Networking & Communications"
+    icon: "/uploads/device.svg"
 title: "Grosvenor Estate Head Office"
 location: "Mayfair, London"
 featured_image: "/uploads/grosvenor-estate-london-122.jpg"

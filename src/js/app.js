@@ -22,7 +22,17 @@
             infinite: true,
             speed: 500,
             fade: true,
+            autoplay: true,
+            autoplaySpeed: 8000,
             cssEase: 'linear'
+        });
+
+        $('#carousel').on('beforeChange', function (event, slick, currentSlide) {
+            $('[data-slick-index="' + currentSlide + '"]').find('.carousel__media').removeClass('carousel--zoom');
+        });
+
+        $('#carousel').on('afterChange', function (event, slick, currentSlide) {
+            $('[data-slick-index="' + currentSlide + '"]').find('.carousel__media').addClass('carousel--zoom');
         });
     });
 

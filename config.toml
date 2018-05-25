@@ -75,20 +75,20 @@ notAlternative = true
         url = "/contact/"
 
 
-    [[menu.footer]]
-        name = "Partners"
-        weight = 10
-        url = "/partners/"
+    # [[menu.footer]]
+    #     name = "Partners"
+    #     weight = 10
+    #     url = "/partners/"
 
     [[menu.footer]]
         name = "Privacy Policy"
         weight = 20
         url = "/privacy-policy/"
 
-    [[menu.footer]]
-        name = "Terms of Use"
-        weight = 30
-        url = "/terms-of-use/"
+    # [[menu.footer]]
+    #     name = "Terms of Use"
+    #     weight = 30
+    #     url = "/terms-of-use/"
 
     [[menu.footer]]
         name = "Cookies"
