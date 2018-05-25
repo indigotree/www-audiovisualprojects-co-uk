@@ -4,3 +4,15 @@
 {{ . }} {{ $p.RelPermalink -}}
 {{- end }}
 {{- end -}}
+
+/about.html /team/
+/people.html /team/
+/hometheatre.html /
+/homeautomation.html /
+/lightingcontrol.html /
+/multiroomcontrol.html /
+/gallery.html /projects/
+/testimonials.html /
+/where.html /contact/
+/links.html /contact/
+/contact.html /contact/
