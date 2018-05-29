@@ -1,6 +1,6 @@
 ---
 title: "Contact Us"
-banner_images: []
+banner_images: ["/uploads/Control4_Lifestyle_HomeAutomation.jpg"]
 banner_title: "Contact Us"
 banner_meta: ""
 description: ""
