@@ -925,6 +925,14 @@ table {
   overflow: hidden;
   background-color: #25282a; }
   @media screen and (min-width: 992px) {
+    .banner {
+      height: calc(100vh - 90px);
+      margin-bottom: 90px; } }
+  @media screen and (min-width: 1200px) {
+    .banner {
+      height: calc(100vh - 92px);
+      margin-bottom: 92px; } }
+  @media screen and (min-width: 992px) {
     .header--top .banner {
       margin-bottom: 0;
       margin-top: 90px; } }
