@@ -1,5 +1,5 @@
 ---
-banner_images: ["/uploads/willPryce-6026a.jpg", "/uploads/grosvenor-estate-london-103.jpg", "/uploads/grosvenor-estate-london-122.jpg", "/uploads/private-residence-berkshire-129.jpg", "/uploads/private-residence-berkshire-13.jpg"]
+banner_images: ["/uploads/grosvenor-estate-london-103.jpg", "/uploads/grosvenor-estate-london-122.jpg", "/uploads/private-residence-berkshire-129.jpg", "/uploads/private-residence-berkshire-13.jpg"]
 icons: 
   - title: "Home Automation"
     icon: "/uploads/house.svg"
