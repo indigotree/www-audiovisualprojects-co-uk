@@ -5,7 +5,7 @@ icons:
     icon: "/uploads/house.svg"
   - title: "Security & access"
     icon: "/uploads/security.svg"
-  - title: "Lighing"
+  - title: "Lighting"
     icon: "/uploads/light.svg"
   - title: "Climate Control"
     icon: "/uploads/thermometer.svg"

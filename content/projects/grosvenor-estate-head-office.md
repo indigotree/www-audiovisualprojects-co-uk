@@ -3,7 +3,7 @@ banner_images: ["/uploads/waiting-room.jpg"]
 icons: 
   - title: "Automation"
     icon: "/uploads/house.svg"
-  - title: "Lighing"
+  - title: "Lighting"
     icon: "/uploads/light.svg"
   - title: "Wifi, Networking & Communications"
     icon: "/uploads/device.svg"
