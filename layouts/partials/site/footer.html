@@ -66,7 +66,7 @@
     </div>
     
     <div class="container container--band container--sm container--primary-darkest footer__bottom" data-turbolinks-permanent>
-        <span class="copyright">Copyright {{ now.Format "2006" }}</span> | <a href="{{ .Site.BaseURL }}" class="site-title">{{ .Site.Title }}</a></span>
+        <span class="copyright">Copyright {{ now.Format "2006" }}</span> | <a href="{{ .Site.BaseURL }}" class="site-title">{{ .Site.Title }}</a>
         <nav class="footer-navigation">
             <ul>
                 {{ $currentPage := . }}
@@ -77,7 +77,7 @@
                 {{ end }}
             </ul>
         </nav>
-        | <span class="credit">Built by <a href="https://indigotree.co.uk/">Indigo Tree</a></span>
+        | <span class="credit">Built by <a href="https://indigotree.co.uk/" target="_blank" rel="noopener">Indigo Tree</a></span>
     </div>
 
 </footer>
