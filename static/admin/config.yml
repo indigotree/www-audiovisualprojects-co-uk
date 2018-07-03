@@ -12,5 +12,22 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Focus Keyword", name: "yoast_keyword", widget: "string", required: true }
+      - { label: "Description", name: "description", widget: "string", required: true }
+      - { label: "Layout", name: "layout", widget: "string", required: false }
+      - label: "Banner"
+        name: "banner"
+        widget: "list"
+        fields: 
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta", name: "meta", widget: "string" }
+      - label: "Icons"
+        name: "icons"
+        widget: "list"
+        fields: 
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Icon", name: "icon", widget: "image" }
+          - { label: "Link", name: "link", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
