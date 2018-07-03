@@ -5,7 +5,7 @@ icons:
     icon: "/uploads/house.svg"
   - title: "Lighting"
     icon: "/uploads/light.svg"
-  - title: "Wifi, Networking & Communications"
+  - title: "Wi-Fi & Networking"
     icon: "/uploads/device.svg"
 title: "Grosvenor Estate Head Office"
 location: "Mayfair, London"

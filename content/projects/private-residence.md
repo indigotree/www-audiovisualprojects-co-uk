@@ -3,7 +3,7 @@ banner_images: ["/uploads/private-residence-112.jpg"]
 icons: 
   - title: "Home Automation"
     icon: "/uploads/house.svg"
-  - title: "Security & access"
+  - title: "Security & Access"
     icon: "/uploads/security.svg"
   - title: "Lighting"
     icon: "/uploads/light.svg"
@@ -13,7 +13,7 @@ icons:
     icon: "/uploads/tv.svg"
   - title: "Cinema"
     icon: "/uploads/cinema.svg"
-  - title: "Wifi, Networking & Communications"
+  - title: "Wi-Fi & Networking"
     icon: "/uploads/device.svg"
   - title: "Design & Planning"
     icon: "/uploads/design-planning.svg"

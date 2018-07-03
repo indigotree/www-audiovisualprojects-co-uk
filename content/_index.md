@@ -1,9 +1,9 @@
 ---
-banner_images: ["/uploads/grosvenor-estate-london-103.jpg", "/uploads/grosvenor-estate-london-122.jpg", "/uploads/private-residence-berkshire-129.jpg", "/uploads/private-residence-berkshire-13.jpg"]
+banner_images: ["/uploads/grosvenor-estate-london-103.jpg", "/uploads/grosvenor-estate-london-122.jpg", "/uploads/private-residence-berkshire-129.jpg", "/uploads/private-residence-berkshire-13.jpg", "/uploads/craigs-home.jpg"]
 icons: 
   - title: "Home Automation"
     icon: "/uploads/house.svg"
-  - title: "Security & access"
+  - title: "Security & Access"
     icon: "/uploads/security.svg"
   - title: "Lighting"
     icon: "/uploads/light.svg"
@@ -13,11 +13,11 @@ icons:
     icon: "/uploads/tv.svg"
   - title: "Cinema"
     icon: "/uploads/cinema.svg"
-  - title: "Wifi, Networking & Communications"
+  - title: "Wi-Fi & Networking"
     icon: "/uploads/device.svg"
   - title: "Design & Planning"
     icon: "/uploads/design-planning.svg"
-  - title: "Multi-Dwelling unit"
+  - title: "Multi-Dwelling Unit"
     icon: "/uploads/multi-dwelling-unit.svg"
   - title: "Electrical"
     icon: "/uploads/plug.svg"
