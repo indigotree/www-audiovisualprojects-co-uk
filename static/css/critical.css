@@ -950,6 +950,7 @@ table {
     display: none;
     position: absolute;
     bottom: 0;
+    height: 50px;
     z-index: 999;
     top: calc(100vh - 150px);
     left: 30px;
