@@ -1,1 +1,4 @@
-default_image: "/uploads/contact-banner.jpg"
+default:
+  - image: "/uploads/contact-banner.jpg"
+    title: ""
+    meta: ""

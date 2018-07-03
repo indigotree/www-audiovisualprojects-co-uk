@@ -27,6 +27,10 @@
 
                     <span class="tagline">Let's talk</span>
 
+                    <div class="footer__partner">
+                        {{ partial "image/lazy" (dict "Src" .Site.Data.footer.partner_image "Alt" .Site.Data.footer.partner_alt "Scope" . ) }}
+                    </div>
+
                 </div>
 
             </div>

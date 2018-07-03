@@ -1,10 +1,12 @@
 ---
 title: "Contact Us"
-banner_images: ["/uploads/Control4_Lifestyle_HomeAutomation.jpg"]
-banner_title: "Contact Us"
-banner_meta: ""
-description: ""
+banner: 
+  - image: "/uploads/Control4_Lifestyle_HomeAutomation.jpg"
+    title: "Contact Us"
+    meta: ""
+icons: []
 yoast_keyword: ""
+description: ""
 layout: contact
 ---
 

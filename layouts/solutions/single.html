@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+    {{ $scope := . }}
+
+    {{ partial "carousel" ( dict "banner" .Params.banner "Scope" . ) }}
+
+    <div class="container container--band container--md text--center">
+        {{ .Content }}
+    </div>
+
+    {{ range $key, $split := .Params.splits }}
+
+        {{ partial "split" (dict "title" $split.title "link_text" $split.link_text "link" $split.link "image" $split.image "image_position" $split.image_position "content" $split.content "Scope" $scope ) }}
+
+    {{ end }}
+
+{{ end }}

@@ -1,8 +1,9 @@
 ---
-title: ""
-banner_images: ["/uploads/Control4_Lifestyle_About.jpg"]
-banner_title: "About us"
-banner_meta: ""
+title: "Team"
+banner: 
+  - image: "/uploads/Control4_Lifestyle_About.jpg"
+    title: "About us"
+    meta: ""
 ---
 
 For over 25 years, Audio Visual Projects (AVP) has designed and installed automation systems for residential and commercial clients across the UK and Europe. **We specialise in home automation, lighting design, security and Audio Visual and much more. We use the most advanced technology to seamlessly integrate these solutions into one simple control device.**

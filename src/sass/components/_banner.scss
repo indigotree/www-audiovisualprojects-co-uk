@@ -35,4 +35,21 @@
         }
     }
 
+    &__strapline {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        z-index: 999;
+        top: calc(100vh - 150px);
+        left: 30px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 500;
+        text-shadow: 0 0 8px rgba(0,0,0,.3);
+
+        @include media-min(md) {
+            display: block;
+        }
+    }
+
 }

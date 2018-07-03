@@ -1,5 +1,21 @@
 ---
-banner_images: ["/uploads/grosvenor-estate-london-103.jpg", "/uploads/grosvenor-estate-london-122.jpg", "/uploads/private-residence-berkshire-129.jpg", "/uploads/private-residence-berkshire-13.jpg", "/uploads/craigs-home.jpg"]
+title: "Homepage"
+banner: 
+  - image: "/uploads/grosvenor-estate-london-103.jpg"
+    title: ""
+    meta: ""
+  - image: "/uploads/grosvenor-estate-london-122.jpg"
+    title: ""
+    meta: ""
+  - image: "/uploads/private-residence-berkshire-129.jpg"
+    title: ""
+    meta: ""
+  - image: "/uploads/private-residence-berkshire-13.jpg"
+    title: ""
+    meta: ""
+  - image: "/uploads/craigs-home.jpg"
+    title: ""
+    meta: ""
 icons: 
   - title: "Home Automation"
     icon: "/uploads/house.svg"
@@ -21,8 +37,8 @@ icons:
     icon: "/uploads/multi-dwelling-unit.svg"
   - title: "Electrical"
     icon: "/uploads/plug.svg"
-banner_title: ""
-banner_meta: ""
+yoast_keyword: ""
+description: ""
 ---
 
 # Making life extraordinary

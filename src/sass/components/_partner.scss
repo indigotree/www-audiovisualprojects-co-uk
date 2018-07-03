@@ -1,0 +1,47 @@
+.partner {
+    background: #fff;
+    display: flex !important;
+    align-items: center;
+    padding: 10px;
+    min-height: 150px;
+    justify-content: center;
+
+    @include media-min(lg) {
+        min-height: 180px;
+    }
+}
+
+.partners {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-indent: -9999px;
+        border-radius: 0;
+        border: 0;
+        background: url(/images/right-arrow.svg) center center no-repeat;
+        background-size: 50%;
+        height: 30px;
+        width: 30px;
+    }
+
+    .slick-prev {
+        left: 0;
+        transform: translateY(-50%) rotateZ(180deg);
+    }
+
+    .slick-next {
+        right: 0;
+    }
+}
+
+.partners .slick-slide > div {
+    padding: 10px;
+
+    img {
+        display: inline-block;
+    }
+}

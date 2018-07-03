@@ -1,9 +1,9 @@
 ---
 title: "Cookies"
-banner_title: "Cookies"
-banner_meta: ""
-description: ""
+banner: []
+icons: []
 yoast_keyword: ""
+description: ""
 ---
 
 # Cookies

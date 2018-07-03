@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-    {{ partial "carousel" ( dict "banner_images" "" "banner_title" "Page Not found" "banner_meta" "" "Scope" . ) }}
+    {{ partial "carousel" ( dict "banner" .Params.banner "Scope" . ) }}
 
     <div class="container container--band container--md text--center">
         <h1>Page Not Found!</h1>

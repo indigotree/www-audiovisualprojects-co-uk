@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+    {{ $scope := . }}
+
+    {{ partial "carousel" ( dict "banner" .Params.banner "Scope" . ) }}
+
+    <div class="container container--md">
+
+        {{ if .Title }}
+            <h1 class="text--center">{{ .Title }}</h1>
+        {{ end }}
+
+        {{ if .Content }}
+            <div class="text--center m--b-sm">
+                {{ .Content }}
+            </div>
+        {{ end }}
+
+    </div>
+
+    <div class="container">
+
+        {{ range (.Paginator 9).Pages }}
+
+            <a href="{{ .Permalink | absURL }}" class="item item--project">{{ .Title }}</a>
+
+        {{ end }}
+
+    </div>
+
+{{ end }}

@@ -1,51 +1,51 @@
 {{ define "main" }}
 
-{{ $scope := . }}
+    {{ $scope := . }}
 
-{{ partial "carousel" ( dict "banner_images" .Params.banner_images "banner_title" .Params.banner_title "banner_meta" .Params.banner_meta "Scope" . ) }}
+    {{ partial "carousel" ( dict "banner" .Params.banner "Scope" . ) }}
 
-<div class="container container--md">
+    <div class="container container--md">
 
-    {{ if .Title }}
-        <h1 class="text--center">{{ .Title }}</h1>
-    {{ end }}
-
-    {{ if .Content }}
-        <div class="text--center m--b-sm">
-            {{ .Content }}
-        </div>
-    {{ end }}
-
-    <div class="item-list">
-
-        {{ range (.Paginator 9).Pages }}
-
-            <div>
-
-                <a href="{{ .Permalink | absURL }}" class="item item--project">
-
-                    {{ if .Params.featured_image }}
-                        <div class="item__thumbnail">
-                            {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Width" 300 "Scope" $scope) }}
-                        </div>
-                    {{ end }}
-
-                    <h3 class="item__title">{{ .Title }}</h3>
-
-                    {{ if .Params.meta }}
-                        <span class="item__meta">{{ .Params.meta }}</span>
-                    {{ end }}
-
-                </a>
-
-            </div>
-
+        {{ if .Title }}
+            <h1 class="text--center">{{ .Title }}</h1>
         {{ end }}
 
+        {{ if .Content }}
+            <div class="text--center m--b-sm">
+                {{ .Content }}
+            </div>
+        {{ end }}
+
+        <div class="item-list">
+
+            {{ range (.Paginator 9).Pages }}
+
+                <div>
+
+                    <a href="{{ .Permalink | absURL }}" class="item item--project">
+
+                        {{ if .Params.featured_image }}
+                            <div class="item__thumbnail">
+                                {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Width" 300 "Scope" $scope) }}
+                            </div>
+                        {{ end }}
+
+                        <h3 class="item__title">{{ .Title }}</h3>
+
+                        {{ if .Params.meta }}
+                            <span class="item__meta">{{ .Params.meta }}</span>
+                        {{ end }}
+
+                    </a>
+
+                </div>
+
+            {{ end }}
+
+        </div>
+
+        {{ template "_internal/pagination.html" . }}
+
     </div>
-
-    {{ template "_internal/pagination.html" . }}
-
-</div>
 
 {{ end }}

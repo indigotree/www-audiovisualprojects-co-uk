@@ -1,5 +1,9 @@
 ---
-banner_images: ["/uploads/waiting-room.jpg"]
+title: "Grosvenor Estate Head Office"
+banner: 
+  - image: "/uploads/waiting-room.jpg"
+    title: "Grosvenor Estate Head Office"
+    meta: "Mayfair, London"
 icons: 
   - title: "Automation"
     icon: "/uploads/house.svg"
@@ -7,11 +11,8 @@ icons:
     icon: "/uploads/light.svg"
   - title: "Wi-Fi & Networking"
     icon: "/uploads/device.svg"
-title: "Grosvenor Estate Head Office"
 location: "Mayfair, London"
 featured_image: "/uploads/grosvenor-estate-london-122.jpg"
-banner_title: "Grosvenor Estate Head Office"
-banner_meta: "Mayfair, London"
 description: ""
 yoast_keyword: ""
 ---

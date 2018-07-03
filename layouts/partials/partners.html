@@ -1,0 +1,11 @@
+{{ $scope := .Scope }}
+{{ $partners := .partners }}
+{{ if $partners }}
+    <div id="partners" class="partners">
+        {{ range $index, $partner := $partners }}
+            <div class="partner">
+                {{ partial "image/lazy-resize" (dict "Src" $partner.image "Alt" $partner.alt "Size" "x150" "Scope" $scope) }}
+            </div>
+        {{ end }}
+    </div>
+{{ end }}

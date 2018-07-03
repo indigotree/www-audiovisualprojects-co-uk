@@ -1,27 +1,36 @@
 {{ define "main" }}
 
-{{ partial "carousel" ( dict "banner_images" .Params.banner_images "banner_title" .Params.banner_title "banner_meta" .Params.banner_meta "Scope" . ) }}
+    {{ $scope := . }}
 
-<div class="container container--band container--md text--center">
-    {{ .Content }}
-</div>
+    {{ $strapline := .Site.Data.strapline.strapline }}
+    {{ if $strapline }}
+        <div class="banner__strapline">
+            {{ $strapline }}
+        </div>
+    {{ end }}
 
-{{ $scope := . }}
+    {{ partial "carousel" ( dict "banner" .Params.banner "Scope" . ) }}
 
-{{ with $scope.Site.GetPage "page" "uploads/index.md" }}
+    <div class="container container--band container--md text--center">
+        {{ .Content }}
+    </div>
 
-    {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" .Site.Data.caption.image) }}
-    {{ $cropped := $match.Resize "150x q15" }}
+    {{ with $scope.Site.GetPage "page" "uploads/index.md" }}
 
-    <div class="container--lg container--image" style="background-image: url({{ .Site.Data.caption.image | absURL }}), url({{ $cropped.RelPermalink }})">
+        {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" .Site.Data.caption.image) }}
+        {{ $cropped := $match.Resize "150x q15" }}
 
-        <div class="container">
+        <div class="container--lg container--image" style="background-image: url({{ .Site.Data.caption.image | absURL }}), url({{ $cropped.RelPermalink }})">
 
-            <div class="row">
+            <div class="container">
 
-                <div class="column--sm-6">
+                <div class="row">
 
-                    {{ partial "caption" ( dict "title" $scope.Site.Data.caption.title "description" $scope.Site.Data.caption.description "link_text" $scope.Site.Data.caption.link_text "link" $scope.Site.Data.caption.link "Scope" $scope ) }}
+                    <div class="column--sm-6">
+
+                        {{ partial "caption" ( dict "title" $scope.Site.Data.caption.title "description" $scope.Site.Data.caption.description "link_text" $scope.Site.Data.caption.link_text "link" $scope.Site.Data.caption.link "Scope" $scope ) }}
+
+                    </div>
 
                 </div>
 
@@ -29,79 +38,81 @@
 
         </div>
 
-    </div>
+    {{ end }}
 
-{{ end }}
+    <div class="container container--band container--md container--primary-darkest">
+        
+        <div class="row">
 
-<div class="container container--band container--md container--primary-darkest">
-    
-    <div class="row">
-
-        <div class="column--md-8 m--b-sm">
-            <div class="text--uppercase text--primary-light text--medium text--lead">{{ .Site.Title }}</div>
-            <span class="text--primary-medium text--medium text--lead">Delivering your SMART Home & Business solutions</span>
-        </div>
-
-        <div class="column--md-4 text--center">
-            {{ partial "logo" . }}
-        </div>
-
-    </div>
-
-</div>
-
-{{ range $key, $split := .Site.Data.splits.splits }}
-
-    {{ partial "split" (dict "title" $split.title "link_text" $split.link_text "link" $split.link "image" $split.image "image_position" $split.image_position "content" $split.content "Scope" $scope ) }}
-
-{{ end }}
-
-<div class="container container--band container--lg text--center">
-
-    <h2 class="m--b-sm">Extraordinary work</h2>
-
-    <div class="item-list m--b-sm">
-
-        {{ range first 3 (where .Pages "Section" "projects") }}
-
-            <div>
-
-                <a href="{{ .Permalink | absURL }}" class="item item--project">
-
-                    <div class="item__thumbnail">
-                        {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Size" "768x768 center" "Scope" $scope) }}
-                    </div>
-
-                    <h3 class="item__title">{{ .Title }}</h3>
-
-                    <span class="item__meta">{{ .Params.location }}</span>
-
-                </a>
-
+            <div class="column--md-8 m--b-sm">
+                <div class="text--uppercase text--primary-light text--medium text--lead">{{ .Site.Title }}</div>
+                <span class="text--primary-medium text--medium text--lead">Delivering your SMART Home & Business solutions</span>
             </div>
 
-        {{ end }}
+            <div class="column--md-4 text--center">
+                {{ partial "logo" . }}
+            </div>
+
+        </div>
 
     </div>
 
-    <a href="/projects" class="button button--md button--primary-dark text--uppercase">View our projects</a>
+    {{ range $key, $split := .Site.Data.splits.splits }}
 
-</div>
+        {{ partial "split" (dict "title" $split.title "link_text" $split.link_text "link" $split.link "image" $split.image "image_position" $split.image_position "content" $split.content "Scope" $scope ) }}
 
-<div class="container container--band container--md text--center">
+    {{ end }}
 
-    <h2 class="m--b-sm">Extraordinary range</h2>
+    <div class="container container--band container--lg text--center">
 
-    <div class="range">
+        <h2 class="m--b-sm">Extraordinary work</h2>
 
-        {{ range $key, $icon := .Params.icons }}
+        <div class="item-list m--b-sm">
 
-            {{ partial "icon" ( dict "icon" $icon.icon "title" $icon.title "Scope" . ) }}
+            {{ range first 3 (where .Pages "Section" "projects") }}
 
-        {{ end }}
+                <div>
+
+                    <a href="{{ .Permalink | absURL }}" class="item item--project">
+
+                        <div class="item__thumbnail">
+                            {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Size" "768x768 center" "Scope" $scope) }}
+                        </div>
+
+                        <h3 class="item__title">{{ .Title }}</h3>
+
+                        <span class="item__meta">{{ .Params.location }}</span>
+
+                    </a>
+
+                </div>
+
+            {{ end }}
+
+        </div>
+
+        <a href="/projects" class="button button--md button--primary-dark text--uppercase">View our projects</a>
 
     </div>
 
-</div>
+    <div class="container container--band container--md text--center">
+
+        <h2 class="m--b-sm">Extraordinary range</h2>
+
+        <div class="range">
+
+            {{ range $key, $icon := .Params.icons }}
+
+                {{ partial "icon" ( dict "icon" $icon.icon "title" $icon.title "Scope" . ) }}
+
+            {{ end }}
+
+        </div>
+
+    </div>
+
+    <div class="container container--band container--sm container--primary-medium">
+        {{ partial "partners" ( dict "partners" .Site.Data.partners.partners "Scope" . )}}
+    </div>
 
 {{ end }}

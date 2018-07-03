@@ -1,14 +1,13 @@
-{{ $images := .banner_images | default ( slice .Scope.Site.Data.banner.default_image ) }}
-{{ $title := .banner_title }}
-{{ $meta := .banner_meta }}
 {{ $scope := .Scope }}
-{{ $fullSize := .banner_size | default "1920x1080 q80" }}
+{{ $slides := .banner | default $scope.Site.Data.banner.default }}
+{{ $fullSize := .size | default "1920x1080 q80" }}
+
 <div class="banner carousel" id="carousel">
-    {{ range $index, $media := $images }}
+    {{ range $index, $slide := $slides }}
         
         {{ with $scope.Site.GetPage "page" "uploads/index.md" }}
 
-            {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" $media) }}
+            {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" $slide.image) }}
             {{ $cropped := $match.Resize "150x q30" }}
             {{ $full := $match.Fill $fullSize }}
             
@@ -20,28 +19,26 @@
                     </div>
                 {{ end }}
 
-                {{ if or $title $meta }}
-                    <div class="carousel__caption">
-                        
-                        {{ if $title }}
-                            <span class="carousel__title">
-                                {{ $title }}
-                            </span>
-                        {{ end }}
+                <div class="carousel__caption">
+                    
+                    {{ if not $scope.IsHome }}
+                        <span class="carousel__title">
+                            {{ $slide.title | default $scope.Title }}
+                        </span>
+                    {{ end }}
 
-                        {{ if $meta }}
-                            <span class="carousel__meta">
-                                {{ $meta }}
-                            </span>
-                        {{ end }}
+                    {{ if $slide.meta }}
+                        <span class="carousel__meta">
+                            {{ $slide.meta }}
+                        </span>
+                    {{ end }}
 
-                    </div>
-
-                {{ end }}
+                </div>
 
             </div>
 
         {{ end }}
 
     {{ end }}
+
 </div>

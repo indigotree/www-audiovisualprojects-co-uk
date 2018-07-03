@@ -946,6 +946,20 @@ table {
   @media screen and (min-width: 1200px) {
     .banner--no-banner {
       margin-top: 92px; } }
+  .banner__strapline {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    top: calc(100vh - 150px);
+    left: 30px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
+    @media screen and (min-width: 992px) {
+      .banner__strapline {
+        display: block; } }
 
 .carousel__media {
   height: 100vh;

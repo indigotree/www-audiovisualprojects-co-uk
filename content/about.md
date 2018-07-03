@@ -1,9 +1,9 @@
 ---
 title: "About Us"
-banner_title: "About Us"
-banner_meta: ""
-description: ""
+banner: []
+icons: []
 yoast_keyword: ""
+description: ""
 ---
 
 orem ipsum dolor sit amet, consectetur adipiscing elit. In posuere eget orci congue vestibulum. Suspendisse venenatis, elit vel blandit tempus, ante nulla fringilla erat, quis sodales neque nulla at nisi. Maecenas pulvinar vestibulum lectus a pharetra. Etiam malesuada rutrum ex. Nullam ut finibus urna. Duis eu posuere mi.

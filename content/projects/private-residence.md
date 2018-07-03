@@ -1,5 +1,9 @@
 ---
-banner_images: ["/uploads/private-residence-112.jpg"]
+title: "Private Residence"
+banner: 
+  - image: "/uploads/private-residence-112.jpg"
+    title: "Private Residence"
+    meta: "Berkshire"
 icons: 
   - title: "Home Automation"
     icon: "/uploads/house.svg"
@@ -19,11 +23,8 @@ icons:
     icon: "/uploads/design-planning.svg"
   - title: "Electrical"
     icon: "/uploads/plug.svg"
-title: "Private Residence"
 location: "Berkshire"
 featured_image: "/uploads/private-residence-berkshire-13.jpg"
-banner_title: "Private Residence"
-banner_meta: "Berkshire"
 description: ""
 yoast_keyword: ""
 ---
