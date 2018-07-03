@@ -7,10 +7,13 @@ banner:
 icons: 
   - title: "Automation"
     icon: "/uploads/house.svg"
+    link: ""
   - title: "Lighting"
     icon: "/uploads/light.svg"
+    link: ""
   - title: "Wi-Fi & Networking"
     icon: "/uploads/device.svg"
+    link: ""
 location: "Mayfair, London"
 featured_image: "/uploads/grosvenor-estate-london-122.jpg"
 description: ""

@@ -103,7 +103,7 @@
 
             {{ range $key, $icon := .Params.icons }}
 
-                {{ partial "icon" ( dict "icon" $icon.icon "title" $icon.title "Scope" . ) }}
+                {{ partial "icon" ( dict "icon" $icon.icon "title" $icon.title "link" $icon.link "Scope" . ) }}
 
             {{ end }}
 

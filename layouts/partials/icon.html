@@ -1,6 +1,6 @@
 {{ if .icon }}
-    <div class="range-icon">
+    {{ if .link }}<a{{else}}<div{{end}} {{ if .link }}href="{{ .link }}"{{end}} class="range-icon">
         {{ readFile .icon | safeHTML }}
         {{ with .title }}<span class="range-icon__title">{{ . }}</span>{{ end }}
-    </div>
+    {{ if .link }}</a{{else}}</div{{end}}>
 {{ end }}
