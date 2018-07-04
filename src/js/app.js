@@ -35,6 +35,14 @@
             $('[data-slick-index="' + currentSlide + '"]').find('.carousel__media').addClass('carousel--zoom');
         });
 
+        $('#testimonials').slick({
+            dots: false,
+            arrows: false,
+            fade: true,
+            autoplay: true,
+            autoplaySpeed: 4000
+        })
+
         $('#partners').slick({
             dots: false,
             infinite: true,
