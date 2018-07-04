@@ -1,5 +1,6 @@
 ---
 title: "Home Automation"
+icon: "/uploads/house.svg"
 banner: 
   - image: "/uploads/av1-90.jpg"
     title: "Home Automation"

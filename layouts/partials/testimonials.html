@@ -1,0 +1,10 @@
+<div id="testimonials" class="testimonials">
+    {{ range .quotes }}
+        <blockquote class="band-quote">
+            {{ .Content }}
+            <footer class="band-quote__footer">
+                <cite class="band-quote__cite">{{ .Params.cite }}</cite>
+            </footer>
+        </blockquote>
+    {{ end }}
+</div>

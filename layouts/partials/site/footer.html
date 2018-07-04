@@ -1,15 +1,7 @@
 <div class="container container--primary-light container--band container--sm">
 
-    <blockquote class="band-quote">
-        "{{ .Params.quote | default .Site.Data.testimonial.quote }}"
-        <footer class="band-quote__footer">
-            <cite class="band-quote__cite">{{ .Params.cite | default .Site.Data.testimonial.cite }}</cite>
-        </footer>
-    </blockquote>
-
-    {{ if or .Params.read_more_link .Site.Data.testimonial.read_more_link }}
-        <a href="{{ .Params.read_more_link | default .Site.Data.testimonial.read_more_link }}" class="read-more">Read more</a>
-    {{ end }}
+    {{ $quotes := where (.Site.GetPage "page" "testimonials/index.md").Resources ".Params.featured" "==" "true" }}
+    {{ partial "testimonials" ( dict "quotes" $quotes "Scope" . )}}
 
 </div>
 

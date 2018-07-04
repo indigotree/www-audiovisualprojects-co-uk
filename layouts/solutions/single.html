@@ -5,6 +5,11 @@
     {{ partial "carousel" ( dict "banner" .Params.banner "Scope" . ) }}
 
     <div class="container container--band container--md text--center">
+
+        <div class="solution-icon">
+            {{ readFile .Params.icon | safeHTML }}
+        </div>
+
         {{ .Content }}
     </div>
 
@@ -13,5 +18,53 @@
         {{ partial "split" (dict "title" $split.title "link_text" $split.link_text "link" $split.link "image" $split.image "image_position" $split.image_position "content" $split.content "Scope" $scope ) }}
 
     {{ end }}
+
+    <div class="container container--md">
+
+        <h2 class="text--center">Projects</h2>
+
+        <div class="item-list">
+
+            {{ range (where .Site.RegularPages "Section" "projects") }}
+
+                {{ $scope.Scratch.Set "hasIcon" "false" }}
+
+                {{ range $index, $icon := .Params.icons }}
+
+                    {{ if eq $icon.link $scope.Permalink }}
+                        {{ $scope.Scratch.Set "hasIcon" "true" }}
+                    {{ end }}
+
+                {{ end }}
+
+                {{ if eq ($scope.Scratch.Get "hasIcon") "true" }}
+
+                    <div>
+
+                        <a href="{{ .Permalink | absURL }}" class="item item--project">
+    
+                            <div class="item__thumbnail">
+                                {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Size" "768x768 center" "Scope" $scope) }}
+                            </div>
+    
+                            <h3 class="item__title">{{ .Title }}</h3>
+    
+                            <span class="item__meta">{{ .Params.location }}</span>
+    
+                        </a>
+    
+                    </div>
+
+                {{ end }}
+
+            {{ end }}
+
+        </div>
+
+        <div class="text--center">
+            <a href="/solutions/" class="button button--md button--primary-dark text--uppercase">View more of our Solutions</a>
+        </div>
+
+    </div>
 
 {{ end }}
