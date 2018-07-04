@@ -5,6 +5,12 @@
 
 </div>
 
+<div class="container container--band container--sm">
+
+    {{ partial "partners" ( dict "partners" .Site.Data.partners.partners "Scope" . )}}
+
+</div>
+
 <footer class="footer" role="contentinfo">
 
     <div class="container container--band container--md container--primary footer__main">

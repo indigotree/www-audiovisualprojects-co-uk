@@ -2,7 +2,6 @@
     background: #fff;
     display: flex !important;
     align-items: center;
-    padding: 10px;
     min-height: 150px;
     justify-content: center;
 
@@ -22,10 +21,10 @@
         text-indent: -9999px;
         border-radius: 0;
         border: 0;
-        background: url(/images/right-arrow.svg) center center no-repeat;
-        background-size: 50%;
-        height: 30px;
-        width: 30px;
+        background: color(primary, medium) url(/images/right-arrow.svg) center center no-repeat;
+        background-size: 30%;
+        height: 40px;
+        width: 40px;
     }
 
     .slick-prev {
