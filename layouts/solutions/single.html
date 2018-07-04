@@ -31,7 +31,7 @@
 
                 {{ range $index, $icon := .Params.icons }}
 
-                    {{ if eq $icon.link $scope.Permalink }}
+                    {{ if and $icon.link (in $scope.Permalink $icon.link) }}
                         {{ $scope.Scratch.Set "hasIcon" "true" }}
                     {{ end }}
 
