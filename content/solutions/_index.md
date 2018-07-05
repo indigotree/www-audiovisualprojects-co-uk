@@ -1,7 +1,7 @@
 ---
 title: "Solutions"
 banner: 
-  - image: "/uploads/Control4_Lifestyle_About.jpg"
+  - image: "/uploads/private-residence-112.jpg"
     title: "Solutions"
     meta: ""
 splits: []
