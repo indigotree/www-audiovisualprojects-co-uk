@@ -18,13 +18,22 @@
 
     </div>
 
-    <div class="container">
+    <div class="container m--b-lg">
 
-        {{ range (.Paginator 9).Pages }}
+        <div class="solutions">
 
-            <a href="{{ .Permalink | absURL }}" class="item item--project">{{ .Title }}</a>
+            {{ range (.Paginator 9).Pages }}
 
-        {{ end }}
+                <a href="{{ .Permalink | absURL }}" class="solution">
+                    <div class="solution__bg">
+                        <div class="solution__icon">{{ readFile .Params.icon | safeHTML }}</div>
+                        <span class="solution__title">{{ .Title }}</span>
+                    </div>
+                </a>
+
+            {{ end }}
+
+        </div>
 
     </div>
 

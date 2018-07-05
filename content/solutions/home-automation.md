@@ -36,6 +36,7 @@ During installation of your bespoke system, we will take every measure to future
     image: "/uploads/av1-43.jpg"
 description: ""
 yoast_keyword: ""
+weight: 10
 ---
 
 ## Making life extraordinary - discover the endless possibilities of smart home solutions.

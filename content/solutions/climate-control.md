@@ -21,6 +21,7 @@ splits:
     image: "/uploads/StMoritz_AV-35.jpg"
 description: ""
 yoast_keyword: ""
+weight: 40
 ---
 
 The right temperature, in the right place at the right time.  Our climate control systems keep you comfortable wherever you are.  Simply and precisely controlled no matter what’s happening outside.

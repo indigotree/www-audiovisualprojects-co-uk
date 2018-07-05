@@ -28,6 +28,7 @@ splits:
     image: "/uploads/C4_Images_Security_7.jpg"
 description: ""
 yoast_keyword: ""
+weight: 20
 ---
 
 We understand the importance of feeling safe and secure. As a leading installer of high-end security, protecting high value residential and commercial properties is our forte. Our services include CCTV, door entry systems, video gate entry,​ multi-camera surveillance systems​ and internal motion detection.

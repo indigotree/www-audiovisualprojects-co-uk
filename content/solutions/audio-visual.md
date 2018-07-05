@@ -49,6 +49,7 @@ splits:
     image: "/uploads/1000x1000.png"
 description: ""
 yoast_keyword: ""
+weight: 50
 ---
 
 From breath-taking home theatres with sophisticated projection and the highest quality sound systems ​to multi-screen games rooms, cutting edge ​conference rooms and auditoriums and everything in between. We specialise in designing and integrating the latest audio-visual solutions, ​tailored to your space. 
