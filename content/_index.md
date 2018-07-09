@@ -25,7 +25,7 @@ icons:
     link: "/solutions/security-and-access/"
   - title: "Lighting"
     icon: "/uploads/light.svg"
-    link: ""
+    link: "/solutions/lighting/"
   - title: "Climate Control"
     icon: "/uploads/thermometer.svg"
     link: "/solutions/climate-control/"
