@@ -53,12 +53,7 @@ We’re delighted that this suite of automated solutions has given the owners’
     {{< gallery-image image="/uploads/StMoritz_AV-13.jpg" >}}
     {{< gallery-image image="/uploads/StMoritz_AV-19.jpg" >}}
     {{< gallery-image image="/uploads/StMoritz_AV-28.jpg" >}}
-    {{< gallery-image image="/uploads/StMoritz_AV-34.jpg" >}}
     {{< gallery-image image="/uploads/StMoritz_AV-40.jpg" >}}
     {{< gallery-image image="/uploads/StMoritz_AV-52.jpg" >}}
     {{< gallery-image image="/uploads/StMoritz_AV-59.jpg" >}}
-    {{< gallery-image image="/uploads/StMoritz_AV-61.jpg" >}}
-    {{< gallery-image image="/uploads/StMoritz_AV-62.jpg" >}}
-    {{< gallery-image image="/uploads/StMoritz_AV-63.jpg" >}}
-    {{< gallery-image image="/uploads/StMoritz_AV-64.jpg" >}}
 {{< /gallery >}}
