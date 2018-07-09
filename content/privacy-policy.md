@@ -1,9 +1,9 @@
 ---
 title: "Privacy Policy"
-banner_title: "Privacy Policy"
-banner_meta: ""
-description: ""
+banner: []
+icons: []
 yoast_keyword: ""
+description: ""
 ---
 
 # Privacy Policy

@@ -1,31 +1,29 @@
 {{ define "main" }}
 
-{{ $title := .Params.banner_title | default .Title }}
-{{ $meta := .Params.banner_meta | default .Params.location }}
-{{ partial "carousel" ( dict "banner_images" .Params.banner_images "banner_title" $title "banner_meta" $meta "Scope" . ) }}
+    {{ partial "carousel" ( dict "banner" .Params.banner "Scope" . ) }}
 
-<div class="container container--band container--md text--center">
-    {{ .Content }}
-</div>
-
-<div class="container container--md">
-
-    <h2 class="text--center m--b-sm">Project solutions</h2>
-
-    <div class="range m--b-sm">
-
-        {{ range $key, $icon := .Params.icons }}
-
-            {{ partial "icon" ( dict "icon" $icon.icon "title" $icon.title "Scope" . ) }}
-
-        {{ end }}
-
+    <div class="container container--band container--md text--center">
+        {{ .Content }}
     </div>
 
-    <div class="text--center">
-        <a href="/projects" class="button button--md button--primary-dark text--uppercase">View more of our projects</a>
-    </div>
+    <div class="container container--md">
 
-</div>
+        <h2 class="text--center m--b-sm">Project solutions</h2>
+
+        <div class="range m--b-sm">
+
+            {{ range $key, $icon := .Params.icons }}
+
+                {{ partial "icon" ( dict "icon" $icon.icon "title" $icon.title "link" $icon.link "Scope" . ) }}
+
+            {{ end }}
+
+        </div>
+
+        <div class="text--center">
+            <a href="/projects/" class="button button--md button--primary-dark text--uppercase">View more of our projects</a>
+        </div>
+
+    </div>
 
 {{ end }}

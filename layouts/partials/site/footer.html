@@ -1,15 +1,13 @@
 <div class="container container--primary-light container--band container--sm">
 
-    <blockquote class="band-quote">
-        "{{ .Params.quote | default .Site.Data.testimonial.quote }}"
-        <footer class="band-quote__footer">
-            <cite class="band-quote__cite">{{ .Params.cite | default .Site.Data.testimonial.cite }}</cite>
-        </footer>
-    </blockquote>
+    {{ $quotes := where (.Site.GetPage "page" "testimonials/index.md").Resources ".Params.featured" "==" "true" }}
+    {{ partial "testimonials" ( dict "quotes" $quotes "Scope" . )}}
 
-    {{ if or .Params.read_more_link .Site.Data.testimonial.read_more_link }}
-        <a href="{{ .Params.read_more_link | default .Site.Data.testimonial.read_more_link }}" class="read-more">Read more</a>
-    {{ end }}
+</div>
+
+<div class="container container--band container--sm">
+
+    {{ partial "partners" ( dict "partners" .Site.Data.partners.partners "Scope" . )}}
 
 </div>
 
@@ -26,6 +24,10 @@
                     {{ partial "logo" . }}
 
                     <span class="tagline">Let's talk</span>
+
+                    <div class="footer__partner">
+                        {{ partial "image/lazy" (dict "Src" .Site.Data.footer.partner_image "Alt" .Site.Data.footer.partner_alt "Scope" . ) }}
+                    </div>
 
                 </div>
 

@@ -34,6 +34,38 @@
         $('#carousel').on('afterChange', function (event, slick, currentSlide) {
             $('[data-slick-index="' + currentSlide + '"]').find('.carousel__media').addClass('carousel--zoom');
         });
+
+        $('#testimonials').slick({
+            dots: false,
+            arrows: false,
+            fade: true,
+            autoplay: true,
+            autoplaySpeed: 4000
+        })
+
+        $('#partners').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            autoplay: true,
+            autoplaySpeed: 8000,
+            slidesToScroll: 1,
+            slidesToShow: 4,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 500,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        })
     });
 
     // Navigation Side out

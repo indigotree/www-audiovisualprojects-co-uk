@@ -1,0 +1,9 @@
+partners: 
+  - image: "/uploads/control-4.jpg"
+    alt: "Control 4"
+  - image: "/uploads/rako.jpg"
+    alt: "Rako 4"
+  - image: "/uploads/lutron_logo.png"
+    alt: "Lutron"
+  - image: "/uploads/crestron-logo.jpg"
+    alt: "Crestron"

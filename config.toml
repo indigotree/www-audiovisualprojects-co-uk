@@ -44,10 +44,10 @@ notAlternative = true
         weight = 20
         url = "/projects/"
 
-    # [[menu.main]]
-    #     name = "Solutions"
-    #     weight = 30
-    #     url = "/solutions/"
+    [[menu.main]]
+        name = "Solutions"
+        weight = 30
+        url = "/solutions/"
 
     # [[menu.main]]
     #     name = "Support"
