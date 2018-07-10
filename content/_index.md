@@ -16,6 +16,9 @@ banner:
   - image: "/uploads/craigs-home.jpg"
     title: ""
     meta: ""
+  - image: "/uploads/Holmewood.jpg"
+    title: ""
+    meta: ""
 icons: 
   - title: "Home Automation"
     icon: "/uploads/house.svg"
