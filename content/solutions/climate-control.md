@@ -11,7 +11,7 @@ splits:
     link: ""
     content: "Home automation lets you take control, whether you’re at home or away. Every thermostat in your house can be controlled from your mobile phone or tablet, allowing you adjust the temperature and schedule in response to programmed events – for example if your blinds or curtains automatically close, or if the home entertainment system is activated.<br /><br />Use your voice or mobile app to adjust the climate in multiple zones.  These energy efficient devices allow you to easily select which areas of the home should be heated, and when."
     image_position: "left"
-    image: "/uploads/C4_Images_Comfort_3.jpg"
+    image: "/uploads/StMoritz_AV-32.jpg"
 
   - title: "Remote control"
     link_text: "Find out more"
