@@ -1,4 +1,8 @@
 .solution-icon {
-    max-width: 150px;
     margin: 0 auto 20px auto;
+
+    &, & > svg {
+        max-width: 150px;
+        max-height: 150px;
+    }
 }

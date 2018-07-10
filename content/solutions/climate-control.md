@@ -18,7 +18,7 @@ splits:
     link: ""
     content: "If you are due to be away from home for an extended period, activate the ‘holiday’ schedule and the climate control will go into sleep mode, waking itself up on a timer so that the house is at the right temperature for when you return home. The system will continue to regulate your home whilst you’re away, protecting it from freezing temperatures in the winter."
     image_position: "right"
-    image: "/uploads/StMoritz_AV-35.jpg"
+    image: "/uploads/StMoritz_AV-32.jpg"
 description: ""
 yoast_keyword: ""
 weight: 40

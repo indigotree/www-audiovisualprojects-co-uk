@@ -1,0 +1,11 @@
+.video-row {
+    @include media-min(sm) {
+        display: flex;
+        margin: 0 -15px;
+        
+        &__video {
+            flex: 1;
+            padding: 0 15px;
+        }
+    }
+}

@@ -809,15 +809,11 @@ table {
       text-transform: uppercase;
       text-decoration: none;
       font-weight: 500;
-      font-size: 17px; }
+      font-size: 16px; }
       @media screen and (min-width: 992px) {
         .navigation li > a {
           display: inline-block; } }
       @media screen and (min-width: 992px) {
-        .navigation li > a {
-          padding: 31px 5px;
-          font-size: 16px; } }
-      @media screen and (min-width: 1300px) {
         .navigation li > a {
           padding: 31px 22px;
           font-size: 17px; } }

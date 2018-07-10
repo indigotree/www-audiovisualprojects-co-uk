@@ -2,7 +2,7 @@
 title: "Security and Access"
 icon: "/uploads/security.svg"
 banner: 
-  - image: "/uploads/craigs-home.jpg"
+  - image: "/uploads/StMoritz_AV-72.jpg"
     title: "Security and Access"
     meta: ""
 splits: 

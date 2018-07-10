@@ -50,10 +50,18 @@ A comprehensive security system was installed and integrated with Control4 compr
 We’re delighted that this suite of automated solutions has given the owners’ an enhanced level of control, enjoyment and convenience when at home and peace of mind when they’re away.
 
 {{< gallery id="gallery-one" >}}
-    {{< gallery-image image="/uploads/StMoritz_AV-13.jpg" >}}
     {{< gallery-image image="/uploads/StMoritz_AV-19.jpg" >}}
-    {{< gallery-image image="/uploads/StMoritz_AV-28.jpg" >}}
+    {{< gallery-image image="/uploads/StMoritz_AV-25.jpg" >}}
+    {{< gallery-image image="/uploads/StMoritz_AV-26.jpg" >}}
+    {{< gallery-image image="/uploads/StMoritz_AV-32.jpg" >}}
     {{< gallery-image image="/uploads/StMoritz_AV-40.jpg" >}}
+    {{< gallery-image image="/uploads/StMoritz_AV-45.jpg" >}}
     {{< gallery-image image="/uploads/StMoritz_AV-52.jpg" >}}
     {{< gallery-image image="/uploads/StMoritz_AV-59.jpg" >}}
+    {{< gallery-image image="/uploads/StMoritz-13.jpg" >}}
 {{< /gallery >}}
+
+{{< video-row >}}
+  {{< video src="https://player.vimeo.com/video/279208177" >}}
+  {{< video src="https://player.vimeo.com/video/279208225" >}}
+{{< /video-row >}}
