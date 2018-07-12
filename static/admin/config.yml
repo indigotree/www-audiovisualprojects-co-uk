@@ -131,3 +131,89 @@ collections:
       - { label: "Link", name: "link", widget: "string" }
       - { label: "Featured", name: "featured", widget: "select", options: ["true", "false"], default: "true" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+
+  - name: "settings"
+    label: "Settings"
+    files:
+
+      - label: "Banner"
+        name: "banner"
+        file: "data/banner.yml"
+        description: "Default Banner Settings"
+        fields: 
+          - label: "Banner"
+            name: "banner_images"
+            widget: "list"
+            fields: 
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Meta", name: "meta", widget: "text" }
+
+      - label: "Caption"
+        name: "caption"
+        file: "data/caption.yml"
+        description: "Caption Band"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Link Text", name: "link_text", widget: "string" }
+          - { label: "Link", name: "link", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+
+      - label: "Footer"
+        name: "footer"
+        file: "data/footer.yml"
+        description: "Footer Information"
+        fields:
+          - { label: "Partner Image", name: "partner_image", widget: "image" }
+          - { label: "Partner Alternate Text", name: "partner_alt", widget: "string" }
+
+      - label: "Partners"
+        name: "partners"
+        file: "data/partners.yml"
+        description: "Partners"
+        fields:
+          - label: "Partners"
+            name: "partners"
+            widget: "list"
+            fields: 
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Alternate Text", name: "alt", widget: "string" }
+
+      - label: "Partners"
+        name: "partners"
+        file: "data/partners.yml"
+        description: "Partners"
+        fields:
+          - { label: "Youtube", name: "youtube", widget: "string" }
+          - { label: "Twitter", name: "twitter", widget: "string" }
+          - { label: "Linkedin", name: "linkedin", widget: "string" }
+          - { label: "Instagram", name: "instagram", widget: "string" }
+          - { label: "Telephone", name: "telephone", widget: "string" }
+          - { label: "Telephone Formatted", name: "telephone_formatted", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+
+      - label: "Homepage Splits"
+        name: "splits"
+        file: "data/splits.yml"
+        description: "Splits for the Homepage"
+        fields:
+          - label: "Splits"
+            name: "splits"
+            widget: "list"
+            fields: 
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "content", widget: "text" }
+              - { label: "Link Text", name: "link_text", widget: "string" }
+              - { label: "Link", name: "link", widget: "string" }
+              - { label: "Image Position", name: "image_position", widget: "select", options: ["left", "right"], default: "left" }
+              - { label: "Image", name: "image", widget: "image" }
+
+
+      - label: "Strapline"
+        name: "strapline"
+        file: "data/strapline.yml"
+        description: "Site Strapline"
+        fields:
+          - { label: "Strapline", name: "strapline", widget: "string" }
