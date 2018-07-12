@@ -34,8 +34,8 @@ icons:
     link: ""
 location: "Berkshire"
 featured_image: "/uploads/private-residence-berkshire-13.jpg"
-description: ""
-yoast_keyword: ""
+description: "Private Residence Berkshire"
+yoast_keyword: "Residence"
 ---
 
 # Private Residence Berkshire

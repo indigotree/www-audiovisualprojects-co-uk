@@ -34,8 +34,8 @@ During installation of your bespoke system, we will take every measure to future
     content: "Control blinds and curtains in multiple rooms simultaneously at the touch of a button as you leave the house for ease and simplicity. Home automation systems can be used to open and close blinds and curtains as desired or as part of a regular morning or evening schedule. You can also set a programme to adjust the blinds in selected rooms at different times of the day to protect furniture or wall art from the damaging effects of the sun. If you’re away from home for an extended period, set your blinds open and close at set times for added security. "
     image_position: "right"
     image: "/uploads/av1-43.jpg"
-description: ""
-yoast_keyword: ""
+description: "Home automation technology is evolving at pace, offering an extensive range of solutions to enhance the comfort of your everyday life."
+yoast_keyword: "automation"
 weight: 10
 ---
 

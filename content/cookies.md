@@ -2,8 +2,8 @@
 title: "Cookies"
 banner: []
 icons: []
-yoast_keyword: ""
-description: ""
+yoast_keyword: "cookies"
+description: "Cookie information for Audio Visual Projects"
 ---
 
 # Cookies

@@ -14,7 +14,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
       - { label: "Focus Keyword", name: "yoast_keyword", widget: "string", required: true }
-      - { label: "Description", name: "description", widget: "string", required: true }
+      - { label: "Description", name: "description", widget: "text", required: true }
       - { label: "Layout", name: "layout", widget: "string", required: false }
       - label: "Banner"
         name: "banner"
@@ -30,4 +30,104 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Icon", name: "icon", widget: "image" }
           - { label: "Link", name: "link", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "gallery"
+    label: "Gallery"
+    folder: "content/gallery"
+    create: true
+    fields:
+      - { label: "Gallery ID", name: "gallery_id", widget: "string" }
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        fields: 
+          - { label: "Image", name: "src", widget: "image" }
+          - { label: "Alternate Text", name: "alt", widget: "string" }
+
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Featured Image", name: "featured_image", widget: "image" }
+      - { label: "Focus Keyword", name: "yoast_keyword", widget: "string", required: true }
+      - { label: "Description", name: "description", widget: "text", required: true }
+      - { label: "Location", name: "location", widget: "string" }
+      - label: "Banner"
+        name: "banner"
+        widget: "list"
+        fields: 
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta", name: "meta", widget: "string" }
+      - label: "Icons"
+        name: "icons"
+        widget: "list"
+        fields: 
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Icon", name: "icon", widget: "image" }
+          - { label: "Link", name: "link", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "solutions"
+    label: "Solutions"
+    folder: "content/solutions"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Featured Icon", name: "icon", widget: "image" }
+      - { label: "Focus Keyword", name: "yoast_keyword", widget: "string", required: true }
+      - { label: "Description", name: "description", widget: "text", required: true }
+      - label: "Banner"
+        name: "banner"
+        widget: "list"
+        fields: 
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta", name: "meta", widget: "string" }
+      - label: "Splits"
+        name: "splits"
+        widget: "list"
+        fields: 
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Link Text", name: "link_text", widget: "string" }
+          - { label: "Link", name: "link", widget: "string" }
+          - { label: "Image Position", name: "image_position", widget: "select", options: ["left", "right"], default: "left" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "image", widget: "image" }
+      - { label: "Weight", name: "weight", widget: "number" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "team"
+    label: "Team"
+    folder: "content/team"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Featured Image", name: "featured_image", widget: "image" }
+      - { label: "Focus Keyword", name: "yoast_keyword", widget: "string", required: true }
+      - { label: "Description", name: "description", widget: "text", required: true }
+      - label: "Banner"
+        name: "banner"
+        widget: "list"
+        fields: 
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta", name: "meta", widget: "string" }
+      - { label: "Position", name: "position", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "content/testimonials"
+    create: true
+    fields:
+      - { label: "Cite", name: "cite", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Featured", name: "featured", widget: "select", options: ["true", "false"], default: "true" }
       - { label: "Body", name: "body", widget: "markdown" }

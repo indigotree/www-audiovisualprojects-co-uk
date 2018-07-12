@@ -19,11 +19,11 @@ splits:
     content: "If you are due to be away from home for an extended period, activate the ‘holiday’ schedule and the climate control will go into sleep mode, waking itself up on a timer so that the house is at the right temperature for when you return home. The system will continue to regulate your home whilst you’re away, protecting it from freezing temperatures in the winter."
     image_position: "right"
     image: "/uploads/StMoritz_AV-32.jpg"
-description: ""
-yoast_keyword: ""
+description: "The right temperature, in the right place at the right time."
+yoast_keyword: "Climate-control"
 weight: 40
 ---
 
-The right temperature, in the right place at the right time.  Our climate control systems keep you comfortable wherever you are.  Simply and precisely controlled no matter what’s happening outside.
+The right temperature, in the right place at the right time.  Our climate control systems keep you comfortable wherever you are. Simply and precisely controlled no matter what’s happening outside.
 
 Our range of climate control solutions range from simple residential systems to multi-dwelling units and large scale commercial premises. Many properties now have separate heating, cooling and ventilations systems and it is essential that these work in harmony to achieve the best performance and efficiency of each system. avp have the experience and knowledge to recommend and integrate the best system to keep you warm in winter and cool in summer.

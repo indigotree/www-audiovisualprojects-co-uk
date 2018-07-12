@@ -26,8 +26,7 @@ splits:
     content: "Complete control your lighting using lighting keypads, your voice, using state of the art touch panels – or by using discreet control panels.  Over 25 years’ experience allows us to recommend and install the very best control systems to suit your style and needs. Set lighting scenes for different times of the day to wake up or put the house to sleep, adjust the tone and mood of your lighting or set the perfect scene for when you leave your property or for when you arrive home at the end of the day."
     image_position: "left"
     image: "/uploads/c4_images_lighting_1.jpg"
-
-description: ""
+description: "What can be achieved with the right lighting scheme is nothing short of extraordinary."
 yoast_keyword: "lighting"
 weight: 50
 ---

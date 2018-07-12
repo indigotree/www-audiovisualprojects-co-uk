@@ -2,8 +2,8 @@
 title: "Privacy Policy"
 banner: []
 icons: []
-yoast_keyword: ""
-description: ""
+yoast_keyword: "privacy"
+description: "Privacy policy for Audio Visual Projects"
 ---
 
 # Privacy Policy

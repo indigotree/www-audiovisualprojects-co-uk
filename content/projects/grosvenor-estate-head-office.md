@@ -13,8 +13,8 @@ icons:
     link: ""
 location: "Mayfair, London"
 featured_image: "/uploads/grosvenor-estate-london-122.jpg"
-description: ""
-yoast_keyword: ""
+description: "Grosvenor Estate Head Office"
+yoast_keyword: "Grosvenor"
 ---
 
 # Grosvenor Estate Head Office, Grosvenor Street, W1 

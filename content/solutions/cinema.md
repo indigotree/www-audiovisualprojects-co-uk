@@ -19,8 +19,8 @@ splits:
     content: "The right seating is an essential part of your viewing experience. We source the very best electric reclining chairs for your home cinema space, so you can sit back, relax and enjoy the film."
     image_position: "right"
     image: "/uploads/AV1-130.jpg"
-description: ""
-yoast_keyword: ""
+description: "Enjoy the ultimate cinematic experience in the comfort of your own home."
+yoast_keyword: "Cinema"
 weight: 60
 ---
 

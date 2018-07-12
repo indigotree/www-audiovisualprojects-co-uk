@@ -5,8 +5,8 @@ banner:
     title: "Contact Us"
     meta: ""
 icons: []
-yoast_keyword: ""
-description: ""
+yoast_keyword: "contact"
+description: "Contact us here at Audio Visual Projects"
 layout: contact
 ---
 

@@ -50,8 +50,8 @@ icons:
   - title: "Electrical"
     icon: "/uploads/plug.svg"
     link: ""
-yoast_keyword: ""
-description: ""
+yoast_keyword: "Audio Visual Projects"
+description: "Delivering your smart Home & Business solutions"
 ---
 
 # Making life extraordinary

@@ -47,8 +47,8 @@ splits:
     content: "Impress and engage your audience with stunning presentations and make meetings more effective with the latest professional AV solutions. From meeting and boardrooms to conference spaces, training rooms and large auditoriums, we take care of voice reinforcement, video conferencing, large screen presentation, seating and undertake all electrical work required to install the very best in professional AV.<br /><br />Outside of formal presentation areas, installing AV in communal areas can greatly enhance a space, whether it be staff restaurants or relaxation areas, we will plan the space carefully with the appropriate audio-visual solution. We also fit PA and evacuation systems."
     image_position: "right"
     image: "/uploads/benjamin-child-90768-unsplash.jpg"
-description: ""
-yoast_keyword: ""
+description: "Highest quality sound systems ​to multi-screen games rooms, cutting edge ​conference rooms and auditoriums and everything in between."
+yoast_keyword: "Audio-Visual"
 weight: 50
 ---
 

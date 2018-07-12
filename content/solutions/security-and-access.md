@@ -26,8 +26,8 @@ splits:
     content: "Check in on pets when you’re out of the home or monitor what the kids are up to in the playroom when you’re busy in another space via discreetly place internal cameras. When integrated with a home automation system, internal monitoring provides an additional level of security and peace of mind whether you’re at home or away."
     image_position: "left"
     image: "/uploads/C4_Images_Security_7.jpg"
-description: ""
-yoast_keyword: ""
+description: "We understand the importance of feeling safe and secure."
+yoast_keyword: "security"
 weight: 20
 ---
 

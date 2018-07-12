@@ -31,8 +31,8 @@ icons:
     link: ""
 location: "Hertfordshire"
 featured_image: "/uploads/StMoritz_AV-70.jpg"
-description: ""
-yoast_keyword: ""
+description: "Private Residence Hertfordshire"
+yoast_keyword: "Residence"
 ---
 
 # Private Residence Hertfordshire

@@ -4,7 +4,7 @@ banner:
   - image: "/uploads/jes-culley.jpg"
     title: "Jes Culley"
     meta: ""
-yoast_keyword: ""
+yoast_keyword: "jes"
 description: "Passion for ​AV has always been a ​driving force in​ my life and in 1993, I founded Audio Visual Projects with the vision of becoming an ​industry-leading​ ​residential ​and commercial automation company."
 featured_image: "/uploads/jes-culley.jpg"
 position: "Director, AVP Group"
