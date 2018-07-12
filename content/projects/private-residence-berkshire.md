@@ -48,12 +48,4 @@ In the home cinema, speakers are hidden behind an acoustically transparent scree
 
 The plant room is the nerve centre of the house, where the cabling is neatly stored, along with all of the media centres, lighting control and network switches. 
 
-{{< gallery id="gallery-one" >}}
-    {{< gallery-image image="/uploads/private-residence-03.jpg" >}}
-    {{< gallery-image image="/uploads/private-residence-13.jpg" >}}
-    {{< gallery-image image="/uploads/private-residence-102.jpg" >}}
-    {{< gallery-image image="/uploads/private-residence-23.jpg" >}}
-    {{< gallery-image image="/uploads/private-residence-129.jpg" >}}
-    {{< gallery-image image="/uploads/private-residence-90.jpg" >}}
-    {{< gallery-image image="/uploads/private-residence-101.jpg" >}}
-{{< /gallery >}}
+{{< gallery id="private-residence-berkshire" >}}

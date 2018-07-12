@@ -1,5 +1,35 @@
-{{ if .Get "id" }}
+{{ $id := .Get "id" }}
+{{ $gallery := first 1 (where (.Site.GetPage "page" "gallery/index.md").Resources ".Params.gallery_id" "==" $id) }}
+{{ $Scope := . }}
+{{ if and $id $gallery }}
     <div class="gallery">
-        {{ .Inner }}
+        {{ range $gallery }}
+
+            {{ range $key, $media := .Params.images }}
+
+                {{ if $media.src }}
+
+                    {{ $image := $media.src }}
+                    {{ $alt :=  $media.alt | default "Gallery Image" }}
+
+                    <div class="gallery__media">
+
+                        {{ with $Scope.Site.GetPage "page" "uploads/index.md" }}
+                
+                            {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" $image) }}
+
+                            <a data-fancybox="{{ $id }}" href="{{ ($match.Resize "1920x q80").RelPermalink }}" data-turbolinks="false">
+                                {{ partial "image/lazy.html" (dict "Src" $image "Alt" $alt "Size" "1024x1024 q80" "Scope" $Scope) }}
+                            </a>
+
+                        {{ end }}
+
+                    </div>
+
+                {{ end }}
+
+            {{ end }}
+
+        {{ end }}
     </div>
 {{ end }}
