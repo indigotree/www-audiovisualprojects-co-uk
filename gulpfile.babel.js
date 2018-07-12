@@ -105,7 +105,7 @@ gulp.task('sass', () => {
     .pipe($.if(!isProduction, $.sassLint()))
     .pipe($.if(!isProduction, $.sassLint.format()))
     .pipe($.sass({ precision: 5, importer: tildeImporter }))
-    .pipe($.autoprefixer(['ie >= 10', 'last 2 versions']))
+    .pipe($.autoprefixer(['last 3 versions', 'not IE 9', 'Safari >= 8', '> 10%']))
     .pipe($.if(isProduction, $.cssnano({ discardUnused: false, minifyFontValues: false })))
     .pipe($.size({ gzip: true, showFiles: true }))
     .pipe(gulp.dest('static/css'))
