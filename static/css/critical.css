@@ -947,7 +947,7 @@ table {
   .banner__strapline {
     display: none;
     position: absolute;
-    bottom: 110px;
+    bottom: 100px;
     height: 50px;
     z-index: 999;
     left: 30px;
