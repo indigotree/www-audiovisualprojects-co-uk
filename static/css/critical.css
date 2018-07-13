@@ -764,6 +764,7 @@ table {
           transform: translateX(-250px);
   -webkit-transition: -webkit-transform .5s ease;
   transition: -webkit-transform .5s ease;
+  -o-transition: transform .5s ease;
   transition: transform .5s ease;
   transition: transform .5s ease, -webkit-transform .5s ease;
   position: fixed;
@@ -856,6 +857,7 @@ table {
   z-index: 5;
   opacity: 0;
   -webkit-transition: opacity 1s ease;
+  -o-transition: opacity 1s ease;
   transition: opacity 1s ease; }
   @media screen and (min-width: 992px) {
     .navigation-panner {
@@ -945,10 +947,9 @@ table {
   .banner__strapline {
     display: none;
     position: absolute;
-    bottom: 0;
+    bottom: 110px;
     height: 50px;
     z-index: 999;
-    top: calc(100vh - 150px);
     left: 30px;
     color: #fff;
     font-size: 24px;
@@ -964,6 +965,7 @@ table {
   background-size: cover;
   -webkit-transition: -webkit-transform .3s ease;
   transition: -webkit-transform .3s ease;
+  -o-transition: transform .3s ease;
   transition: transform .3s ease;
   transition: transform .3s ease, -webkit-transform .3s ease; }
   @media screen and (min-width: 992px) {

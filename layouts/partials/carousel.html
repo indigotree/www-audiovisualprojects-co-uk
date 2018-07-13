@@ -3,6 +3,7 @@
 {{ $fullSize := .size | default "1920x1080 q80" }}
 
 <div class="banner carousel" id="carousel">
+
     {{ range $index, $slide := $slides }}
         
         {{ with $scope.Site.GetPage "page" "uploads/index.md" }}

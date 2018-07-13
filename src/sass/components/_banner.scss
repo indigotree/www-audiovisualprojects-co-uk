@@ -38,10 +38,9 @@
     &__strapline {
         display: none;
         position: absolute;
-        bottom: 0;
+        bottom: 110px;
         height: 50px;
         z-index: 999;
-        top: calc(100vh - 150px);
         left: 30px;
         color: #fff;
         font-size: 24px;
@@ -51,6 +50,7 @@
         @include media-min(md) {
             display: block;
         }
+
     }
 
 }

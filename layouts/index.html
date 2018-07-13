@@ -2,14 +2,14 @@
 
     {{ $scope := . }}
 
-    {{ $strapline := .Site.Data.strapline.strapline }}
+    {{ partial "carousel" ( dict "banner" .Params.banner "Scope" . ) }}
+
+    {{ $strapline := $scope.Site.Data.strapline.strapline }}
     {{ if $strapline }}
         <div class="banner__strapline">
             {{ $strapline }}
         </div>
     {{ end }}
-
-    {{ partial "carousel" ( dict "banner" .Params.banner "Scope" . ) }}
 
     <div class="container container--band container--md text--center">
         {{ .Content }}
