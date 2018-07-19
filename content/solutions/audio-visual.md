@@ -32,7 +32,7 @@ splits:
     link: ""
     content: "Smart home technology means you can watch films, cable, satellite and on-line entertainment anywhere in the house from one easy-to-use touch pad, app on your phone or by voice control. Centralised distribution allows for unsightly devices such as media boxes and DVD Player to be stored neatly away from the living space in a rack which can be placed in a dedicated space. Screen technology is advancing at pace with Ultra High Definition, even finer pixel resolution and ultra-bright 3D colour to deliver visually stunning results."
     image_position: "right"
-    image: "/uploads/avp-project-4-41"
+    image: "/uploads/avp-project-4-41.jpg"
 
   - title: "Uncompromised viewing angles"
     link_text: "Find out more"
