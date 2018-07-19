@@ -32,14 +32,14 @@ splits:
     link: ""
     content: "Smart home technology means you can watch films, cable, satellite and on-line entertainment anywhere in the house from one easy-to-use touch pad, app on your phone or by voice control. Centralised distribution allows for unsightly devices such as media boxes and DVD Player to be stored neatly away from the living space in a rack which can be placed in a dedicated space. Screen technology is advancing at pace with Ultra High Definition, even finer pixel resolution and ultra-bright 3D colour to deliver visually stunning results."
     image_position: "right"
-    image: "/uploads/StMoritz_AV-29.jpg"
+    image: "/uploads/avp-project-4-41"
 
   - title: "Uncompromised viewing angles"
     link_text: "Find out more"
     link: ""
     content: "Motorised brackets are a great way to allow a TV screen to be viewed from multiple angles. The angle can be easily adjusted using your smart home control panel and when not in use, the bracket can be positioned neatly into a recessed section of the wall, ceiling or bespoke furniture. We work with leading manufacturers of mechanical automation products such as Future Automation."
     image_position: "left"
-    image: "/uploads/AV1-93.jpg"
+    image: "/uploads/avp-project-4-61.jpg"
 
   - title: "Professional AV solutions"
     link_text: "Find out more"

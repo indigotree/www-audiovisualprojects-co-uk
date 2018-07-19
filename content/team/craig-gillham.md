@@ -1,12 +1,12 @@
 ---
 title: "Craig Gillham"
 banner: 
-  - image: "/uploads/craig-gillham.jpg"
+  - image: "/uploads/team-craig.jpg"
     title: "Craig Gillham"
     meta: ""
 yoast_keyword: "craig"
 description: "My role within AVP is to oversee the financial strategy and operations at AVP; bringing a commercial focus and ensuring delivery of an effective operating model to provide world class services to our clients."
-featured_image: "/uploads/craig-gillham.jpg"
+featured_image: "/uploads/team-craig.jpg"
 position: "CEO, AVP Group"
 ---
 
