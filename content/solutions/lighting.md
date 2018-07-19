@@ -31,7 +31,7 @@ splits:
     link_text: ""
     link: ""
     content: "From bespoke light switches to paintable socket plates that seamlessly blend with your décor, we only work with the best lighting manufacturers to offer you a wide range of accessories to suit your project and budget."
-    image_position: "left"
+    image_position: "right"
     image: "/uploads/avp-project-4-27.jpg"
 description: "What can be achieved with the right lighting scheme is nothing short of extraordinary."
 yoast_keyword: "lighting"
