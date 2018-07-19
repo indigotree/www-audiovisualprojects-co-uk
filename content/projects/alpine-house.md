@@ -3,7 +3,7 @@ title: "Alpine House"
 banner: 
   - image: "/uploads/alpine-house-1.jpg"
     title: "Alpine House"
-    meta: "Alpine House Bushey Heath"
+    meta: "Bushey Heath"
 icons: 
   - title: "Security & Access"
     icon: "/uploads/security.svg"
