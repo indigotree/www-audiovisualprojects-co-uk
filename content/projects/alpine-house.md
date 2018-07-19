@@ -16,7 +16,7 @@ icons:
     link: "/solutions/multi-dwelling-unit/"
   - title: "Electrical"
     icon: "/uploads/plug.svg"
-    link: ""
+    link: "/solutions/electrical/"
 location: "Bushey Heath"
 featured_image: "/uploads/alpine-house-1.jpg"
 description: "Alpine House Bushey Heath"
