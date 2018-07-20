@@ -1,7 +1,7 @@
 ---
 title: "Contact Us"
 banner: 
-  - image: "/uploads/Control4_Lifestyle_HomeAutomation.jpg"
+  - image: "/uploads/avp-plan-3-header.jpg"
     title: "Contact Us"
     meta: ""
 icons: []
@@ -12,7 +12,7 @@ layout: contact
 
 # Contact Us
 
-If you would like to find out more about AVP or would like us to provide a quotation, proposal and design for a specific installation, please use the contact details below.
+If you would like to find out more about avp or would like us to provide a quotation, proposal and design for a specific installation, please use the contact details below.
 
 **Address**:<br>
 Audio Visual Projects,<br>

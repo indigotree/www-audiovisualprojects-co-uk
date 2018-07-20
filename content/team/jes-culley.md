@@ -5,16 +5,16 @@ banner:
     title: "Jes Culley"
     meta: ""
 yoast_keyword: "jes"
-description: "Passion for ​AV has always been a ​driving force in​ my life and in 1993, I founded Audio Visual Projects with the vision of becoming an ​industry-leading​ ​residential ​and commercial automation company."
+description: "Passion for ​AV has always been a ​driving force in​ my life and in 1993, I founded avp with the vision of becoming an ​industry-leading​ ​residential ​and commercial automation company."
 featured_image: "/uploads/jes-culley.jpg"
-position: "Director, AVP Group"
+position: "Director, avp Group"
 ---
 
 # Jes Culley
 
-Director, AVP Group
+Director, avp Group
 
-Passion for ​AV has always been a ​driving force in​ my life and in 1993, I founded Audio Visual Projects with the vision of becoming an ​industry-leading​ ​residential ​and commercial automation company. The business has grown from strength to strength over the last 25 years and I’ve had the great pleasure of working on a ​plethora ​of ​career-defining ​projects. Whether installing ​state-of-the-art, automated home and conference systems at an ancient priory and vineyard in Provence which was being renovated into a luxury private estate; transforming over 100 basements; fully ​automating​ a boutique hotel in Switzerland and even ​kitting out a barge where all the furniture was secured to the floor, ​the variety of technical scale and scope of each and every design is what excites me. ​My role is to meet with clients, understand their vision and make recommendations about the best way to enhance ​their space and lives ​with ​state-of-the-art​ automated systems, including Audio Visual, Lighting design and Security.
+Passion for ​AV has always been a ​driving force in​ my life and in 1993, I founded avp with the vision of becoming an ​industry-leading​ ​residential ​and commercial automation company. The business has grown from strength to strength over the last 25 years and I’ve had the great pleasure of working on a ​plethora ​of ​career-defining ​projects. Whether installing ​state-of-the-art, automated home and conference systems at an ancient priory and vineyard in Provence which was being renovated into a luxury private estate; transforming over 100 basements; fully ​automating​ a boutique hotel in Switzerland and even ​kitting out a barge where all the furniture was secured to the floor, ​the variety of technical scale and scope of each and every design is what excites me. ​My role is to meet with clients, understand their vision and make recommendations about the best way to enhance ​their space and lives ​with ​state-of-the-art​ automated systems, including Audio Visual, Lighting design and Security.
 
 From a young age, I was always interested in electronics and spent most of my free time taking things apart. After studying Electronic Engineering, I built a business based on wiring radios and stereos into cars before they came as standard. In 1983, I fitted the first Blaupunkt Satellite Navigation system into a Honda on a visit to their Swindon plant.  In the early 90’s, I started working with architects to install AV systems into residential properties. As the business grew and became more successful we branched out into commercial installations.
 

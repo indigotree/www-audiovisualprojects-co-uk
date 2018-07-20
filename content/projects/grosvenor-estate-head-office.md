@@ -10,7 +10,7 @@ icons:
     link: "/solutions/lighting/"
   - title: "Design & Planning"
     icon: "/uploads/design-planning.svg"
-    link: ""
+    link: "/solutions/design-planning/"
 location: "Mayfair, London"
 featured_image: "/uploads/grosvenor-estate-london-122.jpg"
 description: "Grosvenor Estate Head Office"
