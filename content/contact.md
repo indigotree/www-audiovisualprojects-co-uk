@@ -1,7 +1,7 @@
 ---
 title: "Contact Us"
 banner: 
-  - image: "/uploads/avp-plan.jpg"
+  - image: "/uploads/avp-plan-3-header.jpg"
     title: "Contact Us"
     meta: ""
 icons: []

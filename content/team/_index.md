@@ -1,5 +1,5 @@
 ---
-title: "Team"
+title: "About avp"
 banner: 
   - image: "/uploads/team-photo.jpg"
     title: "About us"

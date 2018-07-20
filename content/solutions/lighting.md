@@ -11,7 +11,7 @@ splits:
     link: ""
     content: "At the heart of every great lighting scheme is a well-considered design, supported by a detailed plan which outlines lighting and control positions, circuit codes and considers any other systems that may integrate with it. Our plans are created with meticulous detail, reflecting the bespoke nature of each project and encapsulating all the layers of lighting in a room, whilst considering the placement of any other home automation solutions such as speakers and security devices."
     image_position: "left"
-    image: "/uploads/avp-plan.jpg"
+    image: "/uploads/avp-plan-1-square.jpg"
 
   - title: "Specification"
     link_text: ""
