@@ -11,7 +11,7 @@ splits:
     link: ""
     content: "Dedicated home cinema rooms benefit from superb sound quality thanks to carefully placed speakers which are discreetly hidden behind an acoustically transparent screen and walls to achieve a true surround sound experience. Sound proofing the room ensures that when someone is watching a film, the sound can’t be heard anywhere else in the house.<br /><br />Whether you’re watching the latest blockbuster, streaming your favourite box-set or gaming, big screen technology will surpass your expectations. We only work with the very latest UHD projector technology which are capable of delivering super high resolution, the highest dynamic contrast on the market and images that are bursting with ultra-bright 3D colour."
     image_position: "left"
-    image: "/uploads/AV1-129.jpg"
+    image: "/uploads/cinema-2.jpg"
 
   - title: "Supreme comfort"
     link_text: "Find out more"
