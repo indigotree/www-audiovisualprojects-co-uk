@@ -9,7 +9,7 @@ images:
       alt: "Grosvenor Estate London"
     - src: /uploads/private-residence-23.jpg
       alt: "Grosvenor Estate London"
-    - src: /uploads/avp-project-4-64.jpg
+    - src: /uploads/cinema-2.jpg
       alt: "Grosvenor Estate London"
     - src: /uploads/private-residence-90.jpg
       alt: "Grosvenor Estate London"
