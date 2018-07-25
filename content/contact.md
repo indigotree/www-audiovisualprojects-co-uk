@@ -6,7 +6,7 @@ banner:
     meta: ""
 icons: []
 yoast_keyword: "contact"
-description: "Contact us here at Audio Visual Projects"
+description: "Contact us here at avp group"
 layout: contact
 ---
 

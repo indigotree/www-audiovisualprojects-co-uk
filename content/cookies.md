@@ -3,7 +3,7 @@ title: "Cookies"
 banner: []
 icons: []
 yoast_keyword: "cookies"
-description: "Cookie information for Audio Visual Projects"
+description: "Cookie information for avp group"
 ---
 
 # Cookies
