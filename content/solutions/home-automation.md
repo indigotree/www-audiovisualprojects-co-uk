@@ -26,7 +26,7 @@ During installation of your bespoke system, we will take every measure to future
     link: ""
     content: "Our relationships and reputation are built on trust. We approach every stage of the process from design and build through to installation and maintenance​ with ​the utmost ​respect for your property and privacy, ​with minimal disruption to your home and lives. This is one of the many reasons we have long standing relationships with our clients. Rest assured, we’re with you from the beginning to the very end of a project, ensuring you’re 100% happy with the result."
     image_position: "left"
-    image: "/uploads/2018-audio-visual-projects-portraits-21.jpg"
+    image: "/uploads/2018-avp-portraits-21.jpg"
 
   - title: "Window Treatments"
     link_text: "Find out more"
