@@ -47,7 +47,7 @@ icons:
   - title: "Electrical"
     icon: "/uploads/plug.svg"
     link: "/solutions/electrical/"
-yoast_keyword: "Audio Visual Projects"
+yoast_keyword: "avp group"
 description: "Delivering your smart Home & Business solutions"
 ---
 
