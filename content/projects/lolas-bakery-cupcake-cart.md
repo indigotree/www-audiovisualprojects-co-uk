@@ -1,9 +1,9 @@
 ---
-title: "Lola’s Bakery & Lola’s Cupcake Cart"
+title: "Lola’s Bakery and Cupcake Carts"
 banner: 
   - image: "/uploads/LolasBakery-30.jpg"
-    title: "Lola’s Bakery & Lola’s Cupcake Cart"
-    meta: "West Hampstead & King’s Cross St Pancras, London"
+    title: "Lola’s Bakery and Cupcake Carts"
+    meta: "West Hampstead & London Underground Stations"
 icons: 
   - title: "Lighting"
     icon: "/uploads/light.svg"
@@ -17,13 +17,13 @@ icons:
   - title: "Design & Planning"
     icon: "/uploads/design-planning.svg"
     link: "/solutions/design-planning/"
-location: "West Hampstead & King’s Cross St Pancras, London"
+location: "West Hampstead & London Underground Stations"
 featured_image: "/uploads/LolasBakery-30.jpg"
-description: "Lola’s Bakery & Lola’s Cupcake Cart, West Hampstead & King’s Cross St Pancras, London"
+description: "Lola’s Bakery and Cupcake Carts, West Hampstead & London Underground Stations"
 yoast_keyword: "Lola’s Bakery"
 ---
 
-# Lola’s Bakery & Lola’s Cupcake Cart, West Hampstead & King’s Cross St Pancras, London
+# Lola’s Bakery & Lola’s Cupcake Cart, West Hampstead & London Underground Stations
 
 In July 2017, Lola’s Bakery and All Day Café opened in West Hampstead, North London. avp were invited to be involved with the project from planning stage with a brief to design a lighting scheme, audio solution and security system for this exciting new eatery. 
 
