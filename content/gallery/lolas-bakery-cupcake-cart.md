@@ -1,5 +1,5 @@
 ---
-gallery_id: "private-residence-berkshire"
+gallery_id: "lolas-bakery-cupcake-cart"
 images:
     - src: /uploads/LolasBakery-20.jpg
       alt: "Lola’s Bakery & Lola’s Cupcake Cart, West Hampstead & King’s Cross St Pancras, London"
