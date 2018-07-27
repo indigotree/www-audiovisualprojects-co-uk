@@ -1,7 +1,7 @@
 ---
 title: "Lola’s Bakery & Lola’s Cupcake Cart"
 banner: 
-  - image: "/uploads/LolasBakery-03.jpg"
+  - image: "/uploads/LolasBakery-30.jpg"
     title: "Lola’s Bakery & Lola’s Cupcake Cart"
     meta: "West Hampstead & King’s Cross St Pancras, London"
 icons: 
@@ -18,7 +18,7 @@ icons:
     icon: "/uploads/design-planning.svg"
     link: "/solutions/design-planning/"
 location: "West Hampstead & King’s Cross St Pancras, London"
-featured_image: "/uploads/LolasBakery-03.jpg"
+featured_image: "/uploads/LolasBakery-30.jpg"
 description: "Lola’s Bakery & Lola’s Cupcake Cart, West Hampstead & King’s Cross St Pancras, London"
 yoast_keyword: "Lola’s Bakery"
 ---
