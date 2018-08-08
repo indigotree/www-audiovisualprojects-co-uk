@@ -2,8 +2,11 @@
 
 http://www-audiovisualprojects-co-uk.netlify.com/* https://www.avp-group.co.uk/:splat 301!
 https://www-audiovisualprojects-co-uk.netlify.com/* https://www.avp-group.co.uk/:splat 301!
+
 http://www.audiovisualprojects.co.uk/* https://www.avp-group.co.uk/:splat 301!
 https://www.audiovisualprojects.co.uk/* https://www.avp-group.co.uk/:splat 301!
+http://audiovisualprojects.co.uk/* https://www.avp-group.co.uk/:splat 301!
+https://audiovisualprojects.co.uk/* https://www.avp-group.co.uk/:splat 301!
 
 {{- range $p := .Site.Pages -}}
 {{- range .Aliases }}
