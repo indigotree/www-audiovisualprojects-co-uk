@@ -11,7 +11,7 @@ splits:
     link: ""
     content: "Start your day seamlessly with a morning schedule to wake up your house: turn on the heating, open the blinds and set the lighting to the desired level.<br /><br />Home automation systems maximise the comfort and convenience of everyday life whilst constantly monitoring what’s happening around your home. A night-time schedule can be set to automatically turn off all the internal lights, activate external security lights, lock doors, close blinds, turn lawn sprinklers on and shut down any active home entertainment devices. Saving you precious time at the end of the day by putting you in control of every space in the house at the touch of a button or by using voice control. If you’re preparing a meal in the kitchen, use voice control to adjust the lighting, turn on the radio or set the temperature in the room. With increasingly busy lives, a home automation system enables you to set your environment to exactly how you want it, whether you’re at home or away whilst also helping to maximise your energy efficiency."
     image_position: "left"
-    image: "/uploads/c4_images_lighting_2.jpg"
+    image: "/uploads/avp-project-4-32.jpg"
 
   - title: "Always one step ahead"
     link_text: "Find out more"
