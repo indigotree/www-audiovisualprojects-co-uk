@@ -102,6 +102,33 @@ collections:
       - { label: "Weight", name: "weight", widget: "number" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  - name: "knowledge-hub"
+    label: "Knowledge Hub"
+    folder: "content/knowledge-hub"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Featured Image", name: "featured_image", widget: "image" }
+      - { label: "Focus Keyword", name: "yoast_keyword", widget: "string", required: true }
+      - { label: "Description", name: "description", widget: "text", required: true }
+      - label: "Banner"
+        name: "banner"
+        widget: "list"
+        fields: 
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta", name: "meta", widget: "string" }
+      - label: "Supporting Images"
+        name: "supporting_images"
+        widget: "list"
+        fields: 
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Alt", name: "alt", widget: "string" }
+      - { label: "Weight", name: "weight", widget: "number" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+
   - name: "team"
     label: "Team"
     folder: "content/team"
