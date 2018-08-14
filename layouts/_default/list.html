@@ -26,7 +26,7 @@
 
                         {{ if .Params.featured_image }}
                             <div class="item__thumbnail">
-                                {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Width" 300 "Scope" $scope) }}
+                                {{ partial "image/lazy" (dict "Src" .Params.featured_image "Alt" (.Params.featured_image_alt | default .Title) "Size" "768x768 center" "Scope" $scope) }}
                             </div>
                         {{ end }}
 

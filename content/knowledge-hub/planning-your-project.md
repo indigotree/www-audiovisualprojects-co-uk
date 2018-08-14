@@ -4,7 +4,7 @@ banner:
   - image: "/uploads/C4_Images_Video_2.jpg"
     title: "Knowledge Hub"
     meta: ""
-featured_image: "/uploads/1000x1000.png"
+featured_image: "/uploads/C4_Images_Video_2.jpg"
 description: ""
 yoast_keyword: ""
 supporting_images:

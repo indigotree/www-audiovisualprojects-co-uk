@@ -4,7 +4,7 @@ banner:
   - image: "/uploads/avp_project_4_1.jpg"
     title: "What is Control 4?"
     meta: ""
-featured_image: "/uploads/1000x1000.png"
+featured_image: "/uploads/avp_project_4_1.jpg"
 description: ""
 yoast_keyword: ""
 supporting_images:

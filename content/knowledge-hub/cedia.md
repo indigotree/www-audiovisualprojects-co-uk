@@ -4,7 +4,7 @@ banner:
   - image: "/uploads/students-working-on-project_4460x4460.jpg"
     title: "CEDIA"
     meta: ""
-featured_image: "/uploads/1000x1000.png"
+featured_image: "/uploads/students-working-on-project_4460x4460.jpg"
 description: ""
 yoast_keyword: ""
 supporting_images: 
