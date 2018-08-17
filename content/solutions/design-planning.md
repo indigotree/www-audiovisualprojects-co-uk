@@ -24,4 +24,6 @@ yoast_keyword: "design"
 weight: 80
 ---
 
+# Design & Planning
+
 We work directly with clients, architects, interior designers and building contractors from planning stage through to completion. Our detailed technical plans outline how the different systems integrate for maximum performance and convenience and because avp offer the full range of automated solutions from lighting design to audio visual, electrical and security, you will only require one set of technical drawings.
