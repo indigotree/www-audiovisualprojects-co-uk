@@ -39,7 +39,7 @@ yoast_keyword: "automation"
 weight: 10
 ---
 
-## Making life extraordinary - discover the endless possibilities of smart home solutions.
+# Making life extraordinary - discover the endless possibilities of smart home solutions.
 
 Home automation technology is evolving at pace, offering an extensive range of solutions to enhance the comfort of your everyday life.
 avp specialise in the design and installation of​ technically excellent, visually stunning and bespoke home automation solutions from the world’s best manufacturers. These work in harmony with your space to control lighting, audio, visual, climate, blinds, security and much more. All seamlessly integrated and controlled from one easy-to-use device.
