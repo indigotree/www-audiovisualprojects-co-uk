@@ -31,6 +31,8 @@ yoast_keyword: "wi-fi"
 weight: 100
 ---
 
+# Multiple Access Points
+
 Wi-Fi enabled devices are constantly evolving to become quicker and smarter. The number of devices per home and workspace has dramatically increased over recent years and it’s essential that your wireless network is flexible and reliable enough to keep up with this demanding technology.
 
 A wireless network forms the back bone of all automated solutions and its performance is crucial to the smooth operation and reliability any smart home or workspace. 
