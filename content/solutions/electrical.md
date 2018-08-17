@@ -31,4 +31,6 @@ yoast_keyword: "electrical"
 weight: 70
 ---
 
+# Electrical
+
 Electrical wiring forms the basis of any smart technology project but unlike most smart technology installers, avp has an in-house team of experienced electricians who provide a range of electrical services, whether it’s designing an electrical plan for a new-build or adapting an existing installation. Over 30 years of experience has shown us that every stage of a project is closely integrated, and we pride ourselves on how seamlessly our teams work together to deliver extraordinary results for our clients. We are members of NICEIC which means our work is inspected and our administration is audited and on an annual basis.
