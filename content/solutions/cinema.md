@@ -24,4 +24,6 @@ yoast_keyword: "Cinema"
 weight: 60
 ---
 
+# Cinema
+
 Enjoy the ultimate cinematic experience in the comfort of your own home. Our bespoke home cinema solutions are designed to fit within your desired space. Whether it’s creating a dedicated home cinema room, transforming a basement or discreetly placing a screen and projector into an existing living space. We combine the latest audio and visual technology, supported by superb acoustics, the perfect lighting scheme, comfortable seating and a sophisticated yet simple control system.
