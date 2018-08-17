@@ -52,6 +52,8 @@ yoast_keyword: "Audio-Visual"
 weight: 50
 ---
 
+# Audio Visual
+
 From breath-taking home theatres with sophisticated projection and the highest quality sound systems ​to multi-screen games rooms, cutting edge ​conference rooms and auditoriums and everything in between. We specialise in designing and integrating the latest audio-visual solutions, ​tailored to your space. 
 
 ​Want to listen to music in every room? We understand acoustics and are experts in high end sound. We know exactly where to place speakers for maximum performance and ​we take the time to plan lighting with audio visual solutions to ensure they work perfectly together and deliver a totally immersive experience.
