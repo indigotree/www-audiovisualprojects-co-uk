@@ -55,6 +55,8 @@ splits:
 weight: 20
 ---
 
+# Security and Access
+
 We understand the importance of feeling safe and secure. As a leading installer of high-end security, protecting high value residential and commercial properties is our forte. Our services include CCTV, door entry systems, video gate entry,​ multi-camera surveillance systems​ and internal motion detection.
 
 Designed to fit in with your lifestyle, our bespoke security solutions will guarantee your peace of mind whether you are in or out of the property.
