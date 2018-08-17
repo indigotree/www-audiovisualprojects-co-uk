@@ -38,6 +38,8 @@ yoast_keyword: "lighting"
 weight: 50
 ---
 
+# Lighting
+
 What can be achieved with the right lighting scheme is nothing short of extraordinary. avp specialise in intelligent and bespoke lighting solutions for residential and commercial properties. Lighting is a major part of any interior design project; a space can be completely transformed by a well-considered scheme which captures the desired mood and atmosphere.
 
 We work directly with clients, architects, interior designers and building contractors from planning stage through to completion. 
