@@ -31,6 +31,8 @@ yoast_keyword: "multi-dwelling unit"
 weight: 90
 ---
 
+# Multi-Dwelling Unit
+
 With the sharp growth of smart technology, people are demanding more from their homes. The opportunity to include these life-enhancing solutions doesn’t have to be compromised if you live in an apartment. At avp, we are experienced in delivering solutions for apartment blocks, hotels and other large-scale, multi-dwelling developments. Working with architects, builders, developers and home owners from planning stage to completion, we ensure all aspects of home automation and lighting design have been considered to completely transform day-to-day living. 
 
 <small>Alpine House in Bushey Heath is an exclusive development of 12 luxury apartments, built by the award winning local developer Giles Homes Ltd.</small>
