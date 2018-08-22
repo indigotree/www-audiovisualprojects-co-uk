@@ -280,6 +280,9 @@ body {
 .text--grey-dark {
   color: #111111; }
 
+small {
+  font-size: .8em; }
+
 h1,
 h2,
 h3,
