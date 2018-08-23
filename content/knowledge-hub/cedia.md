@@ -16,10 +16,10 @@ supporting_images:
       alt: ""
     - image: "/uploads/Training.jpg"
       alt: ""
-    - image: "/uploads/cedia.png"
-      alt: ""
     - image: "/uploads/cedia_plaque.JPG"
       alt: "CEDIA Member Plaque"
+    - image: "/uploads/cedia.png"
+      alt: ""
 weight: 10
 ---
 
