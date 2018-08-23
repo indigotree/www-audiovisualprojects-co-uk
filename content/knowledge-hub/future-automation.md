@@ -34,7 +34,7 @@ Future Automation, founded in 1998, has revolutionized motorised audio-visual te
 With two decades of experience in the industry, Future Automation is one of the leading brands that specialise in developing moving solutions that combine functionality with quality engineering and aesthetic appeal.
 
 {{< video-row >}}
-  {{< video src="https://vimeo.com/286316231" >}}
+  {{< video src="https://player.vimeo.com/video/286316231" >}}
 {{< /video-row >}}
 
 ## Why is Future Automation so highly praised by dealers and customers?
