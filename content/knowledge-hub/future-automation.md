@@ -33,6 +33,10 @@ Future Automation, founded in 1998, has revolutionized motorised audio-visual te
 
 With two decades of experience in the industry, Future Automation is one of the leading brands that specialise in developing moving solutions that combine functionality with quality engineering and aesthetic appeal.
 
+{{< video-row >}}
+  {{< video src="https://vimeo.com/286316231" >}}
+{{< /video-row >}}
+
 ## Why is Future Automation so highly praised by dealers and customers?
 
 One of the many reasons Future Automation are so favoured by their customers is because all their mechanisms are made in-house, in their UK and US workshops. Their products are designed and engineering in-house to maximise system reliability and meet the needs of installers. By operating a lean manufacturing philosophy, investing heavily in state-of-the-art machinery and employing only the best, Future Automation can continue to innovate and expand the ever-changing moving audio-visual market.
