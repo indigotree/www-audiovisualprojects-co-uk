@@ -1,9 +1,9 @@
 <div class="video-row__video">
     <div class="video">
         {{ if .IsNamedParams }}
-            <iframe src="{{ .Get "src" }}" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+            <iframe src="{{ .Get "src" }}" style="background-color: #1E1E1E" width="640" height="360" frameborder="0" allowfullscreen></iframe>
         {{ else }}
-            <iframe src="{{ .Get 0 }}" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+            <iframe src="{{ .Get 0 }}" style="background-color: #1E1E1E" width="640" height="360" frameborder="0" allowfullscreen></iframe>
         {{ end }}
     </div>
 </div>
