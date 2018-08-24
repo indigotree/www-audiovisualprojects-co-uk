@@ -18,7 +18,7 @@ supporting_images:
       alt: ""
     - image: "/uploads/cedia_plaque.JPG"
       alt: "CEDIA Member Plaque"
-    - image: "/uploads/cedia.png"
+    - image: "/uploads/image-cedia-member.png"
       alt: ""
 weight: 10
 ---
