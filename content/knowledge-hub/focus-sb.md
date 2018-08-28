@@ -16,7 +16,7 @@ supporting_images:
       alt: ""
     - image: "/uploads/Horizon-Square-Polished-Chrome-Focus-SB-Poundbury-Royal-Pavilion.jpg"
       alt: ""
-    - image: "/uploads/Horizon-Square-Lutron-Controls-Cinema-Room-Focus-SB-courtesy-of-B-Electrical-London.jpg"
+    - image: "/uploads/Momentary-Dimmer-Switches-Ambassador-Square-Satin-Brass.jpg"
       alt: ""
     - image: "/uploads/Focus-SB-Logo-Final-on-White.jpg"
       alt: ""
@@ -47,4 +47,4 @@ Yes! We offer to match existing electrical plate finishes or can manufacture all
 
 Finish detail is key to the majority of our customers. Whether the aim is to contrast electrical accessories with beautifully-dressed walls or complement furnishing detailing, finishes are integral to the success of an overall interior design. Our plates are manufactured and hand finished in-house, which is important to our customers. We offer tailored services including the design and production of one-off samples specific to a customer’s brief. Our paintable finishes are spray painted for a flawless finish, and can be matched to RAL, Pantone or BS colours, offering valuable flexibility to our customers. Unique to us, we also offer electrophoretic lacquering of polished brass plates providing durability and a hard-wearing finish, ensuring our products keep their appearance over time. We also offer engraving and screen printing.
 
-Discover more at [Focus SB](https://www.focus-sb.co.uk/).
+Discover more at <a href="https://www.focus-sb.co.uk/" target="_blank">Focus SB</a>.
