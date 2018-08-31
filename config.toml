@@ -18,7 +18,6 @@ home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
 
 # remove .{ext} from text/netlify
 [mediaTypes."text/netlify"]
-suffix = ""
 delimiter = ""
 
 # add output format for netlify _redirects
@@ -59,10 +58,10 @@ notAlternative = true
     #     weight = 50
     #     url = "/professionals/"
 
-    # [[menu.main]]
-    #     name = "Knowledge Hub"
-    #     weight = 60
-    #     url = "/knowledge-hub/"
+    [[menu.main]]
+        name = "Knowledge Hub"
+        weight = 60
+        url = "/knowledge-hub/"
 
     [[menu.main]]
         name = "About"
