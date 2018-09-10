@@ -18,6 +18,7 @@ home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
 
 # remove .{ext} from text/netlify
 [mediaTypes."text/netlify"]
+suffixes = [""]
 delimiter = ""
 
 # add output format for netlify _redirects
