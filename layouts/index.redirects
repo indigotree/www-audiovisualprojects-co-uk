@@ -8,11 +8,11 @@ https://www.audiovisualprojects.co.uk/* https://www.avp-group.co.uk/:splat 301!
 http://audiovisualprojects.co.uk/* https://www.avp-group.co.uk/:splat 301!
 https://audiovisualprojects.co.uk/* https://www.avp-group.co.uk/:splat 301!
 
-{{- range $p := .Site.Pages -}}
+{{ range $p := .Site.Pages -}}
 {{- range .Aliases }}
 {{ . }} {{ $p.RelPermalink -}}
 {{- end }}
-{{- end -}}
+{{- end }}
 
 /about.html /team/
 /people.html /team/
