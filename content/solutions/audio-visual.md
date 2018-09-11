@@ -89,8 +89,8 @@ splits:
       We also fit PA and evacuation systems.
     image: /uploads/benjamin-child-90768-unsplash.jpg
     image_position: right
-    link: 'http://www.google.com'
-    link_text: Find out more
+    link: ''
+    link_text: ''
     title: Professional AV solutions
 weight: 50
 ---
