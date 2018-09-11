@@ -170,7 +170,7 @@ collections:
         description: "Default Banner Settings"
         fields: 
           - label: "Banner"
-            name: "banner_images"
+            name: "default"
             widget: "list"
             fields: 
               - { label: "Image", name: "image", widget: "image" }
