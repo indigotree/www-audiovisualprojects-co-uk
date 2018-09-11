@@ -1,54 +1,54 @@
 ---
-title: "Homepage"
-banner: 
-  - image: "/uploads/will-pryce-holmewood.jpg"
-    title: ""
-    meta: ""
-  - image: "/uploads/grosvenor-estate-london-103.jpg"
-    title: ""
-    meta: ""
-  - image: "/uploads/cinema-2.jpg"
-    title: ""
-    meta: ""
-  - image: "/uploads/grosvenor-estate-london-122.jpg"
-    title: ""
-    meta: ""
-  - image: "/uploads/craigs-home.jpg"
-    title: ""
-    meta: ""
-icons: 
-  - title: "Home Automation"
-    icon: "/uploads/house.svg"
-    link: "/solutions/home-automation/"
-  - title: "Security & Access"
-    icon: "/uploads/security.svg"
-    link: "/solutions/security-and-access/"
-  - title: "Lighting"
-    icon: "/uploads/light.svg"
-    link: "/solutions/lighting/"
-  - title: "Climate Control"
-    icon: "/uploads/thermometer.svg"
-    link: "/solutions/climate-control/"
-  - title: "Audio Visual"
-    icon: "/uploads/tv.svg"
-    link: "/solutions/audio-visual/"
-  - title: "Cinema"
-    icon: "/uploads/cinema.svg"
-    link: "/solutions/cinema/"
-  - title: "Wi-Fi & Networking"
-    icon: "/uploads/device.svg"
-    link: "/solutions/wifi-networking/"
-  - title: "Design & Planning"
-    icon: "/uploads/design-planning.svg"
-    link: "/solutions/design-planning/"
-  - title: "Multi-Dwelling Unit"
-    icon: "/uploads/multi-dwelling-unit.svg"
-    link: "/solutions/multi-dwelling-unit/"
-  - title: "Electrical"
-    icon: "/uploads/plug.svg"
-    link: "/solutions/electrical/"
-yoast_keyword: "avp group"
-description: "Delivering your smart Home & Business solutions"
+title: Homepage
+yoast_keyword: avp group
+description: Delivering your smart Home & Business solutions
+banner:
+  - image: /uploads/will-pryce-holmewood.jpg
+    meta: ''
+    title: ''
+  - image: /uploads/grosvenor-estate-london-103.jpg
+    meta: ''
+    title: ''
+  - image: /uploads/cinema-2.jpg
+    meta: ''
+    title: ''
+  - image: /uploads/grosvenor-estate-london-122.jpg
+    meta: ''
+    title: ''
+  - image: /uploads/craigs-home.jpg
+    meta: ''
+    title: ''
+icons:
+  - icon: /uploads/house.svg
+    link: 'https://www.avp-group.co.uk/solutions/home-automation/'
+    title: Home Automation
+  - icon: /uploads/security.svg
+    link: /solutions/security-and-access/
+    title: Security & Access
+  - icon: /uploads/light.svg
+    link: /solutions/lighting/
+    title: Lighting
+  - icon: /uploads/thermometer.svg
+    link: /solutions/climate-control/
+    title: Climate Control
+  - icon: /uploads/tv.svg
+    link: /solutions/audio-visual/
+    title: Audio Visual
+  - icon: /uploads/cinema.svg
+    link: /solutions/cinema/
+    title: Cinema
+  - icon: /uploads/device.svg
+    link: /solutions/wifi-networking/
+    title: Wi-Fi & Networking
+  - icon: /uploads/design-planning.svg
+    link: /solutions/design-planning/
+    title: Design & Planning
+  - icon: /uploads/multi-dwelling-unit.svg
+    link: /solutions/multi-dwelling-unit/
+    title: Multi-Dwelling Unit
+  - icon: /uploads/plug.svg
+    link: /solutions/electrical/
+    title: Electrical
 ---
 
 # Making life extraordinary
