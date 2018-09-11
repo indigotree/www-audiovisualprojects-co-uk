@@ -7,21 +7,21 @@ partners:
     image: /uploads/Focus-SB-Logo-Final-on-White.jpg
   - alt: Arcam logo
     image: /uploads/arcam.jpg
+  - alt: Heatmiser logo
+    image: /uploads/heatmiser.jpg
   - alt: Future Automation
     image: /uploads/fa-logo.png
   - alt: CYP logo
     image: /uploads/cyp.jpg
-  - alt: Heatmiser logo
-    image: /uploads/heatmiser.jpg
   - alt: Lutron
     image: /uploads/lutron_logo.png
-  - alt: Rako 4
-    image: /uploads/rako.jpg
   - alt: Crestron
     image: /uploads/crestron-logo.jpg
   - alt: Rotel logo
     image: /uploads/rotel.jpg
   - alt: Sonance logo
     image: /uploads/sonance.jpg
+  - alt: Rako 4
+    image: /uploads/rako.jpg
   - alt: Sonos logo
     image: /uploads/sonos.png
