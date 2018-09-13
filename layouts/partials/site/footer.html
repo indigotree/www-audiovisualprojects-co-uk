@@ -1,6 +1,6 @@
 <div class="container container--primary-light container--band container--sm">
 
-    {{ $quotes := where (.Site.GetPage "page" "testimonials/index.md").Resources ".Params.featured" "==" "true" }}
+    {{ $quotes := where (.Site.GetPage "page" "testimonials/index.markdown").Resources ".Params.featured" "==" "true" }}
     {{ partial "testimonials" ( dict "quotes" $quotes "Scope" . )}}
 
 </div>

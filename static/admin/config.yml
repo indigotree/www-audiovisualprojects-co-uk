@@ -208,10 +208,10 @@ collections:
               - { label: "Image", name: "image", widget: "image" }
               - { label: "Alternate Text", name: "alt", widget: "string" }
 
-      - label: "Partners"
-        name: "partners"
-        file: "data/partners.yml"
-        description: "Partners"
+      - label: "Social"
+        name: "social"
+        file: "data/social.yml"
+        description: "Social"
         fields:
           - { label: "Youtube", name: "youtube", widget: "string" }
           - { label: "Twitter", name: "twitter", widget: "string" }

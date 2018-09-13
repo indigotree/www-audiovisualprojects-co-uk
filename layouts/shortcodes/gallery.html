@@ -1,5 +1,5 @@
 {{ $id := .Get "id" }}
-{{ $gallery := first 1 (where (.Site.GetPage "page" "gallery/index.md").Resources ".Params.gallery_id" "==" $id) }}
+{{ $gallery := first 1 (where (.Site.GetPage "page" "gallery/index.markdown").Resources ".Params.gallery_id" "==" $id) }}
 {{ $Scope := . }}
 {{ if and $id $gallery }}
     <div class="gallery">
