@@ -1,7 +1,7 @@
 ---
 title: Audio Visual
 icon: /uploads/tv.svg
-yoast_keyword: Audio-Visual
+yoast_keyword: Audio Visual
 description: >-
   Highest quality sound systems ​to multi-screen games rooms, cutting edge
   ​conference rooms and auditoriums and everything in between.
