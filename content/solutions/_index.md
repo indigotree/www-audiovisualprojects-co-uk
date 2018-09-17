@@ -7,6 +7,8 @@ banner:
 splits: []
 description: ""
 yoast_keyword: ""
+seo_description: 
+seo_title: 
 ---
 
 Smart technology for your home and business is evolving at pace. avp specialise in transforming the latest technology into extraordinary experiences by combining the full suite of smart solutions into one easy-to-use control device.

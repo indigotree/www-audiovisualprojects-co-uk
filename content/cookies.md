@@ -4,6 +4,8 @@ banner: []
 icons: []
 yoast_keyword: "cookies"
 description: "Cookie information for avp group"
+seo_description: 
+seo_title: 
 ---
 
 # Cookies

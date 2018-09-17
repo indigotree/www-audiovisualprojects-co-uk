@@ -8,6 +8,8 @@ yoast_keyword: "jes"
 description: "Passion for ​AV has always been a ​driving force in​ my life and in 1993, I founded avp with the vision of becoming an ​industry-leading​ ​residential ​and commercial automation company."
 featured_image: "/uploads/jes-culley.jpg"
 position: "Director, avp Group"
+seo_description: 
+seo_title: 
 ---
 
 # Jes Culley

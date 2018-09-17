@@ -8,6 +8,8 @@ description: >-
   it from) and tell you about your privacy rights and how the law protects you.
 banner: []
 icons: []
+seo_description: 
+seo_title: 
 ---
 
 # Privacy Policy

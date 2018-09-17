@@ -93,6 +93,8 @@ splits:
     link_text: ''
     title: Professional AV solutions
 weight: 50
+seo_description: 
+seo_title: 
 ---
 # Audio Visual
 

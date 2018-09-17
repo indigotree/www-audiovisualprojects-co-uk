@@ -9,4 +9,6 @@ location: ""
 featured_image: ""
 description: ""
 yoast_keyword: ""
+seo_description: 
+seo_title: 
 ---

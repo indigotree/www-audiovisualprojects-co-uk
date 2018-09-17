@@ -22,6 +22,8 @@ splits:
 description: "The right temperature, in the right place at the right time."
 yoast_keyword: "Climate-control"
 weight: 40
+seo_description: 
+seo_title: 
 ---
 
 # Climate Control

@@ -8,6 +8,8 @@ yoast_keyword: "dominic"
 description: "I’ve been a specialist lighting designer for over 25 years and have had the pleasure of working on many varied projects during this time."
 featured_image: "/uploads/team-dom.jpg"
 position: "Director, AVP Group"
+seo_description: 
+seo_title: 
 ---
 
 # Dominic Myott

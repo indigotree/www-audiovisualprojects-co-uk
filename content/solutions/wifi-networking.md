@@ -29,6 +29,8 @@ splits:
 description: "A wireless network forms the back bone of all automated solutions and its performance is crucial to the smooth operation and reliability any smart home or workspace. "
 yoast_keyword: "wi-fi"
 weight: 100
+seo_description: 
+seo_title: 
 ---
 
 # Multiple Access Points

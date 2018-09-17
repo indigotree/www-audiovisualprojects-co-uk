@@ -8,6 +8,8 @@ yoast_keyword: ""
 description: ""
 featured_image: ""
 position: ""
+seo_description: 
+seo_title: 
 ---
 
 For over 25 years, avp has designed and installed automation systems for residential and commercial clients across the UK and Europe. **We specialise in home automation, lighting design, security and Audio Visual and much more. We use the most advanced technology to seamlessly integrate these solutions into one simple control device.**

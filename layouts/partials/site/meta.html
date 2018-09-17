@@ -14,8 +14,19 @@
 
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="website" />
-{{ with .Title }}<meta property="og:title" content="{{ . }}" />{{ end }}
-{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+
+{{ if .Params.seo_title }}
+    {{ with .Params.seo_title }}<meta property="og:title" content="{{ . }}" />{{ end }}
+{{ else }}
+    {{ with .Title }}<meta property="og:title" content="{{ . }}" />{{ end }}
+{{ end }}
+
+{{ if .Params.seo_description }}
+    {{ with .Params.seo_description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ else }}
+    {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ end }}
+
 {{ with .Permalink }}<meta property="og:url" content="{{ . | absURL }}" />{{ end }}
 {{ with .Site.Title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
 {{ with .Params.featured_image }}<meta property="og:image" content="{{ . | absURL }}" />{{ end }}

@@ -25,6 +25,8 @@ icons:
   - icon: /uploads/plug.svg
     link: /solutions/electrical/
     title: Electrical
+seo_description: 
+seo_title: 
 ---
 # Alpine House
 

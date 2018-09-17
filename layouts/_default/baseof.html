@@ -5,7 +5,12 @@
         {{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}
 
         <title>{{ block "title" . }}
-            {{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}
+            {{- if .Params.seo_title -}}
+                {{- with .Params.seo_title }}{{ . }} | {{ end -}}
+            {{ else }}
+                {{- with .Title }}{{ . }} | {{ end -}}
+            {{ end }}
+            {{- .Site.Title -}}
         {{ end }}</title>
 
         <link rel="dns-prefetch" href="https://fonts.googleapis.com">

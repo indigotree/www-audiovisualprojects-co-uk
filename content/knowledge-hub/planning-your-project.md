@@ -17,6 +17,8 @@ supporting_images:
     - image: "/uploads/C4_Images_Video_4.jpg"
       alt: ""
 weight: 20
+seo_description: 
+seo_title: 
 ---
 
 # Planning Your Project

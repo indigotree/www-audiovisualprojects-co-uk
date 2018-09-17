@@ -36,6 +36,8 @@ splits:
 description: "What can be achieved with the right lighting scheme is nothing short of extraordinary."
 yoast_keyword: "lighting"
 weight: 50
+seo_description: 
+seo_title: 
 ---
 
 # Lighting

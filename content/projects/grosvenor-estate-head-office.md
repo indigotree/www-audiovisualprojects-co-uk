@@ -19,6 +19,8 @@ icons:
   - icon: /uploads/design-planning.svg
     link: /solutions/design-planning/
     title: Design & Planning
+seo_description: 
+seo_title: 
 ---
 # Grosvenor Estate Head Office, Grosvenor Street, W1
 

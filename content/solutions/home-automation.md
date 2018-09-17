@@ -37,6 +37,8 @@ During installation of your bespoke system, we will take every measure to future
 description: "Home automation technology is evolving at pace, offering an extensive range of solutions to enhance the comfort of your everyday life."
 yoast_keyword: "automation"
 weight: 10
+seo_description: 
+seo_title: 
 ---
 
 # Making life extraordinary - discover the endless possibilities of smart home solutions.

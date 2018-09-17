@@ -24,6 +24,8 @@ supporting_images:
   - alt: CEDIA Member
     image: /uploads/image-cedia-member.png
 weight: 10
+seo_description: 
+seo_title: 
 ---
 
 # CEDIA

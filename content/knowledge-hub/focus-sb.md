@@ -21,6 +21,8 @@ supporting_images:
     - image: "/uploads/Focus-SB-Logo-Final-on-White.jpg"
       alt: ""
 weight: 10
+seo_description: 
+seo_title: 
 ---
 
 # Focus SB

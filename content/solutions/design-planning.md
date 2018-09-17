@@ -22,6 +22,8 @@ splits:
 description: "Our detailed technical plans outline how the different systems integrate for maximum performance and convenience and because avp offer the full range of automated solutions."
 yoast_keyword: "design"
 weight: 80
+seo_description: 
+seo_title: 
 ---
 
 # Design & Planning

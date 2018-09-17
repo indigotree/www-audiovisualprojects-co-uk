@@ -25,6 +25,8 @@ icons:
   - icon: /uploads/design-planning.svg
     link: /solutions/design-planning/
     title: Design & Planning
+seo_description: 
+seo_title: 
 ---
 # Lola’s Bakery & Lola’s Cupcake Cart, West Hampstead & London Underground Stations
 

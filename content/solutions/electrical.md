@@ -29,6 +29,8 @@ splits:
 description: "Electrical wiring forms the basis of any smart technology project but unlike most smart technology installers."
 yoast_keyword: "electrical"
 weight: 70
+seo_description: 
+seo_title: 
 ---
 
 # Electrical

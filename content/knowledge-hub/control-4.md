@@ -27,6 +27,8 @@ supporting_images:
   - alt: Rako
     image: /uploads/Rako_RCM070_MSS_Eng.jpg
 weight: 30
+seo_description: 
+seo_title: 
 ---
 # What is Control 4?
 

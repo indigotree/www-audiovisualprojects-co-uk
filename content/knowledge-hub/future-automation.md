@@ -17,6 +17,8 @@ supporting_images:
     - image: "/uploads/fa-logo.png"
       alt: ""
 weight: 10
+seo_description: 
+seo_title: 
 ---
 
 # Future Automation

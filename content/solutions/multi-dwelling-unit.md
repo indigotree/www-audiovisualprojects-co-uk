@@ -29,6 +29,8 @@ splits:
 description: "With the sharp growth of smart technology, people are demanding more from their homes."
 yoast_keyword: "multi-dwelling unit"
 weight: 90
+seo_description: 
+seo_title: 
 ---
 
 # Multi-Dwelling Unit

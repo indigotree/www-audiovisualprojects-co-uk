@@ -22,6 +22,8 @@ splits:
 description: "Enjoy the ultimate cinematic experience in the comfort of your own home."
 yoast_keyword: "Cinema"
 weight: 60
+seo_description: 
+seo_title: 
 ---
 
 # Cinema
