@@ -2,6 +2,11 @@
 title: Craig Gillham
 featured_image: /uploads/team-craig.jpg
 yoast_keyword: craig
+seo_title: Craig Gillham
+seo_description: >-
+  My role within avp is to oversee the financial strategy and operations at avp;
+  bringing a commercial focus and ensuring delivery of an effective operating
+  model to provide world class services to our clients.
 description: >-
   My role within avp is to oversee the financial strategy and operations at avp;
   bringing a commercial focus and ensuring delivery of an effective operating
@@ -11,8 +16,6 @@ banner:
     meta: ''
     title: Craig Gillham
 position: 'Non Executive Director, avp Group'
-seo_description: 
-seo_title: 
 ---
 # Craig Gillham
 
