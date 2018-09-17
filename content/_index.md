@@ -1,7 +1,11 @@
 ---
 title: Homepage
-yoast_keyword: avp group
-description: Delivering your smart Home & Business solutions
+yoast_keyword: technology
+description: >-
+  Delivering your smart Home & Business solutions. AVP specialise in
+  transforming smart technology into state-of-the-art, extraordinary experiences
+  by designing and integrating lighting, audio, home entertainment, climate
+  control and security into one easy-to-use control device.
 banner:
   - image: /uploads/will-pryce-holmewood.jpg
     meta: ''
