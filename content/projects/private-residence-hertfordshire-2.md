@@ -1,38 +1,42 @@
 ---
-title: "Private Residence"
-banner: 
-  - image: "/uploads/avp-project-4-1.jpg"
-    title: "Private Residence"
-    meta: "Hertfordshire"
-icons: 
-  - title: "Home Automation"
-    icon: "/uploads/house.svg"
-    link: "/solutions/home-automation/"
-  - title: "Security & Access"
-    icon: "/uploads/security.svg"
-    link: "/solutions/security-and-access/"
-  - title: "Climate Control"
-    icon: "/uploads/thermometer.svg"
-    link: "/solutions/climate-control/"
-  - title: "Audio Visual"
-    icon: "/uploads/tv.svg"
-    link: "/solutions/audio-visual/"
-  - title: "Lighting"
-    icon: "/uploads/light.svg"
-    link: "/solutions/lighting/"
-  - title: "Cinema"
-    icon: "/uploads/cinema.svg"
-    link: "/solutions/cinema/"
-  - title: "Wi-Fi & Networking"
-    icon: "/uploads/device.svg"
-    link: "/solutions/wifi-networking/"
-  - title: "Design & Planning"
-    icon: "/uploads/design-planning.svg"
-    link: "/solutions/design-planning/"
-location: "Hertfordshire"
-featured_image: "/uploads/avp-project-4-1.jpg"
-description: "Private Residence Hertfordshire"
-yoast_keyword: "Residence"
+title: Private Residence
+featured_image: /uploads/avp-project-4-1.jpg
+yoast_keyword: smart technologies
+description: >-
+  As part of a major renovation project, avp were asked to install a range of
+  smart technologies within this stunning private residence. Control 4 was
+  installed to control all automated aspects of the home - from audio visual,
+  climate control, lighting, security, blinds and curtains. 
+location: Hertfordshire
+banner:
+  - image: /uploads/avp-project-4-1.jpg
+    meta: Hertfordshire
+    title: Private Residence
+icons:
+  - icon: /uploads/house.svg
+    link: /solutions/home-automation/
+    title: Home Automation
+  - icon: /uploads/security.svg
+    link: /solutions/security-and-access/
+    title: Security & Access
+  - icon: /uploads/thermometer.svg
+    link: /solutions/climate-control/
+    title: Climate Control
+  - icon: /uploads/tv.svg
+    link: /solutions/audio-visual/
+    title: Audio Visual
+  - icon: /uploads/light.svg
+    link: /solutions/lighting/
+    title: Lighting
+  - icon: /uploads/cinema.svg
+    link: /solutions/cinema/
+    title: Cinema
+  - icon: /uploads/device.svg
+    link: /solutions/wifi-networking/
+    title: Wi-Fi & Networking
+  - icon: /uploads/design-planning.svg
+    link: /solutions/design-planning/
+    title: Design & Planning
 ---
 
 # Private Residence Hertfordshire
