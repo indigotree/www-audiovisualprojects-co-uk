@@ -1,40 +1,47 @@
 ---
-title: "Private Residence"
-banner: 
-  - image: "/uploads/StMoritz_AV-70.jpg"
-    title: "Private Residence"
-    meta: "Hertfordshire"
-icons: 
-  - title: "Home Automation"
-    icon: "/uploads/house.svg"
-    link: "/solutions/home-automation/"
-  - title: "Security & Access"
-    icon: "/uploads/security.svg"
-    link: "/solutions/security-and-access/"
-  - title: "Lighting"
-    icon: "/uploads/light.svg"
-    link: "/solutions/lighting/"
-  - title: "Climate Control"
-    icon: "/uploads/thermometer.svg"
-    link: "/solutions/climate-control/"
-  - title: "Audio Visual"
-    icon: "/uploads/tv.svg"
-    link: "/solutions/audio-visual/"
-  - title: "Wi-Fi & Networking"
-    icon: "/uploads/device.svg"
-    link: "/solutions/wifi-networking/"
-  - title: "Design & Planning"
-    icon: "/uploads/design-planning.svg"
-    link: "/solutions/design-planning/"
-  - title: "Electrical"
-    icon: "/uploads/plug.svg"
-    link: "/solutions/electrical/"
-location: "Hertfordshire"
-featured_image: "/uploads/StMoritz_AV-70.jpg"
-description: "Private Residence Hertfordshire"
-yoast_keyword: "Residence"
-seo_description: 
-seo_title: 
+title: Private Residence
+featured_image: /uploads/StMoritz_AV-70.jpg
+yoast_keyword: smart home technology
+seo_title: Private Hertfordshire Residence
+seo_description: >-
+  avp were invited to transform this beautiful Hertfordshire residence by
+  installing the latest smart home technology. We designed a detailed, automated
+  scheme which included an initial stage of rewiring to ensure the rest of the
+  installation would perform to its maximum ability. Multi Wi-Fi access points
+  were installed to achieve uniform coverage with no dead spots. A Ubiquity
+  network hub boosts the wireless signal around the house to deliver superior,
+  uninterrupted broadband, ensuring all smart solutions work seamlessly.
+description: Private Residence Hertfordshire
+location: Hertfordshire
+banner:
+  - image: /uploads/StMoritz_AV-70.jpg
+    meta: Hertfordshire
+    title: Private Residence
+icons:
+  - icon: /uploads/house.svg
+    link: /solutions/home-automation/
+    title: Home Automation
+  - icon: /uploads/security.svg
+    link: /solutions/security-and-access/
+    title: Security & Access
+  - icon: /uploads/light.svg
+    link: /solutions/lighting/
+    title: Lighting
+  - icon: /uploads/thermometer.svg
+    link: /solutions/climate-control/
+    title: Climate Control
+  - icon: /uploads/tv.svg
+    link: /solutions/audio-visual/
+    title: Audio Visual
+  - icon: /uploads/device.svg
+    link: /solutions/wifi-networking/
+    title: Wi-Fi & Networking
+  - icon: /uploads/design-planning.svg
+    link: /solutions/design-planning/
+    title: Design & Planning
+  - icon: /uploads/plug.svg
+    link: /solutions/electrical/
+    title: Electrical
 ---
 
 # Private Residence Hertfordshire
