@@ -5,7 +5,9 @@ yoast_keyword: Audio-visual
 seo_title: Audio Visual Solutions
 seo_description: >-
   Highest quality sound systems ​to multi-screen games rooms, cutting edge
-  ​conference rooms and auditoriums and everything in between.
+  ​conference rooms and auditoriums and everything in between. We specialise in
+  designing and integrating the latest audio-visual solutions, ​tailored to your
+  space.
 description: >-
   Highest quality sound systems ​to multi-screen games rooms, cutting edge
   ​conference rooms and auditoriums and everything in between.
