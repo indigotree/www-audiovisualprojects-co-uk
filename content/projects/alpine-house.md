@@ -2,6 +2,12 @@
 title: Alpine House
 featured_image: /uploads/alpine-house-1.jpg
 yoast_keyword: security and networking
+seo_title: Alpine House
+seo_description: >-
+  Alpine House in Bushey Heath is an exclusive development of 12 luxury
+  apartments, built by the award-winning developer Giles Homes Ltd. avp was
+  invited to design and install the security and networking solutions for this
+  project.
 description: >-
   Alpine House in Bushey Heath is an exclusive development of 12 luxury
   apartments, built by the award-winning developer Giles Homes Ltd. avp was
@@ -25,8 +31,6 @@ icons:
   - icon: /uploads/plug.svg
     link: /solutions/electrical/
     title: Electrical
-seo_description: 
-seo_title: 
 ---
 # Alpine House
 
