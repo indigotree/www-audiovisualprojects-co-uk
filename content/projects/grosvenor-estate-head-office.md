@@ -2,6 +2,12 @@
 title: Grosvenor Estate Head Office
 featured_image: /uploads/grosvenor-estate-london-122.jpg
 yoast_keyword: lighting solution
+seo_title: Grosvenor Estate Head Office
+seo_description: >-
+  AVP was asked to design a ​discreet​ lighting​ solution​ to upgrade the
+  entrance to the head office and the lobby areas and crucially to improve poor
+  light levels in the space. We proposed ​a bespoke and elegant lighting design​
+  based on plaster-in lighting which complemented​ the existing interior design.
 description: >-
   AVP was asked to design a ​discreet​ lighting​ solution​ to upgrade the
   entrance to the head office and the lobby areas and crucially to improve poor
@@ -19,8 +25,6 @@ icons:
   - icon: /uploads/design-planning.svg
     link: /solutions/design-planning/
     title: Design & Planning
-seo_description: 
-seo_title: 
 ---
 # Grosvenor Estate Head Office, Grosvenor Street, W1
 
