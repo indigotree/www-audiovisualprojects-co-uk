@@ -2,6 +2,13 @@
 title: Security and Access
 icon: /uploads/security.svg
 yoast_keyword: security
+seo_title: Security and Access
+seo_description: >-
+  We understand the importance of feeling safe and secure. As a leading
+  installer of high-end security, protecting high value residential and
+  commercial properties is our forte. Our services include CCTV, door entry
+  systems, video gate entry,​ multi-camera surveillance systems​ and internal
+  motion detection.
 description: We understand the importance of feeling safe and secure.
 banner:
   - image: /uploads/StMoritz_AV-72.jpg
@@ -53,8 +60,6 @@ splits:
     link_text: Find out more
     title: Internal monitoring
 weight: 20
-seo_description: 
-seo_title: 
 ---
 
 # Security and Access
