@@ -2,6 +2,12 @@
 title: Private Residence
 featured_image: /uploads/avp-project-4-1.jpg
 yoast_keyword: smart technologies
+seo_title: Private Hertfordshire Residence
+seo_description: >-
+  As part of a major renovation project, avp were asked to install a range of
+  smart technologies within this stunning private residence. Control 4 was
+  installed to control all automated aspects of the home - from audio visual,
+  climate control, lighting, security, blinds and curtains.
 description: >-
   As part of a major renovation project, avp were asked to install a range of
   smart technologies within this stunning private residence. Control 4 was
@@ -37,8 +43,6 @@ icons:
   - icon: /uploads/design-planning.svg
     link: /solutions/design-planning/
     title: Design & Planning
-seo_description: 
-seo_title: 
 ---
 
 # Private Residence Hertfordshire
