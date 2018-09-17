@@ -1,8 +1,8 @@
 ---
 title: Wi-Fi & Networking
 icon: /uploads/device.svg
-yoast_keyword: wireless
-seo_title: Multiple Wireless Access Points
+yoast_keyword: wi-fi
+seo_title: Wi-Fi and Networking
 seo_description: >-
   Wi-Fi enabled devices are constantly evolving to become quicker and smarter.
   The number of devices per home and workspace has dramatically increased over
