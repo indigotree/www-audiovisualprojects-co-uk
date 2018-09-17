@@ -1,7 +1,7 @@
 ---
 title: Lola’s Bakery and Cupcake Carts
 featured_image: /uploads/LolasBakery-30.jpg
-yoast_keyword: 'lighting, audio and security'
+yoast_keyword: Lola’s Bakery
 seo_title: Lola’s Bakery
 seo_description: >-
   In July 2017, Lola’s Bakery and All Day Café opened in West Hampstead, North
