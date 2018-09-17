@@ -1,15 +1,21 @@
 ---
-title: "Dominic Myott"
-banner: 
-  - image: "/uploads/team-dom.jpg"
-    title: "Dominic Myott"
-    meta: ""
-yoast_keyword: "dominic"
-description: "I’ve been a specialist lighting designer for over 25 years and have had the pleasure of working on many varied projects during this time."
-featured_image: "/uploads/team-dom.jpg"
-position: "Director, AVP Group"
-seo_description: 
-seo_title: 
+title: Dominic Myott
+featured_image: /uploads/team-dom.jpg
+yoast_keyword: dominic
+seo_title: Dominic Myott
+seo_description: >-
+  Dominic's role is to meet with clients to discuss how they would like their
+  space to look and feel, considering all aspects of ​their ​everyday life​.
+  ​This is followed by a ​detailed lighting plan which best achieve​s​ the
+  desired result.
+description: >-
+  I’ve been a specialist lighting designer for over 25 years and have had the
+  pleasure of working on many varied projects during this time.
+banner:
+  - image: /uploads/team-dom.jpg
+    meta: ''
+    title: Dominic Myott
+position: 'Director, AVP Group'
 ---
 
 # Dominic Myott
