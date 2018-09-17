@@ -1,15 +1,18 @@
 ---
-title: "Contact Us"
-banner: 
-  - image: "/uploads/avp-plan-3-header.jpg"
-    title: "Contact Us"
-    meta: ""
-icons: []
-yoast_keyword: "contact"
-description: "Contact us here at avp group"
+title: Contact Us
+yoast_keyword: contact
+seo_title: Contact Us
+seo_description: >-
+  If you would like to find out more about avp or would like us to provide a
+  quotation, proposal and design for a specific installation, please call on
+  01582 712969.
+description: Contact us here at avp group
 layout: contact
-seo_description: 
-seo_title: 
+banner:
+  - image: /uploads/avp-plan-3-header.jpg
+    meta: ''
+    title: Contact Us
+icons: []
 ---
 
 # Contact Us
