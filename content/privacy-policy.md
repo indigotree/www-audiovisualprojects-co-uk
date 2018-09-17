@@ -1,6 +1,12 @@
 ---
 title: Privacy Policy
 yoast_keyword: privacy
+seo_title: Privacy Policy
+seo_description: >-
+  AVP Group Limited respects your privacy and is committed to protecting your
+  personal data. This privacy notice will inform you as to how we look after
+  your personal data when you visit our website (regardless of where you visit
+  it from) and tell you about your privacy rights and how the law protects you.
 description: >-
   AVP Group Limited respects your privacy and is committed to protecting your
   personal data. This privacy notice will inform you as to how we look after
@@ -8,8 +14,6 @@ description: >-
   it from) and tell you about your privacy rights and how the law protects you.
 banner: []
 icons: []
-seo_description: 
-seo_title: 
 ---
 
 # Privacy Policy
