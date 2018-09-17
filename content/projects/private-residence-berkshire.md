@@ -2,6 +2,13 @@
 title: Private Residence
 featured_image: /uploads/private-residence-berkshire-13.jpg
 yoast_keyword: private Berkshire residence
+seo_title: Private Berkshire Residence
+seo_description: >-
+  AVP were commissioned to fully automate this private Berkshire residence which
+  was built to the highest standards of specification and finish. Working
+  closely with the architects and client from planning stage, we were able to
+  maximise the opportunity to deliver a fantastic, bespoke range of solutions
+  for modern living.
 description: >-
   AVP were commissioned to fully automate this private Berkshire residence which
   was built to the highest standards of specification and finish. Working
@@ -41,8 +48,6 @@ icons:
   - icon: /uploads/plug.svg
     link: /solutions/electrical/
     title: Electrical
-seo_description: 
-seo_title: 
 ---
 # Private Residence Berkshire
 
