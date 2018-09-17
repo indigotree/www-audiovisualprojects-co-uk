@@ -8,8 +8,8 @@ CMS.registerPreviewTemplate('page', createClass({
         const title = entry.getIn(['data', 'yoast_title']) || ''
 
         YOAST.setContent({
-            title: title,
-            description: entry.getIn(['data', 'description']) || '',
+            title: entry.getIn(['data', 'seo_title']) || title,
+            description: entry.getIn(['data', 'seo_description']) || entry.getIn(['data', 'description']) || '',
             keyword: entry.getIn(['data', 'yoast_keyword']) || '',
             text: entry.getIn(['data', 'body']) || '',
             titleWidth: title.split('').length * 5 // 5px is an average width of each character ;)
