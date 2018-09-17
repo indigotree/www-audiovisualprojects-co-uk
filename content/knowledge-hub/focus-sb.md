@@ -1,28 +1,38 @@
 ---
-title: "Focus SB"
-banner: 
-  - image: "/uploads/avp-project-4.jpg"
-    title: "Focus SB"
-    meta: ""
-featured_image: "/uploads/avp-project-4.jpg"
-description: ""
-yoast_keyword: ""
-supporting_images: 
-    - image: "/uploads/Horizon-Antique-Brass.jpg"
-      alt: ""
-    - image: "/uploads/Prism-with-Polished-Brass-Switches-Focus-SB.jpg"
-      alt: ""
-    - image: "/uploads/Ambassador-Square-Jordan-Bronze-four-gang-toggle-switch-Focus-SB.jpg"
-      alt: ""
-    - image: "/uploads/Horizon-Square-Polished-Chrome-Focus-SB-Poundbury-Royal-Pavilion.jpg"
-      alt: ""
-    - image: "/uploads/Momentary-Dimmer-Switches-Ambassador-Square-Satin-Brass.jpg"
-      alt: ""
-    - image: "/uploads/Focus-SB-Logo-Final-on-White.jpg"
-      alt: ""
+title: Focus SB
+featured_image: /uploads/avp-project-4.jpg
+yoast_keyword: Focus SB
+seo_title: Focus SB
+seo_description: >-
+  Focus SB Ltd® is a British electrical wiring accessories manufacturer,
+  established for almost 40 years. Industry leaders, our precision engineered
+  switches and sockets are sought after for prestigious interiors projects, both
+  in the UK and internationally.
+description: >-
+  Focus SB Ltd® is a British electrical wiring accessories manufacturer,
+  established for almost 40 years. Industry leaders, our precision engineered
+  switches and sockets are sought after for prestigious interiors projects, both
+  in the UK and internationally.
+banner:
+  - image: /uploads/avp-project-4.jpg
+    meta: ''
+    title: Focus SB
+supporting_images:
+  - alt: ''
+    image: /uploads/Horizon-Antique-Brass.jpg
+  - alt: ''
+    image: /uploads/Prism-with-Polished-Brass-Switches-Focus-SB.jpg
+  - alt: ''
+    image: >-
+      /uploads/Ambassador-Square-Jordan-Bronze-four-gang-toggle-switch-Focus-SB.jpg
+  - alt: ''
+    image: >-
+      /uploads/Horizon-Square-Polished-Chrome-Focus-SB-Poundbury-Royal-Pavilion.jpg
+  - alt: ''
+    image: /uploads/Momentary-Dimmer-Switches-Ambassador-Square-Satin-Brass.jpg
+  - alt: ''
+    image: /uploads/Focus-SB-Logo-Final-on-White.jpg
 weight: 10
-seo_description: 
-seo_title: 
 ---
 
 # Focus SB
