@@ -1,7 +1,15 @@
 ---
 title: What is Control 4?
 featured_image: /uploads/C4_Images_Mobile_6.jpg
-yoast_keyword: Control 4
+yoast_keyword: control 4
+seo_title: Control 4
+seo_description: >-
+  Control 4 is a custom-built automation system which can transform your home or
+  business by using smart technology, delivering ultimate convenience and
+  control. The system integrates seamlessly with systems in your property such
+  as lighting, climate control, audio visual and security, and is easily
+  controlled by voice, handheld remote, portable or wall-mounted touchscreen or
+  a device such as a tablet or your smartphone.
 description: >-
   Control 4 is a custom-built automation system which can transform your home or
   business by using smart technology, delivering ultimate convenience and
@@ -27,8 +35,6 @@ supporting_images:
   - alt: Rako
     image: /uploads/Rako_RCM070_MSS_Eng.jpg
 weight: 30
-seo_description: 
-seo_title: 
 ---
 # What is Control 4?
 
