@@ -1,6 +1,11 @@
 ---
 title: Homepage
 yoast_keyword: technology
+seo_title: Transforming Technology
+seo_description: >-
+  AVP specialise in transforming technology into state-of-the-art, extraordinary
+  experiences by designing and integrating lighting, audio, home entertainment,
+  climate control and security into one easy-to-use control device.
 description: >-
   Delivering your smart Home & Business solutions. AVP specialise in
   transforming smart technology into state-of-the-art, extraordinary experiences
@@ -53,8 +58,6 @@ icons:
   - icon: /uploads/plug.svg
     link: /solutions/electrical/
     title: Electrical
-seo_description: 
-seo_title: 
 ---
 
 # Making life extraordinary
