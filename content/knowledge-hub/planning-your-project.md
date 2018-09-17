@@ -1,24 +1,30 @@
 ---
-title: "Planning Your Project"
-banner: 
-  - image: "/uploads/C4_Images_Video_2.jpg"
-    title: "Knowledge Hub"
-    meta: ""
-featured_image: "/uploads/C4_Images_Video_2.jpg"
-description: ""
-yoast_keyword: ""
+title: Planning Your Project
+featured_image: /uploads/C4_Images_Video_2.jpg
+yoast_keyword: planning
+seo_title: Planning
+seo_description: >-
+  Whether you’re planning to build a new home, renovate or extend your current
+  property or have a commercial project in mind, we’ve pulled together some
+  helpful tips to help you get started.
+description: >-
+  Whether you’re planning to build a new home, renovate or extend your current
+  property or have a commercial project in mind, we’ve pulled together some
+  helpful tips to help you get started.
+banner:
+  - image: /uploads/C4_Images_Video_2.jpg
+    meta: ''
+    title: Knowledge Hub
 supporting_images:
-    - image: "/uploads/Project_DM2.jpg"
-      alt: ""
-    - image: "/uploads/interior_design.jpg"
-      alt: ""
-    - image: "/uploads/project_management.jpg"
-      alt: ""
-    - image: "/uploads/C4_Images_Video_4.jpg"
-      alt: ""
+  - alt: ''
+    image: /uploads/Project_DM2.jpg
+  - alt: ''
+    image: /uploads/interior_design.jpg
+  - alt: ''
+    image: /uploads/project_management.jpg
+  - alt: ''
+    image: /uploads/C4_Images_Video_4.jpg
 weight: 20
-seo_description: 
-seo_title: 
 ---
 
 # Planning Your Project
