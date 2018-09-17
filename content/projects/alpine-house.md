@@ -1,28 +1,31 @@
 ---
-title: "Alpine House"
-banner: 
-  - image: "/uploads/alpine-house-1.jpg"
-    title: "Alpine House"
-    meta: "Bushey Heath"
-icons: 
-  - title: "Security & Access"
-    icon: "/uploads/security.svg"
-    link: "/solutions/security-and-access/"
-  - title: "Wi-Fi & Networking"
-    icon: "/uploads/device.svg"
-    link: "/solutions/wifi-networking/"
-  - title: "Multi-Dwelling Unit"
-    icon: "/uploads/multi-dwelling-unit.svg"
-    link: "/solutions/multi-dwelling-unit/"
-  - title: "Electrical"
-    icon: "/uploads/plug.svg"
-    link: "/solutions/electrical/"
-location: "Bushey Heath"
-featured_image: "/uploads/alpine-house-1.jpg"
-description: "Alpine House Bushey Heath"
-yoast_keyword: "alpine"
+title: Alpine House
+featured_image: /uploads/alpine-house-1.jpg
+yoast_keyword: security and networking
+description: >-
+  Alpine House in Bushey Heath is an exclusive development of 12 luxury
+  apartments, built by the award-winning developer Giles Homes Ltd. avp was
+  invited to design and install the security and networking solutions for this
+  project.
+location: Bushey Heath
+banner:
+  - image: /uploads/alpine-house-1.jpg
+    meta: Bushey Heath
+    title: Alpine House
+icons:
+  - icon: /uploads/security.svg
+    link: /solutions/security-and-access/
+    title: Security & Access
+  - icon: /uploads/device.svg
+    link: /solutions/wifi-networking/
+    title: Wi-Fi & Networking
+  - icon: /uploads/multi-dwelling-unit.svg
+    link: /solutions/multi-dwelling-unit/
+    title: Multi-Dwelling Unit
+  - icon: /uploads/plug.svg
+    link: /solutions/electrical/
+    title: Electrical
 ---
-
 # Alpine House
 
 Alpine House in Bushey Heath is an exclusive development of 12 luxury apartments, built by the award-winning developer Giles Homes Ltd. avp was invited to design and install the security and networking solutions for this project.
