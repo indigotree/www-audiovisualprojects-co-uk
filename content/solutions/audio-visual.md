@@ -2,6 +2,10 @@
 title: Audio Visual
 icon: /uploads/tv.svg
 yoast_keyword: Audio-visual
+seo_title: Audio Visual Solutions
+seo_description: >-
+  Highest quality sound systems ​to multi-screen games rooms, cutting edge
+  ​conference rooms and auditoriums and everything in between.
 description: >-
   Highest quality sound systems ​to multi-screen games rooms, cutting edge
   ​conference rooms and auditoriums and everything in between.
@@ -93,8 +97,6 @@ splits:
     link_text: ''
     title: Professional AV solutions
 weight: 50
-seo_description: 
-seo_title: 
 ---
 # Audio Visual
 
