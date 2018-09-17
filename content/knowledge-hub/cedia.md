@@ -2,6 +2,12 @@
 title: CEDIA
 featured_image: /uploads/students-working-on-project_4460x4460.jpg
 yoast_keyword: CEDIA
+seo_title: CEDIA
+seo_description: >-
+  CEDIA is an international trade organisation with over 3,700 members who
+  design, manufacture and install technology for the home. Founded in the USA in
+  1989 with a vision to serve the home-technology market, The Association acts
+  as the go-to home technology source for consumers and professionals alike.
 description: >-
   CEDIA is an international trade organisation with over 3,700 members who
   design, manufacture and install technology for the home.  avp are members of
@@ -24,8 +30,6 @@ supporting_images:
   - alt: CEDIA Member
     image: /uploads/image-cedia-member.png
 weight: 10
-seo_description: 
-seo_title: 
 ---
 
 # CEDIA
