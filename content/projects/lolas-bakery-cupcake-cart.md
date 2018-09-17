@@ -2,6 +2,12 @@
 title: Lola’s Bakery and Cupcake Carts
 featured_image: /uploads/LolasBakery-30.jpg
 yoast_keyword: Lola’s Bakery
+seo_title: Lola’s Bakery
+seo_description: >-
+  In July 2017, Lola’s Bakery and All Day Café opened in West Hampstead, North
+  London. avp were invited to be involved with the project from planning stage
+  with a brief to design a lighting scheme, audio solution and security system
+  for this exciting new eatery.
 description: >-
   Lola’s Bakery and Cupcake Carts, West Hampstead & London Underground Stations.
   avp were invited to be involved with the project from planning stage with a
@@ -25,8 +31,6 @@ icons:
   - icon: /uploads/design-planning.svg
     link: /solutions/design-planning/
     title: Design & Planning
-seo_description: 
-seo_title: 
 ---
 # Lola’s Bakery & Lola’s Cupcake Cart, West Hampstead & London Underground Stations
 
