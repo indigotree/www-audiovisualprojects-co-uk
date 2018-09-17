@@ -1,25 +1,28 @@
 ---
-title: "CEDIA"
-banner: 
-  - image: "/uploads/students-working-on-project_4460x4460.jpg"
-    title: "CEDIA"
-    meta: ""
-featured_image: "/uploads/students-working-on-project_4460x4460.jpg"
-description: ""
-yoast_keyword: ""
-supporting_images: 
-    - image: "/uploads/principles_of_project_management.jpg"
-      alt: ""
-    - image: "/uploads/2128_PWP_CEDIA17.jpg"
-      alt: ""
-    - image: "/uploads/2225_PWP_CEDIA17.jpg"
-      alt: ""
-    - image: "/uploads/Training.jpg"
-      alt: ""
-    - image: "/uploads/cedia_plaque.JPG"
-      alt: "CEDIA Member Plaque"
-    - image: "/uploads/image-cedia-member.png"
-      alt: ""
+title: CEDIA
+featured_image: /uploads/students-working-on-project_4460x4460.jpg
+yoast_keyword: CEDIA
+description: >-
+  CEDIA is an international trade organisation with over 3,700 members who
+  design, manufacture and install technology for the home.  avp are members of
+  CEDIA
+banner:
+  - image: /uploads/students-working-on-project_4460x4460.jpg
+    meta: ''
+    title: CEDIA
+supporting_images:
+  - alt: Project Management
+    image: /uploads/principles_of_project_management.jpg
+  - alt: CEDIA
+    image: /uploads/2128_PWP_CEDIA17.jpg
+  - alt: CEDIA
+    image: /uploads/2225_PWP_CEDIA17.jpg
+  - alt: CEDIA Training
+    image: /uploads/Training.jpg
+  - alt: CEDIA Member Plaque
+    image: /uploads/cedia_plaque.JPG
+  - alt: CEDIA Member
+    image: /uploads/image-cedia-member.png
 weight: 10
 ---
 
