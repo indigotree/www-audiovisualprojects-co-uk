@@ -1,11 +1,11 @@
 ---
-title: "Cookies"
+title: Cookies
+yoast_keyword: cookie information
+seo_title: Cookie Information
+seo_description: Cookie information for avp group
+description: Cookie information for avp group
 banner: []
 icons: []
-yoast_keyword: "cookies"
-description: "Cookie information for avp group"
-seo_description: 
-seo_title: 
 ---
 
 # Cookies
