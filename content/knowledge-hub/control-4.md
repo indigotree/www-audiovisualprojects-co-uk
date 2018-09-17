@@ -14,17 +14,17 @@ banner:
     meta: ''
     title: What is Control 4?
 supporting_images:
-  - alt: ''
+  - alt: Tablet control
     image: /uploads/avp_project_4_32.jpg
-  - alt: ''
+  - alt: Screen control
     image: /uploads/avp_project_4_41.jpg
-  - alt: ''
+  - alt: Mobile control
     image: /uploads/C4_Images_Mobile_6.jpg
-  - alt: ''
+  - alt: Security control
     image: /uploads/C4_Images_Security_7.jpg
-  - alt: ''
+  - alt: Climate control
     image: /uploads/StMoritz_AV-32.jpg
-  - alt: ''
+  - alt: Rako
     image: /uploads/Rako_RCM070_MSS_Eng.jpg
 weight: 30
 ---
