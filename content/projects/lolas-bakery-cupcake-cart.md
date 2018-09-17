@@ -1,28 +1,31 @@
 ---
-title: "Lola’s Bakery and Cupcake Carts"
-banner: 
-  - image: "/uploads/LolasBakery-30.jpg"
-    title: "Lola’s Bakery and Cupcake Carts"
-    meta: "West Hampstead & London Underground Stations"
-icons: 
-  - title: "Lighting"
-    icon: "/uploads/light.svg"
-    link: "/solutions/lighting/"
-  - title: "Audio Visual"
-    icon: "/uploads/tv.svg"
-    link: "/solutions/audio-visual/"
-  - title: "Security & Access"
-    icon: "/uploads/security.svg"
-    link: "/solutions/security-and-access/"
-  - title: "Design & Planning"
-    icon: "/uploads/design-planning.svg"
-    link: "/solutions/design-planning/"
-location: "West Hampstead & London Underground Stations"
-featured_image: "/uploads/LolasBakery-30.jpg"
-description: "Lola’s Bakery and Cupcake Carts, West Hampstead & London Underground Stations"
-yoast_keyword: "Lola’s Bakery"
+title: Lola’s Bakery and Cupcake Carts
+featured_image: /uploads/LolasBakery-30.jpg
+yoast_keyword: Lola’s Bakery
+description: >-
+  Lola’s Bakery and Cupcake Carts, West Hampstead & London Underground Stations.
+  avp were invited to be involved with the project from planning stage with a
+  brief to design a lighting scheme, audio solution and security system for this
+  exciting new eatery. 
+location: West Hampstead & London Underground Stations
+banner:
+  - image: /uploads/LolasBakery-30.jpg
+    meta: West Hampstead & London Underground Stations
+    title: Lola’s Bakery and Cupcake Carts
+icons:
+  - icon: /uploads/light.svg
+    link: /solutions/lighting/
+    title: Lighting
+  - icon: /uploads/tv.svg
+    link: /solutions/audio-visual/
+    title: Audio Visual
+  - icon: /uploads/security.svg
+    link: /solutions/security-and-access/
+    title: Security & Access
+  - icon: /uploads/design-planning.svg
+    link: /solutions/design-planning/
+    title: Design & Planning
 ---
-
 # Lola’s Bakery & Lola’s Cupcake Cart, West Hampstead & London Underground Stations
 
 In July 2017, Lola’s Bakery and All Day Café opened in West Hampstead, North London. avp were invited to be involved with the project from planning stage with a brief to design a lighting scheme, audio solution and security system for this exciting new eatery. 
