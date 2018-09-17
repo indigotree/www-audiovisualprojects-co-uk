@@ -1,24 +1,35 @@
 ---
-title: "Future Automation"
-banner: 
-  - image: "/uploads/Future-Automation-Sliding-Panel-System.jpg"
-    title: "Future Automation"
-    meta: ""
-featured_image: "/uploads/Future-Automation-Sliding-Panel-System.jpg"
-description: ""
-yoast_keyword: ""
-supporting_images: 
-    - image: "/uploads/future-automation-AL-SMC-LANCASTERS.jpg"
-      alt: ""
-    - image: "/uploads/Future-Automation-Nigerian-Government-Federal-Executive-Council-Chambers.jpg"
-      alt: ""
-    - image: "/uploads/future-automation-PD-HENRI-SHOWROOM.jpg"
-      alt: ""
-    - image: "/uploads/fa-logo.png"
-      alt: ""
+title: Future Automation
+featured_image: /uploads/Future-Automation-Sliding-Panel-System.jpg
+yoast_keyword: future automation
+seo_title: Future Automation
+seo_description: >-
+  Future Automation is a design-led mechanical engineering company that is known
+  for providing the highest quality products across a wide range of applications
+  and industries. Their primary focus is supplying technology integrators with
+  solutions to move and conceal televisions, projectors, appliances and other
+  similar equipment for functional and aesthetic purposes.
+description: >-
+  Future Automation is a design-led mechanical engineering company that is known
+  for providing the highest quality products across a wide range of applications
+  and industries. Their primary focus is supplying technology integrators with
+  solutions to move and conceal televisions, projectors, appliances and other
+  similar equipment for functional and aesthetic purposes.
+banner:
+  - image: /uploads/Future-Automation-Sliding-Panel-System.jpg
+    meta: ''
+    title: Future Automation
+supporting_images:
+  - alt: ''
+    image: /uploads/future-automation-AL-SMC-LANCASTERS.jpg
+  - alt: ''
+    image: >-
+      /uploads/Future-Automation-Nigerian-Government-Federal-Executive-Council-Chambers.jpg
+  - alt: ''
+    image: /uploads/future-automation-PD-HENRI-SHOWROOM.jpg
+  - alt: ''
+    image: /uploads/fa-logo.png
 weight: 10
-seo_description: 
-seo_title: 
 ---
 
 # Future Automation
