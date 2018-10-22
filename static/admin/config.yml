@@ -21,14 +21,14 @@ collections:
       - label: "Banner"
         name: "banner"
         widget: "list"
-        fields: 
+        fields:
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Meta", name: "meta", widget: "string" }
       - label: "Icons"
         name: "icons"
         widget: "list"
-        fields: 
+        fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Icon", name: "icon", widget: "image" }
           - { label: "Link", name: "link", widget: "string" }
@@ -43,7 +43,7 @@ collections:
       - label: "Images"
         name: "images"
         widget: "list"
-        fields: 
+        fields:
           - { label: "Image", name: "src", widget: "image" }
           - { label: "Alternate Text", name: "alt", widget: "string" }
 
@@ -63,14 +63,14 @@ collections:
       - label: "Banner"
         name: "banner"
         widget: "list"
-        fields: 
+        fields:
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Meta", name: "meta", widget: "string" }
       - label: "Icons"
         name: "icons"
         widget: "list"
-        fields: 
+        fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Icon", name: "icon", widget: "image" }
           - { label: "Link", name: "link", widget: "string" }
@@ -91,14 +91,14 @@ collections:
       - label: "Banner"
         name: "banner"
         widget: "list"
-        fields: 
+        fields:
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Meta", name: "meta", widget: "string" }
       - label: "Splits"
         name: "splits"
         widget: "list"
-        fields: 
+        fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Link Text", name: "link_text", widget: "string" }
           - { label: "Link", name: "link", widget: "string" }
@@ -123,14 +123,14 @@ collections:
       - label: "Banner"
         name: "banner"
         widget: "list"
-        fields: 
+        fields:
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Meta", name: "meta", widget: "string" }
       - label: "Supporting Images"
         name: "supporting_images"
         widget: "list"
-        fields: 
+        fields:
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Alt", name: "alt", widget: "string" }
       - { label: "Weight", name: "weight", widget: "number" }
@@ -151,7 +151,7 @@ collections:
       - label: "Banner"
         name: "banner"
         widget: "list"
-        fields: 
+        fields:
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Meta", name: "meta", widget: "string" }
@@ -176,11 +176,11 @@ collections:
         name: "banner"
         file: "data/banner.yml"
         description: "Default Banner Settings"
-        fields: 
+        fields:
           - label: "Banner"
             name: "default"
             widget: "list"
-            fields: 
+            fields:
               - { label: "Image", name: "image", widget: "image" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Meta", name: "meta", widget: "text" }
@@ -212,7 +212,7 @@ collections:
           - label: "Partners"
             name: "partners"
             widget: "list"
-            fields: 
+            fields:
               - { label: "Image", name: "image", widget: "image" }
               - { label: "Alternate Text", name: "alt", widget: "string" }
 
@@ -221,13 +221,13 @@ collections:
         file: "data/social.yml"
         description: "Social"
         fields:
-          - { label: "Youtube", name: "youtube", widget: "string" }
-          - { label: "Twitter", name: "twitter", widget: "string" }
-          - { label: "Linkedin", name: "linkedin", widget: "string" }
-          - { label: "Instagram", name: "instagram", widget: "string" }
-          - { label: "Telephone", name: "telephone", widget: "string" }
-          - { label: "Telephone Formatted", name: "telephone_formatted", widget: "string" }
-          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Youtube", name: "youtube", widget: "string", required: false }
+          - { label: "Twitter", name: "twitter", widget: "string", required: false }
+          - { label: "Linkedin", name: "linkedin", widget: "string", required: false }
+          - { label: "Instagram", name: "instagram", widget: "string", required: false }
+          - { label: "Telephone", name: "telephone", widget: "string", required: false }
+          - { label: "Telephone Formatted", name: "telephone_formatted", widget: "string", required: false }
+          - { label: "Email", name: "email", widget: "string", required: false }
 
       - label: "Homepage Splits"
         name: "splits"
@@ -237,7 +237,7 @@ collections:
           - label: "Splits"
             name: "splits"
             widget: "list"
-            fields: 
+            fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Content", name: "content", widget: "text" }
               - { label: "Link Text", name: "link_text", widget: "string" }
