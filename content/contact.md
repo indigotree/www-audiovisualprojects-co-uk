@@ -14,7 +14,6 @@ banner:
     title: Contact Us
 icons: []
 ---
-
 # Contact Us
 
 If you would like to find out more about avp or would like us to provide a quotation, proposal and design for a specific installation, please use the contact details below.
@@ -29,4 +28,4 @@ AL5 5BZ
 
 **Telephone**: [01582 712969](tel:01582712969)<br>
 **Fax**: [01582 461215](tel:01582461215)<br>
-**Email**: [hello@audiovisualprojects.co.uk](mailto:hello@audiovisualprojects.co.uk)<br>
+**Email**: [hello@avp-group.co.uk](mailto:hello@audiovisualprojects.co.uk)<br>
