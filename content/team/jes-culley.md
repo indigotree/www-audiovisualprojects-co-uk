@@ -16,6 +16,7 @@ banner:
     meta: ''
     title: Jes Culley
 position: 'Director, avp Group'
+weight: 1
 ---
 
 # Jes Culley
