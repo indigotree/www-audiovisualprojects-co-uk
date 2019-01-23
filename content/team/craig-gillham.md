@@ -16,6 +16,7 @@ banner:
     meta: ''
     title: Craig Gillham
 position: 'Non Executive Director, avp Group'
+weight: 2
 ---
 # Craig Gillham
 
