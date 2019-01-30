@@ -4,13 +4,9 @@ featured_image: /uploads/team-craig.jpg
 yoast_keyword: craig
 seo_title: Craig Gillham
 seo_description: >-
-  Craig's role within avp is to oversee the financial strategy and operations at
-  avp; bringing a commercial focus and ensuring delivery of an effective
-  operating model to provide world class services to our clients.
+  Craig's role role within AVP is to offer advisory support as the business matures and continues to enhance its business model and execute against the over-arching strategy.
 description: >-
-  My role within avp is to oversee the financial strategy and operations at avp;
-  bringing a commercial focus and ensuring delivery of an effective operating
-  model to provide world class services to our clients.
+  My continued role within AVP is to offer advisory support as the business matures and continues to enhance its business model and execute against the over-arching strategy.
 banner:
   - image: /uploads/team-craig.jpg
     meta: ''
@@ -22,7 +18,7 @@ weight: 2
 
 Advisor, avp Group
 
-My role within avp is to oversee the financial strategy and operations at avp; bringing a commercial focus and ensuring delivery of an effective operating model to provide world class services to our clients.
+My continued role within AVP is to offer advisory support as the business matures and continues to enhance its business model and execute against the over-arching strategy.
 
 I started my career by joining Andersen Consulting as a post-graduate in 1993, working as a technology consultant.  I’ve spent much of my career working across various industries, helping companies deliver sustainable results. Ranging from helping them to develop new business enhancing strategies to delivering company-wide transformations. More recently, I have held Executive Director positions at various London & Global financial institutions.  
 
