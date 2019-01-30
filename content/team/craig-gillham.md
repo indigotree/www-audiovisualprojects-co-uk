@@ -15,12 +15,12 @@ banner:
   - image: /uploads/team-craig.jpg
     meta: ''
     title: Craig Gillham
-position: 'Non Executive Director, avp Group'
+position: 'Advisor, avp Group'
 weight: 2
 ---
 # Craig Gillham
 
-Non Executive Director, avp Group
+Advisor, avp Group
 
 My role within avp is to oversee the financial strategy and operations at avp; bringing a commercial focus and ensuring delivery of an effective operating model to provide world class services to our clients.
 
