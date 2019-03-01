@@ -11,12 +11,12 @@ banner:
   - image: /uploads/team-craig.jpg
     meta: ''
     title: Craig Gillham
-position: 'Advisor, avp Group'
+position: 'Acting CEO & Non-Executive Director/Advisor, avp Group'
 weight: 2
 ---
 # Craig Gillham
 
-Advisor, avp Group
+Acting CEO & Non-Executive Director/Advisor, avp Group
 
 My continued role within AVP is to offer advisory support as the business matures and continues to enhance its business model and execute against the over-arching strategy.
 
