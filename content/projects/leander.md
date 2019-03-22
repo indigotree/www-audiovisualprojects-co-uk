@@ -43,11 +43,11 @@ icons:
 ---
 # Leander, Chelsea Harbour, London
 
-At 78ft long, Leander is the largest barge made by Piper Boats. As part of the build, we were asked to design and install a range of the latest smart home solutions for this beautiful barge. We worked closely with the team at Piper Boats and travelled to their factory on several occasions to install these smart solutions at the correct stages of the build.  
+At 78ft long, Leander is the largest barge made by Piper Boats. As part of the build, we were asked to design and install a range of the latest smart home solutions for this beautiful barge. We worked closely with the team at Piper Boats and travelled to their factory on several occasions to install these smart solutions at the correct stages of the build.
 
 We installed a custom-built Control 4 automation system to integrate the TVs, audio, climate control and lighting, all of which can be controlled using a tablet or smartphone.
 
-4G wi-fi was installed using multiple access points to achieve complete coverage along the full length of the barge and to ensure that all smart solutions work seamlessly. 
+4G wi-fi was installed using multiple access points to achieve complete coverage along the full length of the barge and to ensure that all smart solutions work seamlessly.
 
 High performance speakers were discreetly positioned throughout to achieve high quality, multi-room sound.
 
