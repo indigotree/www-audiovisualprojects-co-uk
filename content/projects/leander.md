@@ -58,5 +58,3 @@ We positioned a motorised satellite dish on the roof which automatically tracks 
 For added security, CCTV cameras were installed to provide clear images of the exterior, which can be viewed on either TV screen inside the barge or via a smart phone or tablet, whilst on board or from anywhere in the world.
 
 Whilst Leander is more spacious than most barges, storage space is still limited. We ensured that all cabling and media boxes were neatly stored away out of sight but still accessible for maintenance.
-
-{{< gallery id="leander" >}}
