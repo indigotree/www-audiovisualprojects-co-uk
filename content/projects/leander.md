@@ -1,6 +1,6 @@
 ---
 title: Leander
-draft: true
+draft: false
 featured_image: /uploads/leanderboat-04.jpg
 yoast_keyword: smart solutions
 seo_title: Leander Barge
