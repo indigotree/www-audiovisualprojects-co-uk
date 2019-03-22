@@ -1,6 +1,5 @@
 ---
 title: Leander
-draft: false
 featured_image: /uploads/leanderboat-04.jpg
 yoast_keyword: smart solutions
 seo_title: Leander Barge
@@ -16,10 +15,10 @@ description: >-
   solutions for this beautiful barge. We worked closely with the team at Piper
   Boats and travelled to their factory on several occasions to install these
   smart solutions at the correct stages of the build.
-location: 'Chelsea Harbour, London'
+location: Chelsea Harbour, London
 banner:
   - image: /uploads/leanderboat-04.jpg
-    meta: 'Chelsea Harbour, London'
+    meta: Chelsea Harbour, London
     title: Leander
 icons:
   - icon: /uploads/thermometer.svg
