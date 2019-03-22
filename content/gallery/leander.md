@@ -1,6 +1,8 @@
 ---
 gallery_id: "leander"
 images:
+    - src: /uploads/leanderboat-04.jpg
+      alt: "Leander"
     - src: /uploads/leanderboat-23.jpg
       alt: "Leander"
     - src: /uploads/leanderboat-25.jpg
