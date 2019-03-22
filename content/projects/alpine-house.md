@@ -40,6 +40,4 @@ We installed a Video Entry System to allow timed access to communal areas at cer
 
 A central antenna system was also installed to provide each apartment with TV, FM, DAB, FreeSat, Sky & Sky Q.
 
-Test
-
 {{< gallery id="alpine-house" >}}
