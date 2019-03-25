@@ -47,7 +47,7 @@ gulp.task('init-watch', () => {
     })
     $.watch('src/sass/**/*.scss', () => gulp.start('sass'))
     $.watch('src/js/**/*.js', () => gulp.start('js-watch'))
-    $.watch('src/images/**/*', () => gulp.start('images'))  
+    $.watch('src/images/**/*', () => gulp.start('images'))
 })
 
 gulp.task('build', () => {
@@ -102,8 +102,8 @@ gulp.task('sass', () => {
     ])
     .pipe($.plumber({ errorHandler: onError }))
     .pipe($.print())
-    .pipe($.if(!isProduction, $.sassLint()))
-    .pipe($.if(!isProduction, $.sassLint.format()))
+    // .pipe($.if(!isProduction, $.sassLint()))
+    // .pipe($.if(!isProduction, $.sassLint.format()))
     .pipe($.sass({ precision: 5, importer: tildeImporter }))
     .pipe($.autoprefixer(['last 3 versions', 'not IE 9', 'Safari >= 8', '> 10%']))
     .pipe($.if(isProduction, $.cssnano({ discardUnused: false, minifyFontValues: false })))
