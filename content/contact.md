@@ -30,4 +30,4 @@ AL5 5BZ
 **Fax**: [01582 461215](tel:01582461215)<br>
 **Email**: <mailto:hello@avp-group.co.uk><br>
 
-[**Download our brochure**](https://www.avp-group.co.uk/uploads/avp-group-overview.pdf)
+<a href="/uploads/avp-group-overview.pdf" target="_blank"><strong>Download our brochure</strong></a>
