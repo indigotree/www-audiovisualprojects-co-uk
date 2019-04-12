@@ -48,7 +48,8 @@
                         {{ $telephone := .Site.Data.social.telephone | default "01582 712969" }}
                         {{ $telephone_formatted := .Site.Data.social.telephone_formatted | default "01582712969" }}
                         {{ $email := .Site.Data.social.email | default "sales@audiovisualprojects.co.uk" }}
-                        {{ partial "contact-details" ( dict "telephone" $telephone "telephone_formatted" $telephone_formatted "email" $email "Scope" . ) }}
+                        {{ $brochure := "/uploads/avp-group-overview.pdf" }}
+                        {{ partial "contact-details" ( dict "telephone" $telephone "telephone_formatted" $telephone_formatted "email" $email "brochure" $brochure "Scope" . ) }}
                     </div>
 
                     <div class="column--sm-6">
