@@ -1,4 +1,4 @@
-{{ if or ( and .telephone .telephone_formatted) .email }}
+{{ if or ( and .telephone .telephone_formatted) .email .brochure }}
     <ul class="contact-details">
 
         {{ if and .telephone .telephone_formatted }}
@@ -10,6 +10,12 @@
         {{ if .email }}
             <li class="contact-details__email">
                 <a href="mailto:{{ .email }}">{{ .email }}</a>
+            </li>
+        {{ end }}
+        
+        {{ if .brochure }}
+            <li class="contact-details__brochure">
+                <a href="{{ .brochure }}" target="_blank">Download our brochure</a>
             </li>
         {{ end }}
 
