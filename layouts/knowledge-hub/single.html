@@ -20,9 +20,19 @@
                     
                             {{ $match := .Resources.GetMatch (strings.TrimPrefix "/uploads/" $collection.image) }}
 
-                            <div class="m--b-sm"><a data-fancybox href="{{ ($match.Resize "1920x q80").RelPermalink }}" data-turbolinks="false">
-                                {{ partial "image/lazy-resize.html" (dict "Src" $collection.image "Alt" $collection.alt "Size" "1024x" "Scope" $Scope) }}
-                            </a></div>
+                            <div class="m--b-sm">
+                                
+                                {{ if $collection.link }}
+                                    <a href="{{ $collection.link }}" target="_blank">
+                                            {{ partial "image/lazy-resize.html" (dict "Src" $collection.image "Alt" $collection.alt "Size" "1024x" "Scope" $Scope) }}
+                                    </a>
+                                {{ else }}
+                                    <a data-fancybox href="{{ ($match.Resize "1920x q80").RelPermalink }}" data-turbolinks="false">
+                                        {{ partial "image/lazy-resize.html" (dict "Src" $collection.image "Alt" $collection.alt "Size" "1024x" "Scope" $Scope) }}
+                                    </a>
+                                {{ end }}
+
+                            </div>
 
                         {{ end }}
 

@@ -14,6 +14,7 @@ banner:
 supporting_images:
   - alt: AVP Brochure screenshot
     image: /uploads/avp-group-overview-brochure_Page_1.jpg
+    link: /uploads/avp-group-overview.pdf
 weight: 10
 ---
 
