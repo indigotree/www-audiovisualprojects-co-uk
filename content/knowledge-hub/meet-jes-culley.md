@@ -22,7 +22,7 @@ supporting_images:
     image: /uploads/knowledge-hub-LeanderBoat-04.jpg
   - alt: CEDIA Member Plaque
     image: /uploads/knowledge-hub-LeanderBoat-23.jpg
-weight: 9
+weight: 15
 ---
 
 # Meet Jes Culley
