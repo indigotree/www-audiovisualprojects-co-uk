@@ -31,4 +31,4 @@ In this interview with one of our specialist partners, Focus SB, our founder Jes
 
 Read the full article [here](https://www.focus-sb.co.uk/blog/avp-group-jes-culley).
 
-Focus SB Ltd® is a British electrical wiring accessories manufacturer, established for almost 40 years. Specialising in the design, development, tooling and manufacture of pressed metal components and standard and bespoke electrical wiring accessories for high end residential, heritage buildings, luxury hotels and yachts. Find out more about Focus SB [here](https://www.avp-group.co.uk/knowledge-hub/focus-sb/) or visit [focus-sb.co.uk](https://www.focus-sb.co.uk/).
+Focus SB Ltd® is a British electrical wiring accessories manufacturer, established for 40 years. Specialising in the design, development, tooling and manufacture of pressed metal components and standard and bespoke electrical wiring accessories for high end residential, heritage buildings, luxury hotels and yachts. Find out more about Focus SB [here](https://www.avp-group.co.uk/knowledge-hub/focus-sb/) or visit [focus-sb.co.uk](https://www.focus-sb.co.uk/).
