@@ -41,7 +41,7 @@ In this article, we ask one of our preferred specialist partners, Focus SB, to e
 
 ## Who is Focus SB?
 
-Focus SB Ltd® is a British electrical wiring accessories manufacturer, established for almost 40 years. Industry leaders, our precision engineered switches and sockets are sought after for prestigious interiors projects, both in the UK and internationally. We specialise in the design, development, tooling and manufacture of pressed metal components and standard and bespoke electrical wiring accessories for high end residential, heritage buildings, luxury hotels and yachts. 
+Focus SB Ltd® is a British electrical wiring accessories manufacturer, established for 40 years. Industry leaders, our precision engineered switches and sockets are sought after for prestigious interiors projects, both in the UK and internationally. We specialise in the design, development, tooling and manufacture of pressed metal components and standard and bespoke electrical wiring accessories for high end residential, heritage buildings, luxury hotels and yachts. 
 
 ## When it comes to electrical accessories what are my options?
 
