@@ -1,6 +1,7 @@
 baseURL = "/"
 languageCode = "en-gb"
 title = "avp group"
+timeout = 30000
 
 enableRobotsTXT = true
 disableAliases = true
