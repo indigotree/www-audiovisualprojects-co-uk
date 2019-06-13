@@ -1,5 +1,5 @@
 ---
-gallery_id: "alpine-house"
+gallery_id: "dene-court"
 images:
     - src: /uploads/image-dene-court-4.jpg
       alt: "Dene Court Harpenden"
