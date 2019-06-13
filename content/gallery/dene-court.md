@@ -7,6 +7,8 @@ images:
       alt: "Dene Court Harpenden"
     - src: /uploads/image-dene-court-2.jpg
       alt: "Dene Court Harpenden"
+    - src: /uploads/image-dene-court-6.jpg
+      alt: "Dene Court Harpenden"
     - src: /uploads/image-dene-court-7.jpg
       alt: "Dene Court Harpenden"
     - src: /uploads/image-dene-court-7.jpg
