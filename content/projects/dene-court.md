@@ -49,6 +49,6 @@ The lighting scheme has been designed using rimless, plaster-in downlights to ac
 
 For enhanced safety and security, CCTV cameras have been installed to monitor the main entrances. Furthermore, a video entry system provides a clear view of who is at the front door and can be viewed via a tablet which has been positioned within each apartment or via an app on a smartphone from anywhere in the world. Security alarm systems have been installed in the two ground floor apartments for additional security.
 
-All cabling is neatly tucked away in a small rack within a storage cupboard by the front door.
+All cabling is neatly tucked away in a small rack within a storage cupboard by the front door. 
 
 {{< gallery id="dene-court" >}}
