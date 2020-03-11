@@ -3,7 +3,7 @@ languageCode = "en-gb"
 title = "avp group"
 timeout = 30000
 
-enableRobotsTXT = true
+enableRobotsTXT = false
 disableAliases = true
 
 [imaging]
