@@ -3,7 +3,7 @@ languageCode = "en-gb"
 title = "avp group"
 timeout = 30000
 
-enableRobotsTXT = false
+enableRobotsTXT = true
 disableAliases = true
 
 [imaging]
@@ -11,7 +11,7 @@ resampleFilter = "Lanczos"
 anchor = "center"
 
 [params]
-disallow_search_engines = false # set robots.txt to disallow everything
+disallow_search_engines = true # set robots.txt to disallow everything
 
 # add redirects/headers
 [outputs]
