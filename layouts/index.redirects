@@ -16,15 +16,15 @@ http://avp.demo.indigotree.co.uk/* https://avp.demo.indigotree.co.uk/:splat 301!
 {{- end }}
 {{- end }}
 
-/about.html /team/
-/people.html /team/
-/hometheatre.html /
-/homeautomation.html /
-/lightingcontrol.html /
-/multiroomcontrol.html /
-/gallery.html /projects/
-/testimonials.html /
-/where.html /contact/
-/links.html /contact/
-/contact.html /contact/
-/team/dominic-myott/ /team/
+/about.html /team/ 301!
+/people.html /team/ 301!
+/hometheatre.html / 301!
+/homeautomation.html / 301!
+/lightingcontrol.html / 301!
+/multiroomcontrol.html / 301!
+/gallery.html /projects/ 301!
+/testimonials.html / 301!
+/where.html /contact/ 301!
+/links.html /contact/ 301!
+/contact.html /contact/ 301!
+/team/dominic-myott/ /team/ 301!
